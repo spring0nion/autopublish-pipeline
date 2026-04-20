@@ -1,0 +1,293 @@
+20:49:37 [autopublish.veto] Veto deadline passed — publishing 'You are what you do; now act like it'
+20:49:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-13-you-are-what-you-do-now-act-like-it.html
+20:49:37 [autopublish.publisher] Updated posts.js with 2026-04-13-you-are-what-you-do-now-act-like-it.html
+20:49:37 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+20:49:37 [paramiko.transport] Authentication (password) successful!
+20:49:38 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+20:49:38 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+20:49:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-13-you-are-what-you-do-now-act-like-it.html
+20:49:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+20:49:38 [paramiko.transport.sftp] [chan 0] sftp session closed.
+20:49:38 [autopublish.publisher] SFTP upload complete
+20:49:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "You are what you do; now act like it" is live
+20:49:39 [autopublish.veto] Published: 2026-04-13-you-are-what-you-do-now-act-like-it.html
+12:38:06 [autopublish.veto] Received edited text for 'great millennial startup idea of the century' — running editorial pass then publishing
+12:38:06 [autopublish.veto] Date override in reply: 2026-03-10-great-millennial-startup-idea-of-the-century → 2026-02-04-great-millennial-startup-idea-of-the-century
+12:39:48 [autopublish.veto] Editorial pass made 1 fix(es) on reply
+12:39:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:39:48 [autopublish.publisher] Updated posts.js with 2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:39:48 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:39:49 [paramiko.transport] Authentication (password) successful!
+12:39:49 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:39:49 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+12:39:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:39:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+12:39:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:39:49 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:39:49 [autopublish.publisher] SFTP upload complete
+12:39:51 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" is live
+12:39:51 [autopublish.veto] Published (with edits): 2026-02-04-great-millennial-startup-idea-of-the-century.html
+08:53:38 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+08:53:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+08:53:38 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+08:53:38 [paramiko.transport] Authentication (password) successful!
+08:53:39 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+08:53:39 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+08:53:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+08:53:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+08:53:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+08:53:39 [paramiko.transport.sftp] [chan 0] sftp session closed.
+08:53:39 [autopublish.publisher] SFTP upload complete
+08:53:41 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+08:53:41 [autopublish.publisher] Re-published 'great millennial startup idea of the century' with revision date 2026-04-17
+10:31:04 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+10:31:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+10:31:04 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+10:31:04 [paramiko.transport] Authentication (password) successful!
+10:31:05 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+10:31:05 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+10:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+10:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+10:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+10:31:05 [paramiko.transport.sftp] [chan 0] sftp session closed.
+10:31:05 [autopublish.publisher] SFTP upload complete
+10:31:07 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+10:31:07 [autopublish.publisher] Re-published 'great millennial startup idea of the century' with revision date 2026-04-17
+12:01:08 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+12:01:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:01:08 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:01:08 [paramiko.transport] Authentication (password) successful!
+12:01:09 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:01:09 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+12:01:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:01:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+12:01:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:01:09 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:01:09 [autopublish.publisher] SFTP upload complete
+12:01:13 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+12:01:13 [autopublish.publisher] Re-published 'great millennial startup idea of the century' with revision date 2026-04-17
+12:31:15 [autopublish.veto] Received edited text for 'the computer that stayed' — running editorial pass then publishing
+12:31:15 [autopublish.veto] Date override in reply: 2026-03-09
+12:31:15 [autopublish.veto] Wrote email edits back to letters meta 1.txt
+12:31:15 [autopublish.veto] Title override in reply: 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)'
+12:31:54 [autopublish.veto] Editorial pass made 1 fix(es) on reply
+12:31:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:31:54 [autopublish.publisher] Updated posts.js with 2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (4 total posts)
+12:31:57 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:31:57 [paramiko.transport] Authentication (password) successful!
+12:31:57 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:31:58 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+12:31:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:31:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+12:31:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:31:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:31:58 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:31:58 [autopublish.publisher] SFTP upload complete
+12:31:59 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)" is live
+12:31:59 [autopublish.veto] Published (with edits): 2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:31:59 [autopublish.publisher] Source changed for 'You are what you do; now act like it' — re-publishing
+12:31:59 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:31:59 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:32:00 [paramiko.transport] Authentication (password) successful!
+12:32:00 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:32:00 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+12:32:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:32:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+12:32:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:32:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:32:01 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:32:01 [autopublish.publisher] SFTP upload complete
+12:32:02 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "You are what you do; now act like it" updated
+12:32:02 [autopublish.publisher] Re-published 'You are what you do; now act like it' with revision date 2026-04-17
+12:32:02 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+12:32:02 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:32:02 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:32:02 [paramiko.transport] Authentication (password) successful!
+12:32:03 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:32:03 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+12:32:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+12:32:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+12:32:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:32:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+12:32:03 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:32:03 [autopublish.publisher] SFTP upload complete
+12:32:04 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+12:32:04 [autopublish.publisher] Re-published 'great millennial startup idea of the century' with revision date 2026-04-17
+13:32:05 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)' — re-publishing
+13:32:05 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:32:05 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:32:05 [paramiko.transport] Authentication (password) successful!
+13:32:06 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:32:06 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+13:32:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+13:32:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+13:32:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:32:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-04-great-millennial-startup-idea-of-the-century.html
+13:32:06 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:32:06 [autopublish.publisher] SFTP upload complete
+13:32:08 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)" updated
+13:32:08 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)' with revision date 2026-04-17
+15:00:51 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+15:00:51 [autopublish.publisher] Date override in source file: 2026-04-15
+15:00:51 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:00:51 [autopublish.publisher] Removed old post file 2026-02-04-great-millennial-startup-idea-of-the-century.html
+15:00:51 [autopublish.publisher] Updated posts.js with 2026-04-15-great-millennial-startup-idea-of-the-century.html (4 total posts)
+15:00:51 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:00:51 [paramiko.transport] Authentication (password) successful!
+15:00:52 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:00:52 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+15:00:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+15:00:53 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+15:00:53 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:00:53 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:00:53 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:00:53 [autopublish.publisher] SFTP upload complete
+15:00:56 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+15:00:56 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-17
+15:30:57 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+15:30:57 [autopublish.publisher] Date override in source file: 2026-04-15
+15:30:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:30:57 [autopublish.publisher] Updated posts.js with 2026-04-15-great-millennial-startup-idea-of-the-century.html (4 total posts)
+15:30:57 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:30:57 [paramiko.transport] Authentication (password) successful!
+15:30:57 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:30:57 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+15:30:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+15:30:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+15:30:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:30:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:30:58 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:30:58 [autopublish.publisher] SFTP upload complete
+15:30:59 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+15:30:59 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-17
+16:01:00 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+16:01:00 [autopublish.publisher] Date override in source file: 2026-04-15
+16:01:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+16:01:00 [autopublish.publisher] Updated posts.js with 2026-04-15-great-millennial-startup-idea-of-the-century.html (4 total posts)
+16:01:00 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:01:00 [paramiko.transport] Authentication (password) successful!
+16:01:01 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:01:01 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+16:01:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+16:01:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+16:01:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:01:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+16:01:01 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:01:01 [autopublish.publisher] SFTP upload complete
+16:01:03 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+16:01:03 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-17
+17:31:04 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+17:31:04 [autopublish.publisher] Date override in source file: 2026-04-15
+17:31:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+17:31:04 [autopublish.publisher] Updated posts.js with 2026-04-15-great-millennial-startup-idea-of-the-century.html (4 total posts)
+17:31:04 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:31:04 [paramiko.transport] Authentication (password) successful!
+17:31:05 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:31:05 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+17:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+17:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+17:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+17:31:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+17:31:05 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:31:05 [autopublish.publisher] SFTP upload complete
+17:31:07 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+17:31:07 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-17
+09:38:14 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+09:38:14 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+09:38:14 [autopublish.publisher] Updated posts.js with 2026-04-15-great-millennial-startup-idea-of-the-century.html (4 total posts)
+09:38:15 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+09:38:15 [paramiko.transport] Authentication (password) successful!
+09:38:15 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+09:38:16 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+09:38:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+09:38:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+09:38:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+09:38:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+09:38:16 [paramiko.transport.sftp] [chan 0] sftp session closed.
+09:38:16 [autopublish.publisher] SFTP upload complete
+09:38:18 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+09:38:18 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-18
+13:45:10 [autopublish.veto] Received edited text for 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2' — running editorial pass then publishing
+13:45:10 [autopublish.veto] Wrote email edits back to trying my best to write down what's new 2.txt
+13:45:10 [autopublish.veto] Title override in reply: 'Trying my best to write down What Is New to get over my fear of'
+13:46:29 [autopublish.veto] Editorial pass made 5 fix(es) on reply
+13:46:29 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:46:29 [autopublish.publisher] Updated posts.js with 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (5 total posts)
+13:46:30 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:46:30 [paramiko.transport] Authentication (password) successful!
+13:46:30 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:46:30 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+13:46:30 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+13:46:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+13:46:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:46:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:46:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+13:46:31 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:46:31 [autopublish.publisher] SFTP upload complete
+13:47:02 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of" is live
+13:47:02 [autopublish.veto] Published (with edits): 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+14:17:03 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of' — re-publishing
+14:17:03 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+14:17:03 [autopublish.publisher] Updated posts.js with 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (5 total posts)
+14:17:06 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+14:17:06 [paramiko.transport] Authentication (password) successful!
+14:17:07 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+14:17:07 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+14:17:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+14:17:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+14:17:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+14:17:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+14:17:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+14:17:07 [paramiko.transport.sftp] [chan 0] sftp session closed.
+14:17:07 [autopublish.publisher] SFTP upload complete
+14:17:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of" updated
+14:17:39 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-20
+15:17:40 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of' — re-publishing
+15:17:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:17:40 [autopublish.publisher] Updated posts.js with 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (5 total posts)
+15:17:40 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:17:40 [paramiko.transport] Authentication (password) successful!
+15:17:40 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:17:41 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+15:17:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+15:17:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+15:17:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:17:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:17:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:17:41 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:17:41 [autopublish.publisher] SFTP upload complete
+15:18:12 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of" updated
+15:18:13 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-20
+15:48:13 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of' — re-publishing
+15:48:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:48:13 [autopublish.publisher] Updated posts.js with 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (5 total posts)
+15:48:13 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:48:13 [paramiko.transport] Authentication (password) successful!
+15:48:14 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:48:14 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+15:48:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+15:48:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+15:48:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:48:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+15:48:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+15:48:14 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:48:14 [autopublish.publisher] SFTP upload complete
+15:48:16 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of" updated
+15:48:16 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-20
+16:18:16 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of' — re-publishing
+16:18:16 [autopublish.publisher] Title changed: 'Trying my best to write down What Is New to get over my fear of' → 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)'
+16:18:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:18:16 [autopublish.publisher] Updated posts.js with 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html (5 total posts)
+16:18:16 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:18:16 [paramiko.transport] Authentication (password) successful!
+16:18:17 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:18:17 [autopublish.publisher] Uploaded posts.js to /fromtheabysmal.net/posts.js
+16:18:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-11-you-are-what-you-do-now-act-like-it.html
+16:18:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-04-hello-world.html
+16:18:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:18:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:18:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+16:18:17 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:18:17 [autopublish.publisher] SFTP upload complete
+16:18:19 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)" updated
+16:18:19 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-20

@@ -1,0 +1,64 @@
+12:00:04 [autopublish] No eligible drafts found. Write more, or lower the bar.
+12:03:18 [autopublish] Found 32 eligible drafts
+12:03:18 [autopublish]   - processing my feeling on maybe maybe not winning and essay competition.txt (1566 words, score 66.9)
+12:03:18 [autopublish]   - that time of year.txt (2572 words, score 63.4)
+12:03:18 [autopublish]   - some observations.txt (3382 words, score 63.4)
+12:03:18 [autopublish]   - resistance.txt (647 words, score 58.2)
+12:03:18 [autopublish]   - letters meta 2.txt (1080 words, score 57.1)
+12:03:18 [autopublish.ranker] Claude call failed: [Errno 2] No such file or directory: 'claude'
+12:03:18 [autopublish.ranker] Falling back to heuristic ranking
+12:03:18 [autopublish] Selected: processing my feeling on maybe maybe not winning and essay competition.txt (1566 words)
+12:03:18 [autopublish.editor] Claude call failed: [Errno 2] No such file or directory: 'claude'
+12:03:18 [autopublish.editor] Editorial pass failed, using raw text
+12:03:18 [autopublish] Title: processing my feeling on maybe maybe not winning and essay competition
+12:03:18 [autopublish] Slug: 2026-03-09-processing-my-feeling-on-maybe-maybe-not-winning-and-essay-c
+12:03:18 [autopublish] Editorial note: Editorial pass unavailable. Publishing raw. Ship it anyway.
+12:03:50 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "processing my feeling on maybe maybe not winning and essay competition" in 4 hours
+12:03:50 [autopublish] Queued 'processing my feeling on maybe maybe not winning and essay competition' — publishing at 16:03 unless vetoed
+12:00:32 [autopublish] Found 31 eligible drafts
+12:00:32 [autopublish]   - processing my feeling on maybe maybe not winning and essay competition.txt (1567 words, score 76.9)
+12:00:32 [autopublish]   - that time of year.txt (2572 words, score 63.1)
+12:00:32 [autopublish]   - some observations.txt (3382 words, score 63.1)
+12:00:32 [autopublish]   - resistance.txt (591 words, score 57.1)
+12:00:32 [autopublish]   - letters meta 2.txt (1080 words, score 56.8)
+12:00:32 [autopublish.ranker] Claude call failed: [Errno 2] No such file or directory: 'claude'
+12:00:32 [autopublish.ranker] Falling back to heuristic ranking
+12:00:32 [autopublish] Selected: processing my feeling on maybe maybe not winning and essay competition.txt (1567 words)
+12:00:32 [autopublish.editor] Claude call failed: [Errno 2] No such file or directory: 'claude'
+12:00:32 [autopublish.editor] Editorial pass failed, using raw text
+12:00:32 [autopublish] Title: processing my feeling on maybe maybe not winning and essay competition
+12:00:32 [autopublish] Slug: 2026-04-15-processing-my-feeling-on-maybe-maybe-not-winning-and-essay-c
+12:00:32 [autopublish] Editorial note: Editorial pass unavailable. Publishing raw. Ship it anyway.
+12:00:34 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "processing my feeling on maybe maybe not winning and essay competition" in 4 hours
+12:00:34 [autopublish] Queued 'processing my feeling on maybe maybe not winning and essay competition' — publishing at 16:00 unless vetoed
+12:00:06 [autopublish] Found 30 eligible drafts
+12:00:06 [autopublish]   - letters meta 1.txt (837 words, score 1062.4)
+12:00:06 [autopublish]   - processing my feeling on maybe maybe not winning and essay competition.txt (1568 words, score 76.6)
+12:00:06 [autopublish]   - What You Are Not.txt (1310 words, score 71.6)
+12:00:06 [autopublish]   - letters meta 2.txt (1155 words, score 68.4)
+12:00:06 [autopublish]   - that time of year.txt (2572 words, score 62.6)
+12:00:48 [autopublish] Selected: letters meta 1.txt (837 words)
+12:00:48 [autopublish.editor] Using date override: 2026-03-09
+12:02:10 [autopublish] Title: the computer that stayed
+12:02:10 [autopublish] Slug: 2026-03-09-the-computer-that-stayed
+12:02:10 [autopublish] Editorial changes:
+12:02:10 [autopublish]   'over the years  —' → 'over the years —' (double space before em dash)
+12:02:10 [autopublish]   'the long and short end of the story' → 'the long and short of the story' (typo — idiom is 'the long and short of it/the story'; 'end' is a slip)
+12:02:10 [autopublish] Editorial note: The Liam section is the best writing in the piece — the cup, the crack, the cappuccinos, the five minutes of no room for apologies. The fragment structure earns itself because the subject is literally publishing unfinished things.
+12:02:15 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "the computer that stayed" in 4 hours
+12:02:15 [autopublish] Queued 'the computer that stayed' — publishing at 16:02 unless vetoed
+12:00:04 [autopublish] Found 30 eligible drafts
+12:00:04 [autopublish]   - trying my best to write down what's new 2.txt (1181 words, score 1049.2)
+12:00:04 [autopublish]   - that time of year.txt (2573 words, score 85.0)
+12:00:04 [autopublish]   - processing my feeling on maybe maybe not winning and essay competition.txt (1570 words, score 76.2)
+12:00:04 [autopublish]   - What You Are Not.txt (1304 words, score 70.9)
+12:00:04 [autopublish]   - some observations.txt (3382 words, score 61.7)
+12:00:43 [autopublish] Selected: trying my best to write down what's new 2.txt (1181 words)
+12:02:21 [autopublish] Title: Trying my best to write down What Is New to get over my fear of Publishing On Substack (2
+12:02:21 [autopublish] Slug: 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear
+12:02:21 [autopublish] Editorial changes:
+12:02:21 [autopublish]   'have every written' → 'have ever written' (typo)
+12:02:21 [autopublish]   'i think of myself of writing an essay' → 'i think of myself as writing an essay' (word error — double 'of')
+12:02:21 [autopublish] Editorial note: This is good — direct, structurally honest about what it's doing, and the leather suit image at the end earns its place. The lifeblood paragraph is the emotional core and it lands.
+12:02:53 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Trying my best to write down What Is New to get over my fear of Publishing On Substack (2" in 4 hours
+12:02:53 [autopublish] Queued 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2' — publishing at 16:02 unless vetoed

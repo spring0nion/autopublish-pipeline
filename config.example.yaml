@@ -1,0 +1,29 @@
+drafts_path: ~/Library/Containers/pro.writer.mac/Data/Documents/
+site_path: ~/Documents/from the abysmal (site)/
+
+sftp:
+  host: your-sftp-host.example.com
+  port: 22
+  username: your-username
+  password: your-password
+  remote_root: /
+
+email:
+  pipeline_address: your-pipeline-email@gmail.com
+  pipeline_password: your-app-password
+  notify_esther: your-personal-email@example.com
+  notify_kiryll: thehereticalinvestigator@gmail.com
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  imap_host: imap.gmail.com
+  imap_port: 993
+
+schedule:
+  weekday_hour: 8
+  veto_window_hours: 4
+  weekend_hour: 10
+
+editorial:
+  min_words: 500
+  min_chars: 500
+  max_veto_before_warning: 5

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.abysmal.autopublish.vetocheck</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/esther/Development/autopublish pipeline/venv/bin/python3</string>
+        <string>-m</string>
+        <string>autopublish</string>
+        <string>veto-check</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/esther/Development/autopublish pipeline</string>
+
+    <!-- Every 30 minutes -->
+    <key>StartInterval</key>
+    <integer>1800</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/esther/Development/autopublish pipeline/logs/vetocheck.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/esther/Development/autopublish pipeline/logs/vetocheck.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/esther/.local/bin:/usr/local/bin:/usr/bin:/bin:/Users/esther/Development/autopublish pipeline/venv/bin</string>
+    </dict>
+</dict>
+</plist>

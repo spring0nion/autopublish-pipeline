@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.abysmal.autopublish.weekday</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/esther/Development/autopublish pipeline/venv/bin/python3</string>
+        <string>-m</string>
+        <string>autopublish</string>
+        <string>weekday</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/esther/Development/autopublish pipeline</string>
+
+    <key>StartCalendarInterval</key>
+    <array>
+        <!-- Monday 12:00 PM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>1</integer>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Wednesday 12:00 PM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>3</integer>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Friday 12:00 PM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>5</integer>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/esther/Development/autopublish pipeline/logs/weekday.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/esther/Development/autopublish pipeline/logs/weekday.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/esther/.local/bin:/usr/local/bin:/usr/bin:/bin:/Users/esther/Development/autopublish pipeline/venv/bin</string>
+    </dict>
+</dict>
+</plist>
