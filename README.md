@@ -26,7 +26,6 @@ Watches iA Writer drafts, picks the best one, runs a light copy-edit via Claude,
 |-----|------|--------------|
 | Weekday | Mon/Wed/Fri at 12pm | Picks a draft, edits it, queues it, emails a veto notice |
 | Veto-check | Every 30 min | Processes email replies; re-publishes edited posts |
-| Weekend | Saturday at 4pm | Emails a formatted post ready to paste into Substack |
 
 The pipeline only runs while the Mac is on and the user session is active. Missed jobs can be run manually (see below).
 
@@ -64,8 +63,8 @@ source venv/bin/activate
 
 python -m autopublish weekday
 python -m autopublish veto-check
-python -m autopublish weekend
 python -m autopublish scan      # preview only — lists eligible drafts
+python -m autopublish rebuild   # regenerate all HTML + upload
 ```
 
 ---
@@ -75,7 +74,6 @@ python -m autopublish scan      # preview only — lists eligible drafts
 ```
 logs/weekday.log
 logs/vetocheck.log
-logs/weekend.log
 ```
 
 ```bash
@@ -105,7 +103,8 @@ bash install_plists.sh                 # reinstall after editing a plist
 | `autopublish/ranker.py` | Claude ranking pass |
 | `autopublish/editor.py` | Claude editorial pass |
 | `autopublish/veto.py` | Email reply detection and queue processing |
-| `autopublish/publisher.py` | HTML generation, SFTP upload, edit detection |
-| `autopublish/converter.py` | Markdown-to-HTML conversion |
+| `autopublish/publisher.py` | Publish flow, SFTP upload, post-publish edit detection, full rebuild |
+| `autopublish/builder.py` | Site artifact rendering: post pages, index, RSS, month archives |
+| `autopublish/converter.py` | Markdown-to-body-HTML conversion |
 | `autopublish/notifier.py` | Email and macOS notifications |
-| `autopublish/weekend.py` | Substack curation |
+| `autopublish/state.py` | state.json read/write helpers |

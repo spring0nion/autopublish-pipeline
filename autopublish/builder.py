@@ -16,10 +16,7 @@ from autopublish.converter import _escape, _format_date
 log = logging.getLogger(__name__)
 
 # Fonts and external stylesheet links used on every page
-_FONT_LINKS = """\
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/unb6zxk.css">"""
+_FONT_LINKS = """"""
 
 _SITE_TITLE = "from the abysmal"
 
