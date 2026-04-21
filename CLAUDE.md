@@ -168,11 +168,10 @@ tail -f "/Users/esther/Development/autopublish pipeline/logs/vetocheck.log"
 The site (`~/Documents/from the abysmal (site)/`) is a statically-generated site built by the pipeline at publish time:
 
 - `index.html` — **generated** on every publish; renders the 10 most recent posts inline plus a server-side archive nav. No JavaScript required.
-- `style.css` — all styles including dark mode and a `@media (max-width: 640px)` block for mobile
+- `style.css` — symlink to `assets/style.css` in this repo (source of truth). All styles including dark mode and a `@media (max-width: 640px)` block for mobile. Not uploaded by the pipeline — deploy manually via SFTP if changed.
 - `posts/YYYY-MM-DD-slug.html` — **generated** individual post pages with full site chrome (header logo, back-link top and bottom, footer), `<head>` og tags, canonical URL, and `style.css` link
 - `archive/YYYY-MM.html` — **generated** per-month archive pages that render every post from that month inline, same layout as the index
 - `rss.xml` — **generated** RSS 2.0 feed with the 20 most recent posts (full body)
-- `app.js` / `posts.js` — **retired** (kept on disk, no longer used or updated)
 
 **Archive nav UX:** the archive at the top of `index.html` (and every month archive page) shows only year labels at rest. Clicking a year reveals the months that have posts; clicking a month navigates to `/archive/YYYY-MM.html`. Post titles are **never** listed in the nav itself — the user only sees them by clicking through to a month page or the post page.
 
