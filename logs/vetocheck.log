@@ -291,3 +291,35 @@
 16:18:17 [autopublish.publisher] SFTP upload complete
 16:18:19 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)" updated
 16:18:19 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-20
+13:05:11 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)' — re-publishing
+13:05:11 [autopublish.publisher] Title changed: 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (1)' → 'Trying my best to write down What Is New to get over my fear of publishing on Substack (1)'
+13:05:11 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:05:11 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:05:11 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+13:05:11 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:05:11 [paramiko.transport] Authentication (password) successful!
+13:05:12 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:05:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:05:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:05:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:05:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+13:05:12 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:05:12 [autopublish.publisher] SFTP upload complete (4 files)
+13:05:13 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (1)" updated
+13:05:13 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (1)' as 2026-03-09-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-21
+13:05:13 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)' — re-publishing
+13:05:13 [autopublish.publisher] Title changed: 'Trying my best to write down What Is New to get over my fear of Publishing On Substack (2)' → 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)'
+13:05:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:05:13 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:05:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+13:05:13 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:05:14 [paramiko.transport] Authentication (password) successful!
+13:05:14 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:05:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:05:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:05:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:05:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+13:05:15 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:05:15 [autopublish.publisher] SFTP upload complete (4 files)
+13:05:16 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+13:05:16 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-21

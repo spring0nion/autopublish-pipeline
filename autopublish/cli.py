@@ -5,15 +5,15 @@ autopublish — the boss that makes sure your writing gets out the door.
 Usage:
     python -m autopublish weekday [--dry-run]
     python -m autopublish veto-check
-    python -m autopublish weekend [--dry-run]
     python -m autopublish scan [--dry-run]
+    python -m autopublish rebuild
 """
 import argparse
 import logging
 import sys
 from datetime import datetime, timedelta
 
-from autopublish import config, state, scanner, ranker, editor, publisher, notifier, veto, weekend
+from autopublish import config, state, scanner, ranker, editor, publisher, notifier, veto, builder
 
 log = logging.getLogger("autopublish")
 
@@ -59,14 +59,16 @@ def cmd_weekday(args):
     log.info("Editorial note: %s", edited["editorial_note"])
 
     if args.dry_run:
-        # In dry run, publish locally but skip SFTP and notifications
         log.info("--- DRY RUN: publishing locally only ---")
         filename = publisher.publish(edited, cfg, dry_run=True)
         log.info("Would publish: %s", filename)
 
-        # Show what the HTML looks like
         from autopublish.converter import text_to_html
-        html = text_to_html(edited["title"], edited["edited_text"])
+        body_html = text_to_html(edited["title"], edited["edited_text"])
+        site_url = cfg.get("site_url", "https://fromtheabysmal.net")
+        slug = edited["date_slug"]
+        date = slug[:10]
+        html = builder.render_post_page(edited["title"], slug, date, body_html, [], site_url)
         print("\n--- Generated HTML (first 80 lines) ---")
         for i, line in enumerate(html.split("\n")[:80]):
             print(line)
@@ -99,18 +101,10 @@ def cmd_veto_check(args):
     publisher.republish_if_changed(cfg, current_state)
 
 
-def cmd_weekend(args):
-    """Weekend Substack nudge."""
+def cmd_rebuild(args):
+    """Rebuild all post HTML files, index.html, and rss.xml from source. Uploads everything."""
     cfg = config.load()
-    current_state = state.load()
-
-    pick = weekend.pick_for_substack(cfg, current_state, dry_run=args.dry_run)
-    if not pick:
-        log.info("Nothing to nudge this weekend.")
-        return
-
-    log.info("Substack pick: %s", pick["title"])
-    weekend.send_substack_nudge(cfg, pick, dry_run=args.dry_run)
+    publisher.full_rebuild(cfg)
 
 
 def cmd_scan(args):
@@ -146,11 +140,10 @@ def main():
 
     p_veto = sub.add_parser("veto-check", help="Check inbox for VETO replies")
 
-    p_weekend = sub.add_parser("weekend", help="Send weekend Substack nudge")
-    p_weekend.add_argument("--dry-run", action="store_true", help="Pick and format but don't email")
-
     p_scan = sub.add_parser("scan", help="Just scan and rank drafts")
     p_scan.add_argument("--dry-run", action="store_true")
+
+    sub.add_parser("rebuild", help="Rebuild all post pages, index.html, rss.xml and upload")
 
     args = parser.parse_args()
     if not args.command:
@@ -167,8 +160,8 @@ def main():
     commands = {
         "weekday": cmd_weekday,
         "veto-check": cmd_veto_check,
-        "weekend": cmd_weekend,
         "scan": cmd_scan,
+        "rebuild": cmd_rebuild,
     }
     commands[args.command](args)
 

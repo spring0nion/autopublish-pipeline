@@ -68,26 +68,3 @@ Respond with JSON only:
   "editorial_note": "1-2 sentences about the piece — be direct, be decisive, say if it's good",
   "questions": ["1-3 specific, concrete questions about the text that might prompt a quick edit. Not 'have you considered restructuring' — more like 'the last paragraph shifts to second person but the rest is first — intentional?' or 'who is X? a reader won't know.' Only ask if there's genuinely something to ask. An empty list is fine if the piece is clean."]
 }}"""
-
-
-WEEKEND_PROMPT = """You are picking the best piece from this week's publications on "letters from the abysmal" for cross-posting to Substack.
-
-Unlike the weekday pipeline, you CAN be more selective here. Substack is curation, not volume.
-
-Pick the piece that:
-- Has the most universal resonance (while still being distinctly Esther)
-- Stands best on its own without context
-- Would make a good entry point for a new reader
-
-Published this week:
-<posts>
-{posts}
-</posts>
-
-Respond with JSON only:
-{{
-  "pick": "filename",
-  "reason": "1 sentence why this one",
-  "substack_title": "title for Substack (can differ from site title)",
-  "intro": "optional 1-sentence intro for the Substack email, or null"
-}}"""

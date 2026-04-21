@@ -2,15 +2,13 @@ import re
 from datetime import datetime
 
 
-def text_to_html(title, text, revision_dates=None):
-    """Convert Markdown text to the post HTML format used by fromtheabysmal.net.
+def text_to_html(title, text):
+    """Convert Markdown text to the inner body HTML for a post.
 
-    Matches the existing format:
-    - <!doctype html>, <html>, <head> with charset meta + <title>
-    - <body> with <h1> title and <p> paragraphs or <hr> dividers
-    - No classes, no CSS link, no wrappers
+    Returns the paragraph/list/footnote HTML only — no doctype, no <head>,
+    no <h1>, no revision dates. The caller (builder.py) wraps this in the
+    full page template.
     """
-    # Strip leading markdown heading if it matches the title (iA Writer drafts often start with # Title)
     text = _strip_title_heading(text, title)
     blocks = _split_blocks(text)
     blocks, footnote_texts = _extract_footnotes(blocks)
@@ -33,34 +31,28 @@ def text_to_html(title, text, revision_dates=None):
             body_parts.append(f"<p>{_apply_inline(block)}</p>")
     body_html = "\n".join(body_parts)
 
-    footnotes_html = ""
     if footnote_texts:
         items = []
         for i, ft in enumerate(footnote_texts, 1):
             ft_html = _inline_markdown(_escape(ft))
             items.append(f'<li id="fn{i}"><p>{ft_html} <a href="#fnr{i}">↩︎</a></p></li>')
         footnotes_html = '\n<div class="footnotes">\n<ol>\n' + "\n".join(items) + "\n</ol>\n</div>"
+        body_html = body_html + footnotes_html
 
-    history_html = ""
-    if revision_dates:
-        seen = set()
-        unique_dates = [d for d in revision_dates if not (d in seen or seen.add(d))]
-        formatted = " \u00b7 ".join(_format_date(d) for d in unique_dates)
-        history_html = f'\n<p class="post-history">Revised {formatted}.</p>'
+    return body_html
 
-    return f"""<!doctype html>
-<html>
-<head>
-\t<meta charset="UTF-8">
-\t<title>{_escape(title)}</title>
-</head>
-<body>
-<h1>{_escape(title)}</h1>
 
-{body_html}{footnotes_html}{history_html}
-</body>
-</html>
-"""
+def format_revision_dates(revision_dates):
+    """Return the revision history HTML fragment for a list of YYYY-MM-DD strings.
+
+    Returns an empty string if revision_dates is empty or None.
+    """
+    if not revision_dates:
+        return ""
+    seen = set()
+    unique_dates = [d for d in revision_dates if not (d in seen or seen.add(d))]
+    formatted = " \u00b7 ".join(_format_date(d) for d in unique_dates)
+    return f'\n<p class="post-history">Revised {formatted}.</p>'
 
 
 _LIST_MARKER = "\x01LIST\x01"
