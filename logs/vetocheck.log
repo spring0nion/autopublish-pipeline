@@ -323,3 +323,76 @@
 13:05:15 [autopublish.publisher] SFTP upload complete (4 files)
 13:05:16 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
 13:05:16 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-21
+16:35:19 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+16:35:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:35:19 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:35:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:35:19 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:35:19 [paramiko.transport] Authentication (password) successful!
+16:35:20 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:35:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+16:35:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:35:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:35:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:35:20 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:35:20 [autopublish.publisher] SFTP upload complete (4 files)
+16:35:22 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+16:35:22 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-21
+11:23:52 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+11:23:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+11:23:52 [autopublish.publisher] Removed old post file 2026-04-20-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+11:23:52 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:23:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:23:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 166, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 101, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 200, in republish_if_changed
+    sftp_upload_files(cfg, site_path, [
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 56, in sftp_upload_files
+    transport = paramiko.Transport((host, port))
+  File "/Users/esther/Development/autopublish pipeline/venv/lib/python3.9/site-packages/paramiko/transport.py", line 479, in __init__
+    addrinfos = socket.getaddrinfo(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+11:54:19 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+11:54:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+11:54:19 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:54:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:54:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:54:19 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:54:19 [paramiko.transport] Authentication (password) successful!
+11:54:19 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:54:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+11:54:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:54:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:54:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:54:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:54:20 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:54:20 [autopublish.publisher] SFTP upload complete (5 files)
+11:54:22 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+11:54:22 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-04-22
+16:26:54 [autopublish.veto] Veto deadline passed — publishing 'joan'
+16:26:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+16:26:54 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:26:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:26:54 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:26:54 [paramiko.transport] Authentication (password) successful!
+16:26:55 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:26:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+16:26:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:26:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:26:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:26:55 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:26:55 [autopublish.publisher] SFTP upload complete (4 files)
+16:26:56 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "joan" is live
+16:26:57 [autopublish.veto] Published: 2026-04-21-joan.html

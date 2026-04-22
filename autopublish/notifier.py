@@ -69,9 +69,8 @@ def notify_publish_pending(cfg, title, slug, editorial_note, edited_text, questi
 
 {editorial_note}
 {questions_block}{snooze_note}
-Reply VETO to delay by one day.
-Reply with the edited text to publish YOUR version instead.
-  Add #date YYYY-MM-DD anywhere in your reply to override the post date.
+Reply VETO (or anything else) to delay by one day.
+To change the text, edit the .txt file in iA Writer — the pipeline re-reads it at publish time.
 If you don't reply, it publishes as-is.
 
 ---

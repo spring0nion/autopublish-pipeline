@@ -60,7 +60,7 @@ def update_source_mtime(state, slug, new_mtime):
             return
 
 
-def set_queue(state, source, slug, title, edited_text, veto_deadline, message_id=None):
+def set_queue(state, source, slug, title, edited_text, veto_deadline, message_id=None, source_mtime=None):
     state["queue"] = {
         "source": source,
         "slug": slug,
@@ -68,6 +68,7 @@ def set_queue(state, source, slug, title, edited_text, veto_deadline, message_id
         "edited_text": edited_text,
         "veto_deadline": veto_deadline.isoformat(),
         "message_id": message_id,
+        "source_mtime": source_mtime,
     }
     save(state)
 

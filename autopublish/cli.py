@@ -88,6 +88,7 @@ def cmd_weekday(args):
         current_state, pick["filename"], edited["date_slug"],
         edited["title"], edited["edited_text"],
         veto_deadline, message_id,
+        source_mtime=pick.get("modified"),
     )
 
     log.info("Queued '%s' — publishing at %s unless vetoed", edited["title"], veto_deadline.strftime("%H:%M"))

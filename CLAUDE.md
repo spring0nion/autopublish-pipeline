@@ -24,9 +24,10 @@ Esther can reply to the notification email within 4 hours:
 
 | Reply | Effect |
 |-------|--------|
-| `VETO` | Post is delayed. Veto count incremented. Kiryll is notified. Draft re-enters the pool with a score penalty. |
-| Anything over 100 characters | Treated as an edited version. Her text is published instead of Claude's. The edit is written back to the source `.txt` file. |
+| Any reply (including `VETO`) | Post is delayed. Veto count incremented. Kiryll is notified. Draft re-enters the pool with a score penalty. |
 | No reply | Post publishes automatically when the deadline passes. |
+
+To change the text, Esther edits the `.txt` file in iA Writer. The pipeline re-reads the source at publish time and uses the latest version if the file was modified during the veto window (handled by `veto._refresh_from_source`). If the heading changed, the slug and URL are rebuilt accordingly. `#date YYYY-MM-DD` in the file is still honored at publish time.
 
 ### The veto-check job
 
@@ -207,6 +208,7 @@ The site (`~/Documents/from the abysmal (site)/`) is a statically-generated site
 - **Title is locked at scan time, but re-publish updates it.** The title is extracted from the `# Heading` when the pipeline queues the post. Re-publish on edit (`republish_if_changed`) now re-reads the heading from the file and updates `state.json` if it changed — so editing the heading in iA Writer will propagate on the next veto-check run (within 30 min). Before this fix, the cached title was always used regardless of file edits.
 - **Title extraction** (`editor.py:_title_from_text`): strips the leading `#`, removes `#tag` and `#date` tokens, then calls `.strip()` to trim whitespace. Titles ending in `(N)` (like series numbers) are preserved correctly.
 - **Source files can live in subfolders of `drafts_path`.** iA Writer lets Esther move already-published `.txt` files into subfolders (e.g. `x - published/`) to declutter her drafts view. The scanner already handles this because it uses `rglob`. `publisher._find_source()` does the same for `republish_if_changed` and `full_rebuild`: it first checks the top level, then falls back to a recursive search by bare filename. State.json stores only the bare filename, so renaming the source file **will** break the link — update the `source` field manually if you rename.
+- **`publisher.publish()` injects the post-being-published into its in-memory state before rebuilding index/rss/archive.** The caller (`veto.process_queue`) records the publish in `state.json` only *after* `publish()` returns, so a fresh `state_module.load()` inside `publish()` would not include the new post. Without this injection, `index.html` / `rss.xml` / the month archive get rebuilt from a stale list and uploaded without the new post. The `save()`-then-`publish()` ordering was kept (rather than reversing it) because it preserves "don't record state if SFTP fails" semantics.
 
 ---
 

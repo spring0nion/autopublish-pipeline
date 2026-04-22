@@ -242,6 +242,17 @@ def publish(edited, cfg=None, dry_run=False):
     save_post_html(site_path, filename, html)
 
     current_state = state_module.load()
+    # Include the post being published in the in-memory state so it appears in
+    # index.html, rss.xml, and the month archive. record_publish() in state.json
+    # happens in the caller after publish() returns, so state.json on disk does
+    # not yet include this post.
+    if not any(p.get("slug") == slug for p in current_state.get("published", [])):
+        current_state.setdefault("published", []).append({
+            "slug": slug,
+            "title": title,
+            "date": date,
+            "edit_history": [],
+        })
     rebuild_index_and_rss(cfg, current_state, site_path)
     month_paths = rebuild_month_archives(cfg, current_state, site_path, [_year_month(slug)])
 
