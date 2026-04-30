@@ -124,7 +124,7 @@ This reads every source `.txt` from iA Writer's folder, regenerates all post HTM
 
 ### Pause publishing without stopping the jobs
 
-Add `#priority` to a draft you want to hold back if you need a break, or just reply `VETO` to each notification. After 5 vetoes of the same piece a warning is logged.
+Add `#priority` to a draft you want to hold back if you need a break, or just reply `VETO` to each notification. After repeated vetoes the notification email itself shows the attempt count: *"This is attempt #N. You've vetoed this N times. It keeps coming back."* After 5 vetoes a warning is also logged.
 
 ---
 
@@ -203,10 +203,11 @@ The site (`~/Documents/from the abysmal (site)/`) is a statically-generated site
 
 - The pipeline only runs while Esther's Mac is on and the user session is active. Missed launchd firings are not retried. To run a missed weekday job manually, see the "Run a job manually" section above. **[DEFERRED]** A more automated fix would be to store `last_successful_weekday_run` in `state.json` and have `veto-check` fire the weekday pipeline if a publish day has passed without a run and the queue is empty — but this adds complexity and Esther is happy running it manually for now.
 - Claude is called via the Claude CLI (`subprocess`). If Claude is unavailable, ranking and editing fall back to heuristics.
-- `state.json` is the source of truth for what has been published. Deleting an entry from `published` would allow a post to be re-submitted, but this should be done carefully.
+- `state.json` is the source of truth for what has been published. Deleting an entry from `published` would allow a post to be re-submitted, but this should be done carefully. Each published record includes `source_mtime` (float — file mtime at publish time, used to detect post-publish edits) and `edit_history` (list of `YYYY-MM-DD` strings added on re-publish). Both are managed by `state.py`; `publisher.republish_if_changed` reads `source_mtime` to decide whether to re-upload.
 - The SFTP password and email app password are stored in plaintext in `config.yaml`. Don't commit that file.
 - **Title is locked at scan time, but re-publish updates it.** The title is extracted from the `# Heading` when the pipeline queues the post. Re-publish on edit (`republish_if_changed`) now re-reads the heading from the file and updates `state.json` if it changed — so editing the heading in iA Writer will propagate on the next veto-check run (within 30 min). Before this fix, the cached title was always used regardless of file edits.
 - **Title extraction** (`editor.py:_title_from_text`): strips the leading `#`, removes `#tag` and `#date` tokens, then calls `.strip()` to trim whitespace. Titles ending in `(N)` (like series numbers) are preserved correctly.
+- **`_find_source` skips `#nopublish` files.** If two `.txt` files exist under `drafts_path` with the same bare filename (e.g. an active draft and a backup copy tagged `#nopublish`), `_find_source` must not accidentally return the `#nopublish` copy. Fixed: `_find_source` now reads each candidate and skips any that contain `#nopublish`. `republish_if_changed` also guards against this — if the source file gains `#nopublish` after publish, the next mtime change will not trigger a re-publish.
 - **Source files can live in subfolders of `drafts_path`.** iA Writer lets Esther move already-published `.txt` files into subfolders (e.g. `x - published/`) to declutter her drafts view. The scanner already handles this because it uses `rglob`. `publisher._find_source()` does the same for `republish_if_changed` and `full_rebuild`: it first checks the top level, then falls back to a recursive search by bare filename. State.json stores only the bare filename, so renaming the source file **will** break the link — update the `source` field manually if you rename.
 - **`publisher.publish()` injects the post-being-published into its in-memory state before rebuilding index/rss/archive.** The caller (`veto.process_queue`) records the publish in `state.json` only *after* `publish()` returns, so a fresh `state_module.load()` inside `publish()` would not include the new post. Without this injection, `index.html` / `rss.xml` / the month archive get rebuilt from a stale list and uploaded without the new post. The `save()`-then-`publish()` ordering was kept (rather than reversing it) because it preserves "don't record state if SFTP fails" semantics.
 
@@ -223,7 +224,7 @@ Key behaviours:
 - **Inline formatting**: `**bold**`, `*italic*`, `__bold__`, `_italic_`.
 - **Footnotes**: `[^footnote text]` inline — the text becomes the footnote body, rendered in a `<div class="footnotes">` at the bottom with numbered superscript links.
 - **Title heading**: a leading `# Title` line is stripped from the body (the title is passed separately by the caller).
-- **Revision dates**: handled by `builder.render_post_page()`, not converter.
+- **Revision dates**: handled by `builder.render_post_page()`, not converter. (`converter.py` contains an orphaned `format_revision_dates()` function that is no longer called anywhere — ignore it.)
 
 ## builder.py behaviour
 

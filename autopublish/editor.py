@@ -21,7 +21,7 @@ def _call_claude(prompt_text):
     try:
         result = subprocess.run(
             ["claude", "-p", prompt_text, "--output-format", "json"],
-            capture_output=True, text=True, timeout=120,
+            capture_output=True, text=True, timeout=300,
         )
         if result.returncode != 0:
             log.warning("Claude CLI failed: %s", result.stderr[:500])
@@ -119,16 +119,6 @@ def edit(candidate, cfg=None, dry_run=False):
             "questions": result.get("questions", []),
         }
 
-    # Fallback: no edits
-    slug = _slugify(title)
-    date_slug = f"{post_date}-{slug}"
-    log.info("Editorial pass failed, using raw text")
-    return {
-        "title": title,
-        "slug": slug,
-        "date_slug": date_slug,
-        "edited_text": body_text,
-        "changes": [],
-        "editorial_note": "Editorial pass unavailable. Publishing raw. Ship it anyway.",
-        "questions": [],
-    }
+    # Claude unavailable — don't ship raw
+    log.warning("Editorial pass failed — aborting run")
+    return None

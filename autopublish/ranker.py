@@ -1,6 +1,7 @@
 import json
 import subprocess
 import logging
+from datetime import datetime
 from pathlib import Path
 
 from autopublish import config, prompts
@@ -23,7 +24,7 @@ def _call_claude(prompt_text):
     try:
         result = subprocess.run(
             ["claude", "-p", prompt_text, "--output-format", "json"],
-            capture_output=True, text=True, timeout=120,
+            capture_output=True, text=True, timeout=300,
         )
         if result.returncode != 0:
             log.warning("Claude CLI failed: %s", result.stderr[:500])
@@ -65,7 +66,9 @@ def rank(candidates, cfg=None, dry_run=False):
             header += " [PRIORITY — Esther wants this one published]"
         summaries.append(f"{header}\n{preview}")
 
+    today = datetime.now().strftime("%B %d, %Y")
     prompt = prompts.RANK_PROMPT.format(
+        today=today,
         reference_post=reference,
         candidates="\n\n---\n\n".join(summaries),
     )
@@ -86,6 +89,6 @@ def rank(candidates, cfg=None, dry_run=False):
                 return c
         log.warning("Claude picked '%s' but it's not in candidates", pick_filename)
 
-    # Fallback to heuristic
-    log.info("Falling back to heuristic ranking")
-    return candidates[0]
+    # Claude unavailable — don't guess
+    log.warning("Claude unavailable for ranking — aborting run")
+    return None

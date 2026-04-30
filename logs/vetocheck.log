@@ -396,3 +396,282 @@ socket.gaierror: [Errno 8] nodename nor servname provided, or not known
 16:26:55 [autopublish.publisher] SFTP upload complete (4 files)
 16:26:56 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "joan" is live
 16:26:57 [autopublish.veto] Published: 2026-04-21-joan.html
+10:12:36 [autopublish.publisher] Source changed for 'great millennial startup idea of the century' — re-publishing
+10:12:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+10:12:36 [autopublish.publisher] Rebuilt index.html and rss.xml
+10:12:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+10:12:36 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+10:12:36 [paramiko.transport] Authentication (password) successful!
+10:12:37 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+10:12:37 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-15-great-millennial-startup-idea-of-the-century.html
+10:12:37 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+10:12:37 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+10:12:37 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+10:12:37 [paramiko.transport.sftp] [chan 0] sftp session closed.
+10:12:37 [autopublish.publisher] SFTP upload complete (4 files)
+10:13:09 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "great millennial startup idea of the century" updated
+10:13:09 [autopublish.publisher] Re-published 'great millennial startup idea of the century' as 2026-04-15-great-millennial-startup-idea-of-the-century with revision date 2026-04-23
+15:13:59 [autopublish.publisher] Source changed for 'joan' — re-publishing
+15:13:59 [autopublish.publisher] Title changed: 'joan' → 'Joan'
+15:13:59 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+15:13:59 [autopublish.publisher] Rebuilt index.html and rss.xml
+15:13:59 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+15:14:00 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:14:00 [paramiko.transport] Authentication (password) successful!
+15:14:00 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:14:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+15:14:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+15:14:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+15:14:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+15:14:01 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:14:01 [autopublish.publisher] SFTP upload complete (4 files)
+15:14:32 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+15:14:32 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-23
+17:41:26 [autopublish.veto] Veto deadline passed — publishing 'Resistance Thoughts'
+17:41:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-06-resistance-thoughts.html
+17:41:26 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:41:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:41:26 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:41:27 [paramiko.transport] Authentication (password) successful!
+17:41:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:41:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-06-resistance-thoughts.html
+17:41:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:41:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:41:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:41:27 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:41:27 [autopublish.publisher] SFTP upload complete (4 files)
+17:41:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Resistance Thoughts" is live
+17:41:29 [autopublish.veto] Published: 2026-02-06-resistance-thoughts.html
+09:29:24 [autopublish.publisher] Source changed for 'Joan' — re-publishing
+09:29:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+09:29:24 [autopublish.publisher] Rebuilt index.html and rss.xml
+09:29:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+09:29:25 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+09:29:25 [paramiko.transport] Authentication (password) successful!
+09:29:26 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+09:29:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+09:29:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+09:29:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+09:29:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+09:29:27 [paramiko.transport.sftp] [chan 0] sftp session closed.
+09:29:27 [autopublish.publisher] SFTP upload complete (4 files)
+09:29:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+09:29:30 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-27
+10:15:24 [autopublish.publisher] Source changed for 'Joan' — re-publishing
+10:15:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+10:15:24 [autopublish.publisher] Rebuilt index.html and rss.xml
+10:15:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+10:15:24 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+10:15:25 [paramiko.transport] Authentication (password) successful!
+10:15:25 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+10:15:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+10:15:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+10:15:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+10:15:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+10:15:26 [paramiko.transport.sftp] [chan 0] sftp session closed.
+10:15:26 [autopublish.publisher] SFTP upload complete (4 files)
+10:15:27 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+10:15:27 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-27
+11:37:22 [autopublish.publisher] Source changed for 'Joan' — re-publishing
+11:37:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+11:37:23 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:37:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:37:23 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:37:23 [paramiko.transport] Authentication (password) successful!
+11:37:23 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:37:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+11:37:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:37:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:37:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:37:24 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:37:24 [autopublish.publisher] SFTP upload complete (4 files)
+11:37:25 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+11:37:25 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-27
+12:07:27 [autopublish.publisher] Source changed for 'Resistance Thoughts' — re-publishing
+12:07:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-06-resistance-thoughts.html
+12:07:27 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:07:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:07:27 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:07:27 [paramiko.transport] Authentication (password) successful!
+12:07:28 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:07:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-06-resistance-thoughts.html
+12:07:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:07:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:07:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:07:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:07:28 [autopublish.publisher] SFTP upload complete (4 files)
+12:07:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Resistance Thoughts" updated
+12:07:29 [autopublish.publisher] Re-published 'Resistance Thoughts' as 2026-02-06-resistance-thoughts with revision date 2026-04-27
+13:37:04 [autopublish.publisher] Source changed for 'Joan' — re-publishing
+13:37:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+13:37:04 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:37:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+13:37:04 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:37:04 [paramiko.transport] Authentication (password) successful!
+13:37:05 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:37:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+13:37:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:37:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:37:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+13:37:05 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:37:05 [autopublish.publisher] SFTP upload complete (4 files)
+13:37:06 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+13:37:07 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-27
+16:50:37 [autopublish.veto] Veto deadline passed — publishing 'Literaryily'
+16:50:37 [autopublish.veto] Source edited during veto window — publishing latest file version
+16:50:37 [autopublish.veto] Title changed in source: 'Literaryily' → 'Literaryilly'
+16:50:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-literaryilly.html
+16:50:37 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:50:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:50:37 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:50:37 [paramiko.transport] Authentication (password) successful!
+16:50:37 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-literaryilly.html
+16:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:50:38 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:50:38 [autopublish.publisher] SFTP upload complete (4 files)
+16:50:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Literaryilly" is live
+16:50:39 [autopublish.veto] Published: 2026-04-27-literaryilly.html
+17:20:40 [autopublish.publisher] Source changed for 'Literaryilly' — re-publishing
+17:20:40 [autopublish.publisher] Title changed: 'Literaryilly' → 'Literaryily'
+17:20:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-literaryilly.html
+17:20:40 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:20:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:20:40 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:20:40 [paramiko.transport] Authentication (password) successful!
+17:20:41 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:20:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-literaryilly.html
+17:20:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:20:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:20:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:20:41 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:20:41 [autopublish.publisher] SFTP upload complete (4 files)
+17:20:42 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Literaryily" updated
+17:20:43 [autopublish.publisher] Re-published 'Literaryily' as 2026-04-27-literaryilly with revision date 2026-04-27
+17:50:43 [autopublish.publisher] Source changed for 'Literaryily' — re-publishing
+17:50:43 [autopublish.publisher] Title changed: 'Literaryily' → 'Litterary'
+17:50:43 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-literaryilly.html
+17:50:43 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:50:43 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:50:46 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:50:46 [paramiko.transport] Authentication (password) successful!
+17:50:47 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:50:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-literaryilly.html
+17:50:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:50:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:50:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:50:47 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:50:47 [autopublish.publisher] SFTP upload complete (4 files)
+17:51:19 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Litterary" updated
+17:51:19 [autopublish.publisher] Re-published 'Litterary' as 2026-04-27-literaryilly with revision date 2026-04-27
+18:21:19 [autopublish.publisher] Source changed for 'Litterary' — re-publishing
+18:21:19 [autopublish.publisher] Title changed: 'Litterary' → 'I want to be literarily significant'
+18:21:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-literaryilly.html
+18:21:19 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:21:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:21:19 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:21:19 [paramiko.transport] Authentication (password) successful!
+18:21:20 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:21:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-literaryilly.html
+18:21:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:21:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:21:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:21:20 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:21:20 [autopublish.publisher] SFTP upload complete (4 files)
+18:21:52 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "I want to be literarily significant" updated
+18:21:52 [autopublish.publisher] Re-published 'I want to be literarily significant' as 2026-04-27-literaryilly with revision date 2026-04-27
+12:50:24 [autopublish.veto] Reply received — treating as veto: 'veto
+
+On Wed, 29 Apr 2026 at 12:33, autopublish
+<fromtheabysmalautopublish@gmail'
+12:50:24 [autopublish.veto] VETO received for 'that time of year' — delayed to tomorrow
+12:50:25 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "that time of year" (#1)
+18:50:37 [autopublish.veto] Veto deadline passed — publishing 'that time of year'
+18:50:37 [autopublish.veto] Source edited during veto window — publishing latest file version
+18:50:37 [autopublish.veto] Title changed in source: 'that time of year' → 'that time of year (backup)'
+18:50:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-that-time-of-year-backup.html
+18:50:37 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:50:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:50:37 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:50:37 [paramiko.transport] Authentication (password) successful!
+18:50:38 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-that-time-of-year-backup.html
+18:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:50:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:50:38 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:50:38 [autopublish.publisher] SFTP upload complete (4 files)
+18:51:09 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "that time of year (backup)" is live
+18:51:10 [autopublish.veto] Published: 2026-04-20-that-time-of-year-backup.html
+19:51:11 [autopublish.publisher] Source changed for 'that time of year (backup)' — re-publishing
+19:51:11 [autopublish.publisher] Title changed: 'that time of year (backup)' → 'that time of year'
+19:51:11 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-20-that-time-of-year-backup.html
+19:51:11 [autopublish.publisher] Rebuilt index.html and rss.xml
+19:51:11 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+19:51:11 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+19:51:11 [paramiko.transport] Authentication (password) successful!
+19:51:11 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+19:51:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-20-that-time-of-year-backup.html
+19:51:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+19:51:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+19:51:12 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+19:51:12 [paramiko.transport.sftp] [chan 0] sftp session closed.
+19:51:12 [autopublish.publisher] SFTP upload complete (4 files)
+19:51:43 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "that time of year" updated
+19:51:43 [autopublish.publisher] Re-published 'that time of year' as 2026-04-20-that-time-of-year-backup with revision date 2026-04-29
+09:44:31 [autopublish.publisher] Source changed for 'that time of year' — re-publishing
+09:44:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-29-that-time-of-year.html
+09:44:31 [autopublish.publisher] Rebuilt index.html and rss.xml
+09:44:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 213, in republish_if_changed
+    sftp_upload_files(cfg, site_path, [
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 65, in sftp_upload_files
+    transport = paramiko.Transport((host, port))
+  File "/Users/esther/Development/autopublish pipeline/venv/lib/python3.9/site-packages/paramiko/transport.py", line 479, in __init__
+    addrinfos = socket.getaddrinfo(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+12:44:04 [autopublish.publisher] Source changed for 'Joan' — re-publishing
+12:44:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-21-joan.html
+12:44:04 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:44:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:44:04 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:44:04 [paramiko.transport] Authentication (password) successful!
+12:44:05 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:44:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-21-joan.html
+12:44:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:44:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:44:07 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:44:07 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:44:07 [autopublish.publisher] SFTP upload complete (4 files)
+12:44:09 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Joan" updated
+12:44:09 [autopublish.publisher] Re-published 'Joan' as 2026-04-21-joan with revision date 2026-04-30
+12:44:09 [autopublish.publisher] Source changed for 'that time of year' — re-publishing
+12:44:09 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-29-that-time-of-year.html
+12:44:09 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:44:09 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:44:09 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:44:09 [paramiko.transport] Authentication (password) successful!
+12:44:10 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:44:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-29-that-time-of-year.html
+12:44:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:44:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:44:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:44:10 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:44:10 [autopublish.publisher] SFTP upload complete (4 files)
+12:44:11 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "that time of year" updated
+12:44:11 [autopublish.publisher] Re-published 'that time of year' as 2026-04-29-that-time-of-year with revision date 2026-04-30

@@ -49,9 +49,10 @@ After a draft is queued, reply to the notification email within 4 hours:
 
 | Reply | Effect |
 |-------|--------|
-| `VETO` | Post is delayed; draft re-enters pool with a score penalty |
-| Reply over 100 characters | Your text is published instead of Claude's edit |
+| Any reply (including `VETO`) | Post is delayed; veto count incremented; Kiryll is notified; draft re-enters pool with a score penalty |
 | No reply | Post publishes automatically |
+
+To change the text, edit the `.txt` file in iA Writer instead — the pipeline re-reads it at publish time.
 
 ---
 

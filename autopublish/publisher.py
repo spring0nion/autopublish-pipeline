@@ -16,12 +16,21 @@ def _find_source(drafts_path: Path, source_name: str) -> Optional[Path]:
     iA Writer lets Esther move files into subfolders (e.g. `x - published/`) after
     they're published. state.json only stores the bare filename, so we have to
     search recursively to locate the current path.
+
+    Skips any file that contains #nopublish — if there are two copies with the same
+    name and one is a #nopublish backup, we must not accidentally publish that one.
     """
+    def _is_nopublish(p: Path) -> bool:
+        try:
+            return "#nopublish" in p.read_text(encoding="utf-8").lower()
+        except Exception:
+            return False
+
     direct = drafts_path / source_name
-    if direct.exists():
+    if direct.exists() and direct.is_file() and not _is_nopublish(direct):
         return direct
     for candidate in drafts_path.rglob(source_name):
-        if candidate.is_file():
+        if candidate.is_file() and not _is_nopublish(candidate):
             return candidate
     return None
 
@@ -153,8 +162,12 @@ def republish_if_changed(cfg, current_state):
         if current_mtime <= source_mtime:
             continue
 
-        log.info("Source changed for '%s' — re-publishing", post["title"])
         text = src_path.read_text(encoding="utf-8")
+        if "#nopublish" in text.lower():
+            log.info("Skipping re-publish for '%s' — source now has #nopublish", post["title"])
+            continue
+
+        log.info("Source changed for '%s' — re-publishing", post["title"])
 
         from autopublish.editor import _title_from_text
         new_title, _ = _title_from_text(text)
