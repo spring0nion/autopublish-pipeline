@@ -109,17 +109,22 @@ def rebuild_index_and_rss(cfg, current_state, site_path):
     log.info("Rebuilt index.html and rss.xml")
 
 
-def rebuild_month_archives(cfg, current_state, site_path, year_months):
-    """Regenerate one or more /archive/YYYY-MM.html pages.
+def rebuild_month_archives(cfg, current_state, site_path, year_months=None):
+    """Regenerate /archive/YYYY-MM.html pages.
 
-    year_months is an iterable of "YYYY-MM" strings. Returns the list of relative
-    paths that were written (suitable for inclusion in an SFTP upload set).
+    If year_months is None, rebuilds every month that has posts (recommended —
+    ensures all archive nav bars stay in sync when new months are added).
+    Otherwise rebuilds only the given "YYYY-MM" strings.
+    Returns the list of relative paths written (suitable for SFTP upload).
     """
     from autopublish import builder
 
     site_url = cfg.get("site_url", "")
     published = current_state.get("published", [])
     all_posts = sorted(published, key=lambda p: p["slug"][:10], reverse=True)
+
+    if year_months is None:
+        year_months = [f"{y}-{m}" for (y, m) in builder.month_pages(all_posts)]
 
     written = []
     for ym in year_months:
@@ -204,11 +209,7 @@ def republish_if_changed(cfg, current_state):
             post["slug"] = new_slug
 
         rebuild_index_and_rss(cfg, current_state, site_path)
-
-        affected_months = {_year_month(new_slug)}
-        if _year_month(old_slug) != _year_month(new_slug):
-            affected_months.add(_year_month(old_slug))
-        month_paths = rebuild_month_archives(cfg, current_state, site_path, affected_months)
+        month_paths = rebuild_month_archives(cfg, current_state, site_path)
 
         sftp_upload_files(cfg, site_path, [
             f"posts/{new_filename}",
@@ -267,7 +268,7 @@ def publish(edited, cfg=None, dry_run=False):
             "edit_history": [],
         })
     rebuild_index_and_rss(cfg, current_state, site_path)
-    month_paths = rebuild_month_archives(cfg, current_state, site_path, [_year_month(slug)])
+    month_paths = rebuild_month_archives(cfg, current_state, site_path)
 
     sftp_upload_files(cfg, site_path, [
         f"posts/{filename}",

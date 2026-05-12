@@ -10,8 +10,8 @@ def text_to_html(title, text):
     full page template.
     """
     text = _strip_title_heading(text, title)
+    text, footnote_texts = _extract_footnotes(text)
     blocks = _split_blocks(text)
-    blocks, footnote_texts = _extract_footnotes(blocks)
     _FN_RE = re.compile(r"\x00fn(\d+)\x00")
 
     def _apply_inline(text):
@@ -36,8 +36,13 @@ def text_to_html(title, text):
     if footnote_texts:
         items = []
         for i, ft in enumerate(footnote_texts, 1):
-            ft_html = _inline_markdown(_escape(ft))
-            items.append(f'<li id="fn{i}"><p>{ft_html} <a href="#fnr{i}">↩︎</a></p></li>')
+            paras = [p.strip() for p in re.split(r"\n\s*\n", ft.strip()) if p.strip()]
+            if not paras:
+                paras = [""]
+            para_htmls = [_inline_markdown(_escape(re.sub(r"\s*\n\s*", " ", p))) for p in paras]
+            para_htmls[-1] = f'{para_htmls[-1]} <a href="#fnr{i}">↩︎</a>'
+            body = "".join(f"<p>{p}</p>" for p in para_htmls)
+            items.append(f'<li id="fn{i}">{body}</li>')
         footnotes_html = '\n<div class="footnotes">\n<ol>\n' + "\n".join(items) + "\n</ol>\n</div>"
         body_html = body_html + footnotes_html
 
@@ -58,9 +63,9 @@ def format_revision_dates(revision_dates):
 
 
 _LIST_MARKER = "\x01LIST\x01"
-_LIST_LINE_RE = re.compile(r"^(\t*)- (.+)$")
+_LIST_LINE_RE = re.compile(r"^ *(\t*)- (.+)$")
 _BLOCKQUOTE_MARKER = "\x01BLOCKQUOTE\x01"
-_BLOCKQUOTE_LINE_RE = re.compile(r"^> ?(.*)")
+_BLOCKQUOTE_LINE_RE = re.compile(r"^ *> ?(.*)")
 
 
 def _split_blocks(text):
@@ -131,43 +136,74 @@ def _list_block_to_html(text, inline_fn):
 
 
 def _blockquote_block_to_html(text, inline_fn):
-    """Convert a `> `-prefixed block to <blockquote><p>…</p></blockquote>."""
-    lines = [
+    """Convert a `> `-prefixed block to <blockquote>…</blockquote>.
+
+    Empty `>` lines separate paragraphs; consecutive non-empty `>` lines
+    inside a paragraph are joined with <br> so poetry-style quotes keep
+    their line breaks.
+    """
+    stripped = [
         _BLOCKQUOTE_LINE_RE.match(line).group(1) if _BLOCKQUOTE_LINE_RE.match(line) else line
         for line in text.split("\n")
     ]
-    content = re.sub(r"  +", " ", " ".join(lines)).strip()
-    return f"<blockquote><p>{inline_fn(content)}</p></blockquote>"
+    paragraphs = []
+    current = []
+    for line in stripped:
+        if line.strip() == "":
+            if current:
+                paragraphs.append(current)
+                current = []
+        else:
+            current.append(line.strip())
+    if current:
+        paragraphs.append(current)
+    parts = [
+        "<p>" + "<br>\n".join(inline_fn(l) for l in para) + "</p>"
+        for para in paragraphs
+    ]
+    return "<blockquote>" + "\n".join(parts) + "</blockquote>"
 
 
-def _extract_footnotes(blocks):
-    """Replace [^footnote text] with null-byte placeholders; return (blocks, texts)."""
+def _extract_footnotes(text):
+    """Replace [^footnote text] with null-byte placeholders; return (text, texts).
+
+    Runs before _split_blocks so footnote bodies may contain blank lines
+    (paragraph breaks within a footnote).
+    """
     footnotes = []
 
     def replacer(m):
         footnotes.append(m.group(1))
         return f"\x00fn{len(footnotes)}\x00"
 
-    processed = []
-    for block in blocks:
-        if block == "---":
-            processed.append(block)
-        else:
-            processed.append(re.sub(r"\[\^([^\]]+)\]", replacer, block))
-    return processed, footnotes
+    return re.sub(r"\[\^([^\]]+)\]", replacer, text), footnotes
 
 
 def _inline_markdown(text):
     """Convert inline Markdown in already-HTML-escaped text to HTML tags.
 
-    Handles **bold**, *italic*, __bold__, _italic_.
+    Handles [text](url) links, **bold**, *italic*, __bold__, _italic_.
     Must run AFTER _escape() so we're not double-escaping.
     """
+    # Extract links first so underscores/asterisks inside URLs don't get
+    # parsed as italic/bold. Replace with placeholder tokens, then restore.
+    links = []
+
+    def _link_sub(m):
+        label, url = m.group(1), m.group(2)
+        url_attr = url.replace('"', "&quot;")
+        links.append(f'<a href="{url_attr}">{label}</a>')
+        return f"\x02lnk{len(links) - 1}\x02"
+
+    text = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", _link_sub, text)
+
     # Bold before italic so **x** isn't parsed as *(*x*)*
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"__(.+?)__", r"<strong>\1</strong>", text)
     text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
     text = re.sub(r"_(.+?)_", r"<em>\1</em>", text)
+
+    text = re.sub(r"\x02lnk(\d+)\x02", lambda m: links[int(m.group(1))], text)
     return text
 
 

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     max-width: 53rem;
     margin: 0 auto;
@@ -77,6 +81,12 @@ body {
     margin: 0 0 6rem;
     font-size: 1rem;
     text-align: center;
+}
+
+/* bottom-of-page archive: tighter bottom margin so spacing matches the
+   3rem gap left by the section-rule <hr> above it */
+#archive-bar-bottom {
+    margin-bottom: 3rem;
 }
 
 .archive-years {
@@ -217,6 +227,16 @@ body {
 
 .post-body p {
     margin-bottom: 1em;
+}
+
+.post-body {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.post-body pre {
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 .post-body ul {

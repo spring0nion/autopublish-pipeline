@@ -126,6 +126,7 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
     posts_dir = site_path / "posts"
 
     archive_html = _render_archive(posts)
+    archive_html_bottom = _render_archive(posts, nav_id="archive-bar-bottom", open_default=True)
 
     inline_articles = _render_inline_posts(posts[:10], posts_dir, site_url)
     posts_html = inline_articles or '<p class="loading">nothing here yet.</p>'
@@ -150,6 +151,8 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
 <main class="posts" id="posts">
 {posts_html}
 </main>
+<hr class="section-rule">
+{archive_html_bottom}
 {_FOOTER}
 </body>
 </html>
@@ -170,6 +173,7 @@ def render_month_archive(year: str, month: str, all_posts: list, site_url: str, 
     month_posts.sort(key=lambda p: p["slug"][:10], reverse=True)
 
     archive_html = _render_archive(all_posts, current_month=prefix)
+    archive_html_bottom = _render_archive(all_posts, current_month=prefix, nav_id="archive-bar-bottom", open_default=True)
     inline_articles = _render_inline_posts(month_posts, posts_dir, site_url)
     posts_html = inline_articles or '<p class="loading">nothing here.</p>'
 
@@ -197,6 +201,8 @@ def render_month_archive(year: str, month: str, all_posts: list, site_url: str, 
 <main class="posts" id="posts">
 {posts_html}
 </main>
+<hr class="section-rule">
+{archive_html_bottom}
 {_FOOTER}
 </body>
 </html>
@@ -304,11 +310,13 @@ def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
     return "\n".join(articles)
 
 
-def _render_archive(posts: list, current_month: str = None) -> str:
+def _render_archive(posts: list, current_month: str = None, nav_id: str = "archive-bar", open_default: bool = False) -> str:
     """Render the archive nav: years collapse to month links only.
 
     current_month is None on the index, or "YYYY-MM" on a month-archive page —
     in which case that month's link gets the `current` class.
+    open_default makes the <details> render with the `open` attribute (used for
+    the bottom-of-page archive, where "2026" alone would be unclear).
     """
     by_year = OrderedDict()
     for post in posts:
@@ -317,17 +325,19 @@ def _render_archive(posts: list, current_month: str = None) -> str:
         by_year.setdefault(year, OrderedDict())[month] = None
 
     year_blocks = []
-    for year, months in by_year.items():
+    for year in sorted(by_year):
+        months = by_year[year]
         month_links = []
-        for m in months:
+        for m in sorted(months):
             month_name = datetime.strptime(f"{year}-{m}-01", "%Y-%m-%d").strftime("%B")
             cls = "archive-month-link"
             if current_month == f"{year}-{m}":
                 cls += " current"
             month_links.append(f'<a class="{cls}" href="/archive/{year}-{m}.html">{month_name}</a>')
         months_html = "\n".join(month_links)
+        open_attr = " open" if open_default else ""
         year_blocks.append(
-            f'<details class="archive-year-group">\n'
+            f'<details class="archive-year-group"{open_attr}>\n'
             f'<summary class="archive-year-label">{year}</summary>\n'
             f'<div class="archive-months">\n{months_html}\n</div>\n'
             f'</details>'
@@ -335,7 +345,7 @@ def _render_archive(posts: list, current_month: str = None) -> str:
 
     years_html = "\n".join(year_blocks)
     return (
-        f'<nav class="archive-bar" id="archive-bar">\n'
+        f'<nav class="archive-bar" id="{nav_id}">\n'
         f'<div class="archive-years">\n{years_html}\n</div>\n'
         f'</nav>'
     )

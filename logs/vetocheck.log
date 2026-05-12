@@ -909,3 +909,110 @@ socket.gaierror: [Errno 8] nodename nor servname provided, or not known
 17:04:43 [autopublish.publisher] SFTP upload complete (4 files)
 17:04:45 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "life force" is live
 17:04:45 [autopublish.veto] Published: 2026-01-30-life-force.html
+12:27:34 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+12:27:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:27:34 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:27:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:27:34 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:27:34 [paramiko.transport] Authentication (password) successful!
+12:27:35 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:27:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+12:27:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:27:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:27:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:27:35 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:27:35 [autopublish.publisher] SFTP upload complete (4 files)
+12:27:36 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+12:27:37 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-05-12
+12:57:37 [autopublish.publisher] Source changed for 'Processing my feelings on maybe, maybe not, winning an essay competition' — re-publishing
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+12:57:37 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:57:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:57:37 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:57:37 [paramiko.transport] Authentication (password) successful!
+12:57:38 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:57:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:57:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:57:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:57:39 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:57:39 [autopublish.publisher] SFTP upload complete (8 files)
+12:57:40 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Processing my feelings on maybe, maybe not, winning an essay competition" updated
+12:57:40 [autopublish.publisher] Re-published 'Processing my feelings on maybe, maybe not, winning an essay competition' as 2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c with revision date 2026-05-12
+13:27:41 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:27:41 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+13:27:41 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+13:27:41 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:27:41 [paramiko.transport] Authentication (password) successful!
+13:27:41 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+13:27:42 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+13:27:42 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:27:42 [autopublish.publisher] SFTP upload complete (8 files)
+13:27:44 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+13:27:44 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-05-12
+13:57:44 [autopublish.publisher] Source changed for 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' — re-publishing
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:57:44 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+13:57:44 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+13:57:44 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:57:45 [paramiko.transport] Authentication (password) successful!
+13:57:45 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:57:45 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear.html
+13:57:45 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:57:45 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:57:45 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+13:57:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+13:57:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+13:57:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+13:57:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+13:57:46 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:57:46 [autopublish.publisher] SFTP upload complete (8 files)
+13:57:47 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Trying my best to write down What Is New to get over my fear of publishing on Substack (2)" updated
+13:57:47 [autopublish.publisher] Re-published 'Trying my best to write down What Is New to get over my fear of publishing on Substack (2)' as 2026-03-10-trying-my-best-to-write-down-what-is-new-to-get-over-my-fear with revision date 2026-05-12
+13:57:47 [autopublish.publisher] Source changed for 'Some Observations (On Writing About Writing)' — re-publishing
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-01-some-observations.html
+13:57:47 [autopublish.publisher] Rebuilt index.html and rss.xml
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+13:57:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+13:57:47 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+13:57:48 [paramiko.transport] Authentication (password) successful!
+13:57:48 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+13:57:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-01-some-observations.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+13:57:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+13:57:49 [paramiko.transport.sftp] [chan 0] sftp session closed.
+13:57:49 [autopublish.publisher] SFTP upload complete (8 files)
+13:57:50 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
+13:57:50 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-12
