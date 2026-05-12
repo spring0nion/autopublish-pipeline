@@ -27,6 +27,8 @@ def text_to_html(title, text):
             body_parts.append('<p class="post-divider">· · ·</p>')
         elif block.startswith(_LIST_MARKER):
             body_parts.append(_list_block_to_html(block[len(_LIST_MARKER):], _apply_inline))
+        elif block.startswith(_BLOCKQUOTE_MARKER):
+            body_parts.append(_blockquote_block_to_html(block[len(_BLOCKQUOTE_MARKER):], _apply_inline))
         else:
             body_parts.append(f"<p>{_apply_inline(block)}</p>")
     body_html = "\n".join(body_parts)
@@ -57,6 +59,8 @@ def format_revision_dates(revision_dates):
 
 _LIST_MARKER = "\x01LIST\x01"
 _LIST_LINE_RE = re.compile(r"^(\t*)- (.+)$")
+_BLOCKQUOTE_MARKER = "\x01BLOCKQUOTE\x01"
+_BLOCKQUOTE_LINE_RE = re.compile(r"^> ?(.*)")
 
 
 def _split_blocks(text):
@@ -77,6 +81,8 @@ def _split_blocks(text):
             blocks.append("---")
         elif _LIST_LINE_RE.match(p.split("\n")[0]):
             blocks.append(_LIST_MARKER + p)
+        elif _BLOCKQUOTE_LINE_RE.match(p.split("\n")[0]):
+            blocks.append(_BLOCKQUOTE_MARKER + p)
         else:
             p = re.sub(r"\n", " ", p)
             p = re.sub(r"  +", " ", p)
@@ -122,6 +128,16 @@ def _list_block_to_html(text, inline_fn):
     result.append("</ul>")
 
     return "\n".join(result)
+
+
+def _blockquote_block_to_html(text, inline_fn):
+    """Convert a `> `-prefixed block to <blockquote><p>…</p></blockquote>."""
+    lines = [
+        _BLOCKQUOTE_LINE_RE.match(line).group(1) if _BLOCKQUOTE_LINE_RE.match(line) else line
+        for line in text.split("\n")
+    ]
+    content = re.sub(r"  +", " ", " ".join(lines)).strip()
+    return f"<blockquote><p>{inline_fn(content)}</p></blockquote>"
 
 
 def _extract_footnotes(blocks):

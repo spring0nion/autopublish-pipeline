@@ -263,6 +263,18 @@ def month_pages(posts: list) -> list:
 # Internal helpers
 # ---------------------------------------------------------------------------
 
+def _scope_footnote_ids(html: str, slug: str) -> str:
+    """Rewrite footnote IDs in extracted post body HTML to be unique per post.
+
+    Prevents ID collisions when multiple posts are rendered inline on the same page.
+    id="fn1" → id="SLUG-fn1", href="#fn1" → href="#SLUG-fn1" (same for fnr refs).
+    """
+    prefix = slug
+    html = re.sub(r'id="(fn[r]?\d+)"', lambda m: f'id="{prefix}-{m.group(1)}"', html)
+    html = re.sub(r'href="#(fn[r]?\d+)"', lambda m: f'href="#{prefix}-{m.group(1)}"', html)
+    return html
+
+
 def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
     """Render a list of posts inline as <article class="post"> blocks with <h2> title links."""
     articles = []
@@ -274,6 +286,7 @@ def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
         post_file = posts_dir / f"{slug}.html"
 
         body_content = _extract_post_body(post_file) if post_file.exists() else ""
+        body_content = _scope_footnote_ids(body_content, slug)
 
         if i > 0:
             articles.append('<hr class="post-separator">')

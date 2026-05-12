@@ -53,7 +53,7 @@ def cmd_weekday(args):
     edited = editor.edit(pick, cfg, dry_run=args.dry_run)
     if edited is None:
         log.warning("Editorial pass failed — Claude unavailable. Run manually when ready.")
-        notifier._macos_notification("autopublish", "Claude unavailable — today's publish skipped. Run manually.")
+        notifier._macos_notification("autopublish", "Claude unavailable — today's publish skipped. Run manually when ready.")
         return
     log.info("Title: %s", edited["title"])
     log.info("Slug: %s", edited["date_slug"])

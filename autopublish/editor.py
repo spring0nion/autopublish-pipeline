@@ -13,7 +13,11 @@ log = logging.getLogger(__name__)
 def _get_reference_post(cfg):
     site_path = Path(cfg["site_path"])
     for html_file in sorted((site_path / "posts").glob("*.html")):
-        return html_file.read_text(encoding="utf-8")
+        html = html_file.read_text(encoding="utf-8")
+        # Strip tags, collapse whitespace, keep only the prose
+        text = re.sub(r"<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:1500]
     return "(no reference post available)"
 
 
@@ -119,6 +123,16 @@ def edit(candidate, cfg=None, dry_run=False):
             "questions": result.get("questions", []),
         }
 
-    # Claude unavailable — don't ship raw
-    log.warning("Editorial pass failed — aborting run")
-    return None
+    # Claude unavailable — queue unedited
+    log.warning("Editorial pass failed, using unedited text")
+    slug = _slugify(title)
+    date_slug = f"{post_date}-{slug}"
+    return {
+        "title": title,
+        "slug": slug,
+        "date_slug": date_slug,
+        "edited_text": body_text,
+        "changes": [],
+        "editorial_note": "No editorial pass — unedited.",
+        "questions": [],
+    }

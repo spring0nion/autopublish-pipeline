@@ -129,3 +129,83 @@ Yes' (punctuation — sentence had no terminal punctuation; every other sentence
 12:33:35 [autopublish] Editorial note: Editorial pass unavailable. Publishing raw. Ship it anyway.
 12:33:37 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "that time of year" in 4 hours
 12:33:37 [autopublish] Queued 'that time of year' — publishing at 16:33 unless vetoed
+12:02:43 [autopublish] Found 27 eligible drafts
+12:02:43 [autopublish]   - introduction to design.txt (1324 words, score 71.6)
+12:02:43 [autopublish]   - What You Are Not.txt (1221 words, score 69.7)
+12:02:43 [autopublish]   - Voyeurism, Audience.txt (1903 words, score 62.4)
+12:02:43 [autopublish]   - some observations.txt (3382 words, score 60.0)
+12:02:43 [autopublish]   - things i used to believe about my writing.txt (848 words, score 59.9)
+12:03:36 [autopublish] Selected: Voyeurism, Audience.txt (1903 words)
+12:38:45 [autopublish.editor] Claude call failed: Expecting ',' delimiter: line 8 column 29 (char 10767)
+12:38:45 [autopublish.editor] Editorial pass failed — aborting run
+12:38:45 [autopublish] Editorial pass failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 21 eligible drafts
+12:00:05 [autopublish]   - introduction to design.txt (1324 words, score 70.8)
+12:00:05 [autopublish]   - What You Are Not.txt (1221 words, score 68.8)
+12:00:05 [autopublish]   - things i used to believe about my writing.txt (848 words, score 59.1)
+12:00:05 [autopublish]   - processing my feelings on maybe maybe not winning an essay competition.txt (1643 words, score 55.8)
+12:00:05 [autopublish]   - what is up with human design.txt (540 words, score 52.5)
+12:00:52 [autopublish] Selected: What You Are Not.txt (1221 words)
+12:02:27 [autopublish] Title: What You Are Not
+12:02:27 [autopublish] Slug: 2026-04-30-what-you-are-not
+12:02:27 [autopublish] Editorial changes:
+12:02:27 [autopublish]   'are supposed mean' → 'are supposed to mean' (typo — missing 'to')
+12:02:27 [autopublish]   'this system is uses astrology' → 'this system uses astrology' (typo — extra 'is')
+12:02:27 [autopublish]   'at all are impact your life MOST OF ALL' → 'at all impact your life MOST OF ALL' (typo — extra 'are')
+12:02:27 [autopublish] Editorial note: Only three typos in a long piece — clean. The manor metaphor is doing serious work and the sick-kid opening earns its place retroactively once you see that the mind-spiral is itself a live demonstration of undefined-center amplification.
+12:02:28 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "What You Are Not" in 4 hours
+12:02:28 [autopublish] Queued 'What You Are Not' — publishing at 16:02 unless vetoed
+12:12:37 [autopublish] Found 21 eligible drafts
+12:12:37 [autopublish]   - introduction to design.txt (1327 words, score 1072.2)
+12:12:37 [autopublish]   - things i used to believe about my writing.txt (848 words, score 58.5)
+12:12:37 [autopublish]   - processing my feelings on maybe maybe not winning an essay competition.txt (1643 words, score 55.2)
+12:12:37 [autopublish]   - Why is money always tight in May.txt (411 words, score 53.3)
+12:12:37 [autopublish]   - what is up with human design.txt (540 words, score 51.9)
+12:13:55 [autopublish] Selected: introduction to design.txt (1327 words)
+12:13:55 [autopublish.editor] Using date override: 2026-01-28
+12:15:37 [autopublish] Title: An introduction to an introduction to Human Design
+12:15:37 [autopublish] Slug: 2026-01-28-an-introduction-to-an-introduction-to-human-design
+12:15:37 [autopublish] Editorial changes:
+12:15:37 [autopublish]   'commandments: you who you 'may' and 'may not' be' → 'commandments: who you 'may' and 'may not' be' (typo — duplicate 'you')
+12:15:37 [autopublish]   'we don't wouldn't recognize our real selves' → 'we wouldn't recognize our real selves' (typo — conflated 'don't' and 'wouldn't')
+12:15:37 [autopublish] Editorial note: This is good — it earns its length. The tonal gear-shifts (parasites, 'Um sorry where were we', the butcher metaphor) land because the underlying argument is real and Esther clearly means it.
+12:15:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "An introduction to an introduction to Human Design" in 4 hours
+12:15:39 [autopublish] Queued 'An introduction to an introduction to Human Design' — publishing at 16:15 unless vetoed
+12:09:25 [autopublish] Found 14 eligible drafts
+12:09:25 [autopublish]   - things i used to believe about my writing.txt (848 words, score 58.0)
+12:09:25 [autopublish]   - processing my feelings on maybe maybe not winning an essay competition.txt (1643 words, score 54.7)
+12:09:25 [autopublish]   - Why is money always tight in May.txt (411 words, score 52.7)
+12:09:25 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 51.1)
+12:09:25 [autopublish]   - something something surrender.txt (442 words, score 49.8)
+12:10:17 [autopublish] Selected: processing my feelings on maybe maybe not winning an essay competition.txt (1643 words)
+12:10:17 [autopublish.editor] Using date override: 2026-03-02
+13:28:34 [autopublish] Title: processing my feelings on maybe, maybe not, winning an essay competition
+13:28:34 [autopublish] Slug: 2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c
+13:28:34 [autopublish] Editorial changes:
+13:28:34 [autopublish]   'also "loved" it.. which is, well.' → 'also "loved" it, which is, well.' (punctuation — double period)
+13:28:34 [autopublish]   'Substack to me like fine whiskey to an alcoholic.' → 'Substack is to me like fine whiskey to an alcoholic.' (typo — missing word)
+13:28:34 [autopublish]   'I can not longer do anything' → 'I can no longer do anything' (typo)
+13:28:34 [autopublish]   'before anyone know that she is' → 'before anyone knows that she is' (punctuation — subject-verb agreement)
+13:28:34 [autopublish]   'That show is disgustingly overrated)' → 'That show is disgustingly overrated.)' (punctuation — missing period before closing parenthesis on standalone sentence)
+13:28:34 [autopublish]   'neither itself not the reader' → 'neither itself nor the reader' (typo)
+13:28:34 [autopublish]   'my original essay.. the one I wrote in longhand, was about.' → 'my original essay, the one I wrote in longhand, was about.' (punctuation — double period)
+13:28:34 [autopublish]   'this particular piece is.. well, not good.' → 'this particular piece is, well, not good.' (punctuation — double period)
+13:28:34 [autopublish] Editorial note: This is a genuinely good piece — the anxiety spiral is controlled, the Bridgerton digression earns its place, and the Miranda memory is a late gut-punch that lands exactly right. Esther is wrong about the essay; this one is better.
+13:28:36 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "processing my feelings on maybe, maybe not, winning an essay competition" in 4 hours
+13:28:36 [autopublish] Queued 'processing my feelings on maybe, maybe not, winning an essay competition' — publishing at 17:28 unless vetoed
+12:01:34 [autopublish] Found 13 eligible drafts
+12:01:34 [autopublish]   - things i used to believe about my writing.txt (848 words, score 57.1)
+12:01:34 [autopublish]   - Why is money always tight in May.txt (411 words, score 51.9)
+12:01:34 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 50.3)
+12:01:34 [autopublish]   - something something surrender.txt (442 words, score 49.0)
+12:01:34 [autopublish]   - hello world.txt (426 words, score 48.4)
+12:02:36 [autopublish] Selected: life force.txt (1136 words)
+12:03:47 [autopublish] Title: life force
+12:03:47 [autopublish] Slug: 2026-04-20-life-force
+12:03:47 [autopublish] Editorial changes:
+12:03:47 [autopublish]   'basially' → 'basically' (typo)
+12:03:47 [autopublish]   'insuromountale' → 'insurmountable' (typo)
+12:03:47 [autopublish]   '"making" him sleep' → '"Making" him sleep' (sentence starts after a period — lowercase appears to be a typo)
+12:03:47 [autopublish] Editorial note: Strong piece — the concrete bedtime scene earns the HD theory that follows, and the parenthetical about writing this while Liam clings to her is the best moment in it. Reads like a draft that ends mid-thought; the final paragraph lands but the blank space after the last divider suggests there may be more coming.
+12:03:49 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "life force" in 4 hours
+12:03:49 [autopublish] Queued 'life force' — publishing at 16:03 unless vetoed

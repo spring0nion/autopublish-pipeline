@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import logging
 from datetime import datetime
@@ -13,9 +14,11 @@ def _get_reference_post(cfg):
     """Load the existing published post as a style reference."""
     site_path = Path(cfg["site_path"])
     posts_dir = site_path / "posts"
-    # Use the first available post as reference
     for html_file in sorted(posts_dir.glob("*.html")):
-        return html_file.read_text(encoding="utf-8")
+        html = html_file.read_text(encoding="utf-8")
+        text = re.sub(r"<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:1500]
     return "(no reference post available)"
 
 
