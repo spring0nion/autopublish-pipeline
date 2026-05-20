@@ -1016,3 +1016,614 @@ socket.gaierror: [Errno 8] nodename nor servname provided, or not known
 13:57:49 [autopublish.publisher] SFTP upload complete (8 files)
 13:57:50 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
 13:57:50 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-12
+11:36:19 [autopublish.publisher] Source changed for 'I want to be literarily significant' — re-publishing
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-literaryilly.html
+11:36:19 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:36:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:36:19 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:36:19 [paramiko.transport] Authentication (password) successful!
+11:36:20 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-literaryilly.html
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:36:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:36:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:36:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:36:21 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:36:21 [autopublish.publisher] SFTP upload complete (8 files)
+11:36:22 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "I want to be literarily significant" updated
+11:36:22 [autopublish.publisher] Re-published 'I want to be literarily significant' as 2026-04-27-literaryilly with revision date 2026-05-13
+11:36:22 [autopublish.publisher] Source changed for 'That Time Of Year' — re-publishing
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-29-that-time-of-year.html
+11:36:22 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:36:22 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:36:22 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:36:22 [paramiko.transport] Authentication (password) successful!
+11:36:23 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:36:23 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-29-that-time-of-year.html
+11:36:23 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:36:23 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:36:23 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:36:23 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:36:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:36:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:36:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:36:24 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:36:24 [autopublish.publisher] SFTP upload complete (8 files)
+11:36:25 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "That Time Of Year" updated
+11:36:25 [autopublish.publisher] Re-published 'That Time Of Year' as 2026-04-29-that-time-of-year with revision date 2026-05-13
+11:36:25 [autopublish.publisher] Source changed for 'Some Observations (On Writing About Writing)' — re-publishing
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-01-some-observations.html
+11:36:25 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:36:25 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:36:25 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:36:25 [paramiko.transport] Authentication (password) successful!
+11:36:26 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-01-some-observations.html
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:36:26 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:36:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:36:27 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:36:27 [autopublish.publisher] SFTP upload complete (8 files)
+11:36:28 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
+11:36:28 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-13
+11:36:28 [autopublish.publisher] Source changed for 'Processing my feelings on maybe, maybe not, winning an essay competition' — re-publishing
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+11:36:28 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:36:28 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:36:28 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:36:28 [paramiko.transport] Authentication (password) successful!
+11:36:28 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:36:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:36:29 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:36:29 [autopublish.publisher] SFTP upload complete (8 files)
+11:36:30 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Processing my feelings on maybe, maybe not, winning an essay competition" updated
+11:36:30 [autopublish.publisher] Re-published 'Processing my feelings on maybe, maybe not, winning an essay competition' as 2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c with revision date 2026-05-13
+11:36:30 [autopublish.publisher] Source changed for 'life force' — re-publishing
+11:36:30 [autopublish.publisher] Title changed: 'life force' → 'Me realizing in real time that the non-sacral experience is fundamentally different from the sacral’s'
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-30-life-force.html
+11:36:30 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:36:30 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:36:30 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:36:31 [paramiko.transport] Authentication (password) successful!
+11:36:31 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:36:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-30-life-force.html
+11:36:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:36:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:36:31 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:36:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:36:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:36:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:36:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:36:32 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:36:32 [autopublish.publisher] SFTP upload complete (8 files)
+11:36:33 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Me realizing in real time that the non-sacral experience is fundamentally different from the sacral’s" updated
+11:36:33 [autopublish.publisher] Re-published 'Me realizing in real time that the non-sacral experience is fundamentally different from the sacral’s' as 2026-01-30-life-force with revision date 2026-05-13
+12:06:34 [autopublish.publisher] Source changed for 'Resistance Thoughts' — re-publishing
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-02-06-resistance-thoughts.html
+12:06:34 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:06:34 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:06:34 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:06:35 [paramiko.transport] Authentication (password) successful!
+12:06:35 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:06:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-02-06-resistance-thoughts.html
+12:06:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:06:35 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:06:36 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:06:36 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:06:36 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:06:36 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:06:36 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:06:36 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:06:36 [autopublish.publisher] SFTP upload complete (8 files)
+12:06:37 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Resistance Thoughts" updated
+12:06:37 [autopublish.publisher] Re-published 'Resistance Thoughts' as 2026-02-06-resistance-thoughts with revision date 2026-05-13
+12:06:37 [autopublish.publisher] Source changed for 'Some Observations (On Writing About Writing)' — re-publishing
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-01-some-observations.html
+12:06:37 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:06:37 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:06:37 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:06:38 [paramiko.transport] Authentication (password) successful!
+12:06:38 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:06:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-01-some-observations.html
+12:06:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:06:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:06:38 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:06:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:06:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:06:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:06:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:06:39 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:06:39 [autopublish.publisher] SFTP upload complete (8 files)
+12:06:40 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
+12:06:40 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-13
+12:06:40 [autopublish.publisher] Source changed for 'What You Are Not' — re-publishing
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-29-what-you-are-not.html
+12:06:40 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:06:40 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:06:40 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:06:40 [paramiko.transport] Authentication (password) successful!
+12:06:41 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-29-what-you-are-not.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:06:41 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:06:41 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:06:41 [autopublish.publisher] SFTP upload complete (8 files)
+12:06:42 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "What You Are Not" updated
+12:06:42 [autopublish.publisher] Re-published 'What You Are Not' as 2026-01-29-what-you-are-not with revision date 2026-05-13
+12:06:42 [autopublish.publisher] Source changed for 'Me realizing in real time that the non-sacral experience is fundamentally different from the sacral’s' — re-publishing
+12:06:42 [autopublish.publisher] Title changed: 'Me realizing in real time that the non-sacral experience is fundamentally different from the sacral’s' → 'Me realizing in real time that the non-sacral experience is fundamentally different from mine'
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-30-life-force.html
+12:06:42 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:06:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:06:42 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:06:43 [paramiko.transport] Authentication (password) successful!
+12:06:43 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:06:43 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-30-life-force.html
+12:06:43 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:06:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:06:44 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:06:44 [autopublish.publisher] SFTP upload complete (8 files)
+12:06:45 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Me realizing in real time that the non-sacral experience is fundamentally different from mine" updated
+12:06:45 [autopublish.publisher] Re-published 'Me realizing in real time that the non-sacral experience is fundamentally different from mine' as 2026-01-30-life-force with revision date 2026-05-13
+12:36:46 [autopublish.publisher] Source changed for 'Me realizing in real time that the non-sacral experience is fundamentally different from mine' — re-publishing
+12:36:46 [autopublish.publisher] Title changed: 'Me realizing in real time that the non-sacral experience is fundamentally different from mine' → 'Realizing in real time that the non-sacral experience is fundamentally different from mine'
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-30-life-force.html
+12:36:46 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:36:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:36:46 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:36:46 [paramiko.transport] Authentication (password) successful!
+12:36:47 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-30-life-force.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:36:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:36:47 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:36:47 [autopublish.publisher] SFTP upload complete (8 files)
+12:36:49 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Realizing in real time that the non-sacral experience is fundamentally different from mine" updated
+12:36:49 [autopublish.publisher] Re-published 'Realizing in real time that the non-sacral experience is fundamentally different from mine' as 2026-01-30-life-force with revision date 2026-05-13
+16:29:38 [autopublish.veto] Veto deadline passed — publishing 'Forgetting how to do stuff is a convenient way to learn surrender'
+16:29:38 [autopublish.veto] Source edited during veto window — publishing latest file version
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+16:29:38 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:29:38 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:29:38 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:29:38 [paramiko.transport] Authentication (password) successful!
+16:29:39 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:29:39 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:29:39 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:29:39 [autopublish.publisher] SFTP upload complete (8 files)
+16:29:41 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Forgetting how to do stuff is a convenient way to learn surrender" is live
+16:29:41 [autopublish.veto] Published: 2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+21:03:54 [autopublish.publisher] Source changed for 'Forgetting how to do stuff is a convenient way to learn surrender' — re-publishing
+21:03:54 [autopublish.publisher] Title changed: 'Forgetting how to do stuff is a convenient way to learn surrender' → 'Forgetting how to do some stuff is a convenient way to learn surrender'
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+21:03:54 [autopublish.publisher] Rebuilt index.html and rss.xml
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+21:03:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+21:03:55 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+21:03:55 [paramiko.transport] Authentication (password) successful!
+21:03:55 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+21:03:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+21:03:56 [paramiko.transport.sftp] [chan 0] sftp session closed.
+21:03:56 [autopublish.publisher] SFTP upload complete (8 files)
+21:03:58 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Forgetting how to do some stuff is a convenient way to learn surrender" updated
+21:03:58 [autopublish.publisher] Re-published 'Forgetting how to do some stuff is a convenient way to learn surrender' as 2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr with revision date 2026-05-13
+16:31:16 [autopublish.publisher] Source changed for 'Thinking about writing about feeling fat' — re-publishing
+16:31:16 [autopublish.publisher] Title changed: 'Thinking about writing about feeling fat' → 'Thinking about writing about feeling fat (and then writing about feeling fat)'
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+16:31:16 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:31:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 214, in republish_if_changed
+    sftp_upload_files(cfg, site_path, [
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 65, in sftp_upload_files
+    transport = paramiko.Transport((host, port))
+  File "/Users/esther/Development/autopublish pipeline/venv/lib/python3.9/site-packages/paramiko/transport.py", line 479, in __init__
+    addrinfos = socket.getaddrinfo(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+17:01:17 [autopublish.publisher] Source changed for 'Thinking about writing about feeling fat' — re-publishing
+17:01:17 [autopublish.publisher] Title changed: 'Thinking about writing about feeling fat' → 'Thinking about writing about feeling fat (and then writing about feeling fat)'
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+17:01:17 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:01:17 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:01:17 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:01:18 [paramiko.transport] Authentication (password) successful!
+17:01:18 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:01:19 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+17:01:19 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:01:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:01:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:01:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:01:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:01:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:01:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:01:22 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:01:22 [autopublish.publisher] SFTP upload complete (8 files)
+17:01:24 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Thinking about writing about feeling fat (and then writing about feeling fat)" updated
+17:01:24 [autopublish.publisher] Re-published 'Thinking about writing about feeling fat (and then writing about feeling fat)' as 2026-05-16-thinking-about-writing-about-feeling-fat with revision date 2026-05-16
+21:32:13 [autopublish.publisher] Source changed for 'Thinking about writing about feeling fat (and then writing about feeling fat)' — re-publishing
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+21:32:13 [autopublish.publisher] Rebuilt index.html and rss.xml
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+21:32:13 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+21:32:14 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+21:32:14 [paramiko.transport] Authentication (password) successful!
+21:32:14 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+21:32:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+21:32:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+21:32:15 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+21:32:15 [paramiko.transport.sftp] [chan 0] sftp session closed.
+21:32:15 [autopublish.publisher] SFTP upload complete (8 files)
+21:32:17 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Thinking about writing about feeling fat (and then writing about feeling fat)" updated
+21:32:17 [autopublish.publisher] Re-published 'Thinking about writing about feeling fat (and then writing about feeling fat)' as 2026-05-16-thinking-about-writing-about-feeling-fat with revision date 2026-05-17
+18:43:26 [autopublish.veto] Veto deadline passed — publishing 'Why is money always tight in May'
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-13-why-is-money-always-tight-in-may.html
+18:43:26 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+18:43:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+18:43:26 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:43:26 [paramiko.transport] Authentication (password) successful!
+18:43:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-13-why-is-money-always-tight-in-may.html
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+18:43:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+18:43:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+18:43:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:43:28 [autopublish.publisher] SFTP upload complete (8 files)
+18:43:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" is live
+18:43:29 [autopublish.veto] Published: 2026-05-13-why-is-money-always-tight-in-may.html
+21:11:48 [autopublish.publisher] Source changed for 'Why is money always tight in May' — re-publishing
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-06-why-is-money-always-tight-in-may.html
+21:11:48 [autopublish.publisher] Removed old post file 2026-05-13-why-is-money-always-tight-in-may.html
+21:11:48 [autopublish.publisher] Rebuilt index.html and rss.xml
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+21:11:48 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+21:11:48 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+21:11:48 [paramiko.transport] Authentication (password) successful!
+21:11:49 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-06-why-is-money-always-tight-in-may.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+21:11:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+21:11:49 [paramiko.transport.sftp] [chan 0] sftp session closed.
+21:11:49 [autopublish.publisher] SFTP upload complete (8 files)
+21:11:51 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" updated
+21:11:51 [autopublish.publisher] Re-published 'Why is money always tight in May' as 2026-05-06-why-is-money-always-tight-in-may with revision date 2026-05-18
+11:14:21 [autopublish.publisher] Source changed for 'That Time Of Year' — re-publishing
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-29-that-time-of-year.html
+11:14:21 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:14:21 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:14:21 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:14:21 [paramiko.transport] Authentication (password) successful!
+11:14:22 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-29-that-time-of-year.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:14:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:14:22 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:14:22 [autopublish.publisher] SFTP upload complete (8 files)
+11:14:54 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "That Time Of Year" updated
+11:14:54 [autopublish.publisher] Re-published 'That Time Of Year' as 2026-04-29-that-time-of-year with revision date 2026-05-19
+11:14:54 [autopublish.publisher] Source changed for 'Thinking about writing about feeling fat (and then writing about feeling fat)' — re-publishing
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+11:14:54 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:14:54 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:14:54 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:14:54 [paramiko.transport] Authentication (password) successful!
+11:14:55 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-16-thinking-about-writing-about-feeling-fat.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:14:55 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:14:55 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:14:55 [autopublish.publisher] SFTP upload complete (8 files)
+11:15:26 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Thinking about writing about feeling fat (and then writing about feeling fat)" updated
+11:15:27 [autopublish.publisher] Re-published 'Thinking about writing about feeling fat (and then writing about feeling fat)' as 2026-05-16-thinking-about-writing-about-feeling-fat with revision date 2026-05-19
+11:15:27 [autopublish.publisher] Source changed for 'Why is money always tight in May' — re-publishing
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-06-why-is-money-always-tight-in-may.html
+11:15:27 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:15:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:15:27 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:15:27 [paramiko.transport] Authentication (password) successful!
+11:15:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-06-why-is-money-always-tight-in-may.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:15:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:15:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:15:28 [autopublish.publisher] SFTP upload complete (8 files)
+11:15:59 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" updated
+11:15:59 [autopublish.publisher] Re-published 'Why is money always tight in May' as 2026-05-06-why-is-money-always-tight-in-may with revision date 2026-05-19
+11:46:00 [autopublish.publisher] Source changed for 'Why is money always tight in May' — re-publishing
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-06-why-is-money-always-tight-in-may.html
+11:46:00 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:46:00 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:46:00 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:46:00 [paramiko.transport] Authentication (password) successful!
+11:46:00 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-06-why-is-money-always-tight-in-may.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:46:01 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:46:01 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:46:01 [autopublish.publisher] SFTP upload complete (8 files)
+11:46:32 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" updated
+11:46:33 [autopublish.publisher] Re-published 'Why is money always tight in May' as 2026-05-06-why-is-money-always-tight-in-may with revision date 2026-05-19
+15:16:36 [autopublish.publisher] Source changed for 'Why is money always tight in May' — re-publishing
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-06-why-is-money-always-tight-in-may.html
+15:16:36 [autopublish.publisher] Rebuilt index.html and rss.xml
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+15:16:36 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+15:16:39 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:16:39 [paramiko.transport] Authentication (password) successful!
+15:16:39 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-06-why-is-money-always-tight-in-may.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+15:16:40 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+15:16:40 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:16:40 [autopublish.publisher] SFTP upload complete (8 files)
+15:17:12 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" updated
+15:17:12 [autopublish.publisher] Re-published 'Why is money always tight in May' as 2026-05-06-why-is-money-always-tight-in-may with revision date 2026-05-19
+15:47:12 [autopublish.publisher] Source changed for 'Why is money always tight in May' — re-publishing
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-06-why-is-money-always-tight-in-may.html
+15:47:12 [autopublish.publisher] Rebuilt index.html and rss.xml
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+15:47:12 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+15:47:12 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:47:13 [paramiko.transport] Authentication (password) successful!
+15:47:13 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:47:13 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-06-why-is-money-always-tight-in-may.html
+15:47:13 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+15:47:14 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+15:47:14 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:47:14 [autopublish.publisher] SFTP upload complete (8 files)
+15:47:15 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Why is money always tight in May" updated
+15:47:16 [autopublish.publisher] Re-published 'Why is money always tight in May' as 2026-05-06-why-is-money-always-tight-in-may with revision date 2026-05-19
+16:17:16 [autopublish.publisher] Source changed for 'Some Observations (On Writing About Writing)' — re-publishing
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-01-some-observations.html
+16:17:16 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:17:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:17:16 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:17:16 [paramiko.transport] Authentication (password) successful!
+16:17:17 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:17:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-01-some-observations.html
+16:17:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:17:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:17:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:17:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:17:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:17:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:17:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:17:18 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:17:18 [autopublish.publisher] SFTP upload complete (8 files)
+16:17:19 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
+16:17:19 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-19
+17:17:20 [autopublish.publisher] Source changed for 'Some Observations (On Writing About Writing)' — re-publishing
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-01-some-observations.html
+17:17:20 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:17:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:17:20 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:17:21 [paramiko.transport] Authentication (password) successful!
+17:17:21 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:17:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-01-some-observations.html
+17:17:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:17:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:17:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:17:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:17:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:17:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:17:22 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:17:22 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:17:22 [autopublish.publisher] SFTP upload complete (8 files)
+17:17:23 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Some Observations (On Writing About Writing)" updated
+17:17:24 [autopublish.publisher] Re-published 'Some Observations (On Writing About Writing)' as 2026-05-01-some-observations with revision date 2026-05-19
+17:17:24 [autopublish.publisher] Source changed for 'Processing my feelings on maybe, maybe not, winning an essay competition' — re-publishing
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+17:17:24 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:17:24 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:17:24 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:17:24 [paramiko.transport] Authentication (password) successful!
+17:17:24 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:17:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:17:25 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:17:25 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:17:25 [autopublish.publisher] SFTP upload complete (8 files)
+17:17:26 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Processing my feelings on maybe, maybe not, winning an essay competition" updated
+17:17:26 [autopublish.publisher] Re-published 'Processing my feelings on maybe, maybe not, winning an essay competition' as 2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c with revision date 2026-05-19

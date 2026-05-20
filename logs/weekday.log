@@ -209,3 +209,53 @@ Yes' (punctuation — sentence had no terminal punctuation; every other sentence
 12:03:47 [autopublish] Editorial note: Strong piece — the concrete bedtime scene earns the HD theory that follows, and the parenthetical about writing this while Liam clings to her is the best moment in it. Reads like a draft that ends mid-thought; the final paragraph lands but the blank space after the last divider suggests there may be more coming.
 12:03:49 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "life force" in 4 hours
 12:03:49 [autopublish] Queued 'life force' — publishing at 16:03 unless vetoed
+12:00:03 [autopublish] Found 11 eligible drafts
+12:00:03 [autopublish]   - thinking about writing about feeling fat.txt (489 words, score 55.2)
+12:00:03 [autopublish]   - Why is money always tight in May.txt (409 words, score 53.2)
+12:00:03 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 49.7)
+12:00:03 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 48.8)
+12:00:03 [autopublish]   - hello world.txt (426 words, score 47.9)
+12:00:46 [autopublish] Selected: something something surrender.txt (691 words)
+12:01:42 [autopublish.editor] Claude call failed: Expecting ',' delimiter: line 2 column 416 (char 417)
+12:01:42 [autopublish.editor] Editorial pass failed, using unedited text
+12:01:42 [autopublish] Title: Forgetting how to do stuff is a convenient way to learn surrender
+12:01:42 [autopublish] Slug: 2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr
+12:01:42 [autopublish] Editorial note: No editorial pass — unedited.
+12:01:44 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Forgetting how to do stuff is a convenient way to learn surrender" in 4 hours
+12:01:44 [autopublish] Queued 'Forgetting how to do stuff is a convenient way to learn surrender' — publishing at 16:01 unless vetoed
+12:19:41 [autopublish] Found 10 eligible drafts
+12:19:41 [autopublish]   - thinking about writing about feeling fat.txt (489 words, score 54.6)
+12:19:41 [autopublish]   - Why is money always tight in May.txt (409 words, score 52.7)
+12:19:41 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 49.2)
+12:19:41 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 48.3)
+12:19:41 [autopublish]   - hello world.txt (426 words, score 47.3)
+16:23:42 [autopublish.ranker] Claude CLI failed: 
+16:23:42 [autopublish.ranker] Claude unavailable for ranking — aborting run
+16:23:42 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:16:59 [autopublish] Found 9 eligible drafts
+12:16:59 [autopublish]   - Why is money always tight in May.txt (409 words, score 51.8)
+12:16:59 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 48.3)
+12:16:59 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 47.5)
+12:16:59 [autopublish]   - hello world.txt (426 words, score 46.5)
+12:16:59 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 46.3)
+12:18:05 [autopublish] Selected: Why is money always tight in May.txt (409 words)
+12:18:49 [autopublish] Title: Why is money always tight in May
+12:18:49 [autopublish] Slug: 2026-05-13-why-is-money-always-tight-in-may
+12:18:49 [autopublish] Editorial note: Clean — no mechanical errors. The piece is doing what it means to do: the diction gets flatter and more clinical as it goes, which is exactly right for where it lands.
+12:18:51 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Why is money always tight in May" in 4 hours
+12:18:51 [autopublish] Queued 'Why is money always tight in May' — publishing at 16:18 unless vetoed
+12:00:47 [autopublish] Found 9 eligible drafts
+12:00:47 [autopublish]   - my morning routine.txt (2544 words, score 85.0)
+12:00:47 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 47.8)
+12:00:47 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 46.9)
+12:00:47 [autopublish]   - hello world.txt (426 words, score 45.9)
+12:00:47 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 45.8)
+12:01:21 [autopublish] Selected: my morning routine.txt (2544 words)
+12:03:51 [autopublish] Title: My Morning Routine As Someone Who Is Unemployed For A Living
+12:03:51 [autopublish] Slug: 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living
+12:03:51 [autopublish] Editorial changes:
+12:03:51 [autopublish]   'roller coster' → 'roller coaster' (typo)
+12:03:51 [autopublish]   'feel best if  I have' → 'feel best if I have' (double space)
+12:03:51 [autopublish] Editorial note: Very clean mechanically — two fixes total. The piece is genuinely good: the format earns its conceit because the interviewer's questions are actually intelligent rather than parodically dumb, and Esther's answers hold up. The eye mask section is the best writing in it.
+12:03:53 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "My Morning Routine As Someone Who Is Unemployed For A Living" in 4 hours
+12:03:53 [autopublish] Queued 'My Morning Routine As Someone Who Is Unemployed For A Living' — publishing at 16:03 unless vetoed

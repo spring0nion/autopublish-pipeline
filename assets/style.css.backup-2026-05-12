@@ -329,49 +329,6 @@ body {
     border-bottom: none;
 }
 
-/* Footnote hover/tap popup */
-.post-body .fn-ref {
-    position: relative;
-    cursor: pointer;
-    outline: none;
-    font-size: 0.75em;
-    line-height: 0;
-    vertical-align: super;
-}
-
-.post-body .fn-ref > .fn-popup {
-    display: none;
-    position: absolute;
-    top: calc(100% + 0.3em);
-    /* JS clamps horizontal position; defaults below center on marker */
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-    max-width: 20rem;
-    padding: 0.6em 0.8em;
-    background: #fff;
-    color: #222;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-    font-size: 0.9rem;
-    font-style: normal;
-    line-height: 1.35;
-    text-align: left;
-    vertical-align: baseline;
-    z-index: 10;
-    white-space: normal;
-}
-
-.post-body .fn-ref:hover > .fn-popup,
-.post-body .fn-ref:focus-within > .fn-popup,
-.post-body .fn-ref:focus > .fn-popup {
-    display: block;
-}
-
-.post-body .fn-ref .fn-popup a {
-    color: inherit;
-}
-
 .post-separator {
     border: none;
     border-top: 2px solid #e5e5e5;
@@ -550,11 +507,6 @@ a:hover {
         font-size: 1rem;
     }
 
-    .post-body .fn-ref > .fn-popup {
-        font-size: 1rem;
-        line-height: 1.35;
-    }
-
     .post {
         margin-bottom: 4rem;
     }
@@ -656,13 +608,6 @@ a:hover {
 
     .post-body a:hover {
         border-bottom-color: #ccc;
-    }
-
-    .post-body .fn-ref > .fn-popup {
-        background: #1a1a1a;
-        color: #ccc;
-        border-color: #333;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     }
 
     .post-separator,

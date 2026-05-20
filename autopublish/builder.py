@@ -45,7 +45,44 @@ _FOOTER = """\
 <hr class="section-rule">
 <footer class="site-footer">
 <span>Copyright © Esther Olschowy 2026 · Bergisch Gladbach, Germany</span>
-</footer>"""
+</footer>
+<script>
+(function(){
+  var PAD = 12;
+  var place = function(ref){
+    var popup = ref.querySelector('.fn-popup');
+    if (!popup) return;
+    var post = ref.closest('.post-body');
+    if (!post) return;
+    popup.style.left = '';
+    popup.style.transform = '';
+    var refRect = ref.getBoundingClientRect();
+    var postRect = post.getBoundingClientRect();
+    var w = popup.offsetWidth;
+    var refCenter = refRect.left + refRect.width / 2;
+    var desired = refCenter - w / 2;
+    var minL = postRect.left + PAD;
+    var maxL = postRect.right - PAD - w;
+    if (maxL < minL) maxL = minL;
+    if (desired < minL) desired = minL;
+    if (desired > maxL) desired = maxL;
+    popup.style.left = (desired - refRect.left) + 'px';
+    popup.style.transform = 'none';
+  };
+  var trigger = function(e){
+    var t = e.target;
+    if (t && t.classList && t.classList.contains('fn-ref')) place(t);
+  };
+  document.addEventListener('focusin', trigger);
+  document.addEventListener('mouseover', trigger);
+  document.addEventListener('touchstart', trigger, {passive: true});
+  var dismiss = function(){
+    var a = document.activeElement;
+    if (a && a.classList && a.classList.contains('fn-ref')) a.blur();
+  };
+  window.addEventListener('scroll', dismiss, {passive: true});
+})();
+</script>"""
 
 
 def post_description(html_body: str) -> str:
@@ -294,6 +331,20 @@ def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
         body_content = _extract_post_body(post_file) if post_file.exists() else ""
         body_content = _scope_footnote_ids(body_content, slug)
 
+        history_match = re.search(r'<p class="post-history">(.*?)</p>\s*$', body_content, re.DOTALL)
+        if history_match:
+            body_content = body_content[:history_match.start()].rstrip()
+            history_text = history_match.group(1)
+        else:
+            history_text = ""
+
+        footer_html = (
+            f'<div class="post-footer">'
+            f'<span class="post-history">{history_text}</span>'
+            f'<a class="post-backtotop" href="#">back to top ↑</a>'
+            f'</div>'
+        )
+
         if i > 0:
             articles.append('<hr class="post-separator">')
 
@@ -304,6 +355,7 @@ def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
 </div>
 <div class="post-body">
 {body_content}
+{footer_html}
 </div>
 </article>""")
 

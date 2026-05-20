@@ -14,12 +14,26 @@ def text_to_html(title, text):
     blocks = _split_blocks(text)
     _FN_RE = re.compile(r"\x00fn(\d+)\x00")
 
+    # Pre-render each footnote as inline HTML for the hover/tap popup.
+    # Paragraph breaks become <br><br> so the popup can live inside <sup>.
+    footnote_popups = []
+    for ft in footnote_texts:
+        paras = [p.strip() for p in re.split(r"\n\s*\n", ft.strip()) if p.strip()]
+        para_htmls = [_inline_markdown(_escape(re.sub(r"\s*\n\s*", " ", p))) for p in paras]
+        footnote_popups.append("<br><br>".join(para_htmls))
+
     def _apply_inline(text):
         html = _inline_markdown(_escape(text))
-        return _FN_RE.sub(
-            lambda m: f'<sup><a href="#fn{m.group(1)}" id="fnr{m.group(1)}">{m.group(1)}</a></sup>',
-            html,
-        )
+
+        def _fn_repl(m):
+            i = int(m.group(1))
+            popup = footnote_popups[i - 1] if i - 1 < len(footnote_popups) else ""
+            return (
+                f'<sup class="fn-ref" tabindex="0" id="fnr{i}">{i}'
+                f'<span class="fn-popup" role="tooltip">{popup}</span></sup>'
+            )
+
+        return _FN_RE.sub(_fn_repl, html)
 
     body_parts = []
     for block in blocks:
