@@ -216,6 +216,52 @@ body {
     margin-bottom: 6rem;
 }
 
+/* index card grid */
+body.index {
+    max-width: 78rem;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem 3rem;
+    margin: 2rem 0 5rem;
+}
+
+.post-card {
+    text-align: center;
+}
+
+.post-card-title {
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+}
+
+.post-card-title a {
+    color: #222;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.post-card-meta {
+    font-size: 1rem;
+    color: #999;
+    margin-top: 0.6rem;
+}
+
+/* tablet: drop to 2 columns */
+@media (max-width: 880px) {
+    body.index {
+        max-width: 53rem;
+    }
+
+    .post-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* serif body text */
 .post-body {
     font-family: times new roman, serif;
@@ -501,6 +547,16 @@ a:hover {
         font-size: 0.9rem;
     }
 
+    .post-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin: 1.5rem 0 3rem;
+    }
+
+    .post-card-title {
+        font-size: 2rem;
+    }
+
     .archive-year-label,
     .archive-month-link {
         font-size: 0.9rem;
@@ -641,6 +697,14 @@ a:hover {
 
 
     .post-meta {
+        color: #666;
+    }
+
+    .post-card-title a {
+        color: #eee;
+    }
+
+    .post-card-meta {
         color: #666;
     }
 

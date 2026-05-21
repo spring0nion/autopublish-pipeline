@@ -168,10 +168,10 @@ tail -f "/Users/esther/Development/autopublish pipeline/logs/vetocheck.log"
 
 The site (`~/Documents/from the abysmal (site)/`) is a statically-generated site built by the pipeline at publish time:
 
-- `index.html` — **generated** on every publish; renders the 10 most recent posts inline plus a server-side archive nav. No JavaScript required.
-- `style.css` — symlink to `assets/style.css` in this repo (source of truth). All styles including dark mode and a `@media (max-width: 640px)` block for mobile. Not uploaded by the pipeline — deploy manually via SFTP if changed.
+- `index.html` — **generated** on every publish; renders the 15 most recent posts as a card grid (title + date only — no excerpt, no "read" link; the title is the link) plus a server-side archive nav. No JavaScript required. The `<body>` carries `class="index"` so CSS can widen the page (`body.index { max-width: 78rem }`) for the grid without affecting post/archive pages.
+- `style.css` — symlink to `assets/style.css` in this repo (source of truth). All styles including dark mode, a `@media (max-width: 880px)` block (index grid drops to 2 columns) and a `@media (max-width: 640px)` block for mobile (grid drops to 1 column). Not uploaded by the pipeline — deploy manually via SFTP if changed.
 - `posts/YYYY-MM-DD-slug.html` — **generated** individual post pages with full site chrome (header logo, back-link top and bottom, footer), `<head>` og tags, canonical URL, and `style.css` link
-- `archive/YYYY-MM.html` — **generated** per-month archive pages that render every post from that month inline, same layout as the index
+- `archive/YYYY-MM.html` — **generated** per-month archive pages that render every post from that month inline (full text, not cards), same layout as the old index
 - `rss.xml` — **generated** RSS 2.0 feed with the 20 most recent posts (full body)
 
 **Archive nav UX:** the archive at the top of `index.html` (and every month archive page) shows only year labels at rest. Clicking a year reveals the months that have posts; clicking a month navigates to `/archive/YYYY-MM.html`. Post titles are **never** listed in the nav itself — the user only sees them by clicking through to a month page or the post page.
@@ -233,13 +233,14 @@ Key behaviours:
 `autopublish/builder.py` generates all site artifacts. No API calls — pure Python, deterministic.
 
 - **`render_post_page(title, slug, date, body_html, revision_dates, site_url)`** — full HTML page with `<head>` (charset, viewport, fonts, canonical, og tags, style.css, RSS autodiscovery). Body: site header, `<nav class="post-nav">` back-link, `<article class="post">` with `<h1>` title + date + `<div class="post-body">` content, second `<nav class="post-nav post-nav-bottom">` back-link, site footer. Revision dates (if any) render as `<p class="post-history">Last revised Month D, YYYY.</p>` — only the most recent date.
-- **`render_index(posts, site_url, site_path)`** — generates `index.html`. Reads the 10 most recent post HTML files to extract their `post-body` content for inline rendering. Builds the archive nav (year `<details>` → month `<a>` links — no post titles in the nav) and renders it without any `open` attribute, so years start collapsed.
+- **`render_index(posts, site_url, site_path)`** — generates `index.html`. Renders the 15 most recent posts as a card grid via `_render_post_cards` (no post HTML files are read — cards are metadata-only). Builds the archive nav (year `<details>` → month `<a>` links — no post titles in the nav) and renders it without any `open` attribute, so years start collapsed. `site_path` is currently unused (kept for signature parity with the other `render_*` functions).
 - **`render_month_archive(year, month, all_posts, site_url, site_path)`** — generates `archive/YYYY-MM.html`. Same chrome as the index but renders **every** post from that month inline (no 10-post cap). The current month's link in the archive nav gets a `current` class.
 - **`render_rss(posts, site_url, site_path)`** — generates `rss.xml`. Last 20 posts, full body HTML in CDATA blocks, RFC 2822 dates.
 - **`month_pages(posts)`** — returns the list of `(year, month)` tuples that have posts, newest-first. Used by `full_rebuild` to enumerate every month archive page.
 - **`post_description(html_body)`** — strips HTML tags, returns first ~200 chars trimmed to word boundary. Used for `og:description`.
 - **`_extract_post_body(post_file)`** — extracts the inner content of `<div class="post-body">` from a generated post file. Falls back to stripping `<h1>` from `<body>` content for old-format files (pre-rebuild).
-- **`_render_inline_posts(posts, posts_dir, site_url)`** — shared helper used by both `render_index` and `render_month_archive` to build the `<article class="post">` blocks (with `<h2><a>` title links) separated by `<hr class="post-separator">`.
+- **`_render_inline_posts(posts, posts_dir, site_url)`** — builds the full-text `<article class="post">` blocks (with `<h2><a>` title links) separated by `<hr class="post-separator">`. Used by `render_month_archive` only (the index switched to cards).
+- **`_render_post_cards(posts, site_url)`** — builds the index card grid: one `<article class="post-card">` per post with a title link and date. No "read" link, no excerpt, no post files read. Caller wraps the output in `<div class="post-grid">`.
 
 ### Design decisions worth knowing
 - Posts are sorted by `slug[:10]` (the date prefix), not `post["date"]`. The `date` field in state.json can be the pipeline processing date; the slug date reflects any `#date` override and is authoritative.
