@@ -111,7 +111,7 @@ def process_queue(cfg=None, current_state=None):
 
         filename = publish(edited, cfg)
         from autopublish.publisher import _find_source
-        src_path = _find_source(Path(cfg["drafts_path"]), queue["source"])
+        src_path = _find_source(Path(cfg["drafts_path"]), queue["source"], cfg.get("exclude_dirs", []))
         mtime = src_path.stat().st_mtime if src_path is not None else None
         state.record_publish(current_state, queue["source"], edited["date_slug"], edited["title"], source_mtime=mtime)
         notifier.notify_published(cfg, edited["title"], edited["date_slug"])

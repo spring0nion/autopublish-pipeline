@@ -14,10 +14,15 @@ def scan_drafts(cfg=None, current_state=None):
 
     drafts_path = Path(cfg["drafts_path"])
     min_chars = cfg.get("editorial", {}).get("min_chars", 500)
+    exclude_dirs = cfg.get("exclude_dirs", [])
     candidates = []
 
     for txt_file in drafts_path.rglob("*.txt"):
         filename = txt_file.name
+
+        # Skip anything living under an excluded folder (e.g. another site's drafts)
+        if is_excluded(txt_file, drafts_path, exclude_dirs):
+            continue
 
         # Skip already published
         if state.is_published(current_state, filename):
@@ -67,6 +72,24 @@ def scan_drafts(cfg=None, current_state=None):
     # Sort by heuristic score (higher = more publish-ready)
     candidates.sort(key=lambda c: _score(c), reverse=True)
     return candidates
+
+
+def is_excluded(txt_file, drafts_path, exclude_dirs):
+    """True if txt_file sits under any folder named in exclude_dirs.
+
+    Matching is per path component and case-insensitive (macOS filesystems are
+    case-insensitive by default), and applies at any depth below drafts_path, so
+    "Fairy Food" also excludes "Fairy Food/2026/whatever.txt". Paths outside
+    drafts_path are never excluded.
+    """
+    if not exclude_dirs:
+        return False
+    try:
+        rel = txt_file.relative_to(drafts_path)
+    except ValueError:
+        return False
+    excluded = {d.strip("/").casefold() for d in exclude_dirs if d and d.strip("/")}
+    return any(part.casefold() in excluded for part in rel.parts[:-1])
 
 
 def _score(candidate):
