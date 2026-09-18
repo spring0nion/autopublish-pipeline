@@ -41,11 +41,7 @@ _SITE_HEADER = """\
 </a>
 </header>"""
 
-_FOOTER = """\
-<hr class="section-rule">
-<footer class="site-footer">
-<span>Copyright © Esther Olschowy 2026 · Bergisch Gladbach, Germany</span>
-</footer>
+_FOOTNOTE_SCRIPT = """\
 <script>
 (function(){
   var PAD = 12;
@@ -84,6 +80,51 @@ _FOOTER = """\
 })();
 </script>"""
 
+# Index + month archives: pick a random cyan/magenta/yellow on each
+# title-link hover/focus
+_INDEX_SCRIPT = """\
+<script>
+(function(){
+  var cmy = ['#00ffff', '#ff00ff', '#ffff00'];
+  var find = function(e){
+    return e.target && e.target.closest && e.target.closest('.post-heading a');
+  };
+  var pick = function(e){
+    var a = find(e);
+    if (a) a.style.color = cmy[Math.floor(Math.random() * cmy.length)];
+  };
+  var reset = function(e){
+    var a = find(e);
+    if (a) a.style.color = '';
+  };
+  document.addEventListener('mouseover', pick);
+  document.addEventListener('mouseout', reset);
+  document.addEventListener('focusin', pick);
+  document.addEventListener('focusout', reset);
+})();
+</script>"""
+
+
+def _render_footer(back_to_top: bool = False) -> str:
+    """Render the page footer.
+
+    The copyright line carries a contact link on every page, and a 'back to
+    top' link on index and archive pages — each set off with a middot.
+    """
+    extras = (
+        '\n<span class="sep">·</span>\n'
+        '<a href="mailto:mutativedesign@gmail.com">contact</a>'
+    )
+    if back_to_top:
+        extras += '\n<span class="sep">·</span>\n<a href="#">back to top ↑</a>'
+    return (
+        '<footer class="site-footer">\n'
+        '<span>Copyright © Esther Olschowy 2026 · '
+        f'Bergisch Gladbach, Germany</span>{extras}\n'
+        '</footer>\n'
+        f'{_FOOTNOTE_SCRIPT}'
+    )
+
 
 def post_description(html_body: str) -> str:
     """Extract a plain-text description from post body HTML.
@@ -119,6 +160,8 @@ def render_post_page(
         latest = max(revision_dates)
         history_html = f'\n<p class="post-history">Last revised {_format_date(latest)}.</p>'
 
+    footer_html = _render_footer()
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -147,7 +190,8 @@ def render_post_page(
 </div>
 <nav class="post-nav post-nav-bottom"><a href="/">← back to main</a></nav>
 </article>
-{_FOOTER}
+<hr class="section-rule">
+{footer_html}
 </body>
 </html>
 """
@@ -157,16 +201,14 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
     """Render the full index.html for the site.
 
     posts is the published list from state.json, newest-first.
-    Renders the 15 most recent posts as a card grid; all posts appear in the archive nav.
+    Lists the 20 most recent posts (title + date only) in a single column;
+    all posts appear in the archive nav.
     """
     archive_html = _render_archive(posts)
-    archive_html_bottom = _render_archive(posts, nav_id="archive-bar-bottom", open_default=True)
 
-    cards = _render_post_cards(posts[:15], site_url)
-    posts_html = (
-        f'<div class="post-grid">\n{cards}\n</div>'
-        if cards else '<p class="loading">nothing here yet.</p>'
-    )
+    entries = _render_index_entries(posts[:20], site_url)
+    posts_html = entries or '<p class="loading">nothing here yet.</p>'
+    footer_html = _render_footer(back_to_top=True)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -188,31 +230,30 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
 <main class="posts" id="posts">
 {posts_html}
 </main>
-<hr class="section-rule">
-{archive_html_bottom}
-{_FOOTER}
+{footer_html}
+{_INDEX_SCRIPT}
 </body>
 </html>
 """
 
 
 def render_month_archive(year: str, month: str, all_posts: list, site_url: str, site_path: str) -> str:
-    """Render /archive/YYYY-MM.html — all posts from (year, month) rendered inline.
+    """Render /archive/YYYY-MM.html — that month's posts as a title + date list.
 
-    all_posts is the full published list from state.json, newest-first, used to
-    render the archive nav with the current month highlighted.
+    Styled like the index: a single-column list of post titles and dates, no
+    bottom archive nav. all_posts is the full published list from state.json,
+    newest-first, used to render the archive nav with the current month
+    highlighted.
     """
-    site_path = Path(site_path)
-    posts_dir = site_path / "posts"
     prefix = f"{year}-{month}"
 
     month_posts = [p for p in all_posts if p["slug"].startswith(prefix)]
     month_posts.sort(key=lambda p: p["slug"][:10], reverse=True)
 
     archive_html = _render_archive(all_posts, current_month=prefix)
-    archive_html_bottom = _render_archive(all_posts, current_month=prefix, nav_id="archive-bar-bottom", open_default=True)
-    inline_articles = _render_inline_posts(month_posts, posts_dir, site_url)
-    posts_html = inline_articles or '<p class="loading">nothing here.</p>'
+    entries = _render_index_entries(month_posts, site_url)
+    posts_html = entries or '<p class="loading">nothing here.</p>'
+    footer_html = _render_footer(back_to_top=True)
 
     month_title = datetime.strptime(f"{prefix}-01", "%Y-%m-%d").strftime("%B %Y")
     page_url = f"{site_url}/archive/{prefix}.html"
@@ -231,16 +272,15 @@ def render_month_archive(year: str, month: str, all_posts: list, site_url: str, 
 <link rel="stylesheet" href="/style.css">
 <link rel="alternate" type="application/rss+xml" title="{_SITE_TITLE}" href="{site_url}/rss.xml">
 </head>
-<body>
+<body class="index">
 {_SITE_HEADER}
 {_SITE_NAV}
 {archive_html}
 <main class="posts" id="posts">
 {posts_html}
 </main>
-<hr class="section-rule">
-{archive_html_bottom}
-{_FOOTER}
+{footer_html}
+{_INDEX_SCRIPT}
 </body>
 </html>
 """
@@ -318,21 +358,24 @@ def _scope_footnote_ids(html: str, slug: str) -> str:
     return html
 
 
-def _render_post_cards(posts: list, site_url: str) -> str:
-    """Render posts as a grid of minimal cards: title and date.
+def _render_index_entries(posts: list, site_url: str) -> str:
+    """Render index entries: post title + date only, one per row.
 
-    Used only by the index. No post files are read — cards show metadata only.
-    The whole card title is the link to the post.
+    Used only by the index. No post files are read — entries show metadata only.
+    The whole title is the link to the post; markup matches a post page's
+    heading block so the index inherits the same proportions.
     """
-    cards = []
+    entries = []
     for post in posts:
         slug = post["slug"]
         post_url = f"{site_url}/posts/{slug}.html"
-        cards.append(f"""<article class="post-card">
-<h2 class="post-card-title"><a href="{post_url}">{_escape(post["title"])}</a></h2>
-<div class="post-card-meta">{_format_date(slug[:10])}</div>
+        entries.append(f"""<article class="post">
+<div class="post-heading">
+<h2><a href="{post_url}">{_escape(post["title"])}</a></h2>
+<div class="post-meta">{_format_date(slug[:10])}</div>
+</div>
 </article>""")
-    return "\n".join(cards)
+    return "\n".join(entries)
 
 
 def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
@@ -380,12 +423,12 @@ def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:
 
 
 def _render_archive(posts: list, current_month: str = None, nav_id: str = "archive-bar", open_default: bool = False) -> str:
-    """Render the archive nav: years collapse to month links only.
+    """Render the archive nav: years reveal their month links on hover.
 
     current_month is None on the index, or "YYYY-MM" on a month-archive page —
     in which case that month's link gets the `current` class.
-    open_default makes the <details> render with the `open` attribute (used for
-    the bottom-of-page archive, where "2026" alone would be unclear).
+    open_default keeps the month links permanently visible (used for the
+    bottom-of-page archive, where "2026" alone would be unclear).
     """
     by_year = OrderedDict()
     for post in posts:
@@ -404,12 +447,14 @@ def _render_archive(posts: list, current_month: str = None, nav_id: str = "archi
                 cls += " current"
             month_links.append(f'<a class="{cls}" href="/archive/{year}-{m}.html">{month_name}</a>')
         months_html = "\n".join(month_links)
-        open_attr = " open" if open_default else ""
+        group_cls = "archive-year-group"
+        if open_default:
+            group_cls += " archive-year-group--open"
         year_blocks.append(
-            f'<details class="archive-year-group"{open_attr}>\n'
-            f'<summary class="archive-year-label">{year}</summary>\n'
+            f'<div class="{group_cls}">\n'
+            f'<span class="archive-year-label" tabindex="0">{year}</span>\n'
             f'<div class="archive-months">\n{months_html}\n</div>\n'
-            f'</details>'
+            f'</div>'
         )
 
     years_html = "\n".join(year_blocks)

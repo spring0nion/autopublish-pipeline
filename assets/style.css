@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    /* --meta: post dates. --chrome: lighter grey for nav / footer / revision
+       line. --chrome-hover: darker grey for chrome links on hover. */
+    --meta: #999;
+    --chrome: #bbb;
+    --chrome-hover: #555;
+}
+
 html, body {
     overflow-x: hidden;
 }
@@ -12,13 +20,18 @@ body {
     max-width: 53rem;
     margin: 0 auto;
     padding: 0 2rem 3rem;
+    /* column layout + full viewport height so a short page can still push the
+       footer to the bottom (see .site-footer margin-top) */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: times new roman, serif;
     font-size: 1.05rem;
     line-height: 1.75;
     color: #222;
     background: #fff;
     letter-spacing: 0.01;
-    font-feature-settings: "kern" 1; 
+    font-feature-settings: "kern" 1;
     text-rendering: optimizeLegibility;
 }
 
@@ -63,22 +76,24 @@ body {
 }
 
 .site-nav a {
-    color: #bbb;
+    color: var(--chrome);
     border-bottom: none;
 }
 
 .site-nav a:hover {
-    color: #555;
+    color: var(--chrome-hover);
 }
 
 .site-nav .sep {
-    color: #ddd;
+    color: var(--chrome);
     margin: 0 0.3rem;
 }
 
 /* archive — year collapses to month links; month link = its own page */
 .archive-bar {
-    margin: 0 0 6rem;
+    /* no bottom margin: body is a flex column (margins no longer collapse), so
+       the gap above the post list is owned solely by body.index .posts */
+    margin: 0;
     font-size: 1rem;
     text-align: center;
 }
@@ -98,43 +113,78 @@ body {
 }
 
 .archive-year-group {
-    /* flex item by default inside .archive-years — no display override needed */
+    position: relative;
 }
 
 .archive-year-label {
     font-size: 1rem;
     font-weight: 500;
-    color: #999;
+    color: var(--chrome);
     letter-spacing: 0.03em;
     cursor: pointer;
-    list-style: none;
     padding: 0.2rem 0;
+    outline: none;
 }
 
-.archive-year-label::-webkit-details-marker { display: none; }
-.archive-year-label::marker { content: ""; }
-
-.archive-year-group[open] > .archive-year-label { color: #555; }
-.archive-year-label:hover { color: #555; }
+.archive-year-group:hover > .archive-year-label,
+.archive-year-group:focus-within > .archive-year-label,
+.archive-year-group--open > .archive-year-label { color: var(--chrome-hover); }
 
 .archive-months {
-    margin: 0.6rem 0 0;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    z-index: 10;
+}
+
+/* invisible bridge across the gap so the cursor can travel from the year
+   label onto the card without the popup collapsing */
+.archive-months::before {
+    content: "";
+    position: absolute;
+    top: -0.6rem;
+    left: 0;
+    right: 0;
+    height: 0.6rem;
+}
+
+.archive-year-group:hover > .archive-months,
+.archive-year-group:focus-within > .archive-months,
+.archive-year-group--open > .archive-months {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0 0.9rem;
-    justify-content: center;
+}
+
+/* bottom-of-page archive on month pages: stays in normal flow, always shown */
+.archive-year-group--open > .archive-months {
+    position: static;
+    transform: none;
+    width: max-content;
+    margin: 0.6rem auto 0;
+}
+
+.archive-year-group--open > .archive-months::before {
+    display: none;
 }
 
 .archive-month-link {
     font-size: 1rem;
-    color: #bbb;
+    color: var(--chrome);
     border-bottom: none;
     text-decoration: none;
     padding: 0.2rem 0;
 }
 
-.archive-month-link:hover { color: #555; }
-.archive-month-link.current { color: #555; }
+.archive-month-link:hover { color: var(--chrome-hover); }
+.archive-month-link.current { color: var(--chrome-hover); }
 
 /* post page back-nav */
 .post-nav {
@@ -144,13 +194,13 @@ body {
 }
 
 .post-nav a {
-    color: #bbb;
+    color: var(--chrome);
     border-bottom: none;
     text-decoration: none;
 }
 
 .post-nav a:hover {
-    color: #555;
+    color: var(--chrome-hover);
 }
 
 .post-nav-bottom {
@@ -184,7 +234,7 @@ body {
     font-family: times new roman, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color: #222;
+    color: var(--meta);
     display: block;
     margin-top: 1.5rem;
     text-align: center;
@@ -216,51 +266,30 @@ body {
     margin-bottom: 6rem;
 }
 
-/* index card grid */
+/* index: single-column list of post titles + dates */
 body.index {
-    max-width: 78rem;
+    padding-bottom: 1.5rem;
 }
 
-.post-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4.5rem 3rem;
-    margin: 2rem 0 5rem;
+body.index .posts {
+    /* gap above the first title (collapses with the archive bar's 6rem margin)
+       is kept equal to the gap between cards below; 6rem down to the more-nav */
+    margin: 8rem 0 6rem;
 }
 
-.post-card {
-    text-align: center;
+body.index .post:first-child {
+    margin-top: 0;
 }
 
-.post-card-title {
-    font-size: 1.9rem;
-    font-weight: 500;
-    line-height: 1.25;
-    letter-spacing: -0.01em;
+body.index .post {
+    margin-bottom: 12rem;
 }
 
-.post-card-title a {
-    color: #222;
-    border-bottom: none;
-    text-decoration: none;
+body.index .post-heading {
+    /* no post body follows on the index — drop the heading-to-body gap */
+    margin-bottom: 0;
 }
 
-.post-card-meta {
-    font-size: 1rem;
-    color: #999;
-    margin-top: 0.6rem;
-}
-
-/* tablet: drop to 2 columns */
-@media (max-width: 880px) {
-    body.index {
-        max-width: 53rem;
-    }
-
-    .post-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 /* serif body text */
 .post-body {
@@ -425,7 +454,7 @@ body.index {
 }
 
 .loading {
-    color: #999;
+    color: var(--chrome);
     font-size: 0.85rem;
 }
 
@@ -436,7 +465,7 @@ body.index {
     padding: 0.5rem 1.5rem;
     font-family: inherit;
     font-size: 0.8rem;
-    color: #999;
+    color: var(--chrome);
     background: transparent;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -450,7 +479,7 @@ body.index {
 
 /* post revision history */
 .post-history {
-    color: #999;
+    color: var(--chrome);
     font-size: 1.1rem;
     text-align: left;
     margin-top: 4rem;
@@ -465,7 +494,7 @@ body.index {
     align-items: baseline;
     gap: 1rem;
     margin-top: 4rem;
-    color: #999;
+    color: var(--chrome);
     font-size: 1.1rem;
     letter-spacing: 0.01em;
 }
@@ -485,7 +514,7 @@ body.index {
 }
 
 .post-body a.post-backtotop:hover {
-    color: #555;
+    color: var(--chrome-hover);
     border-bottom: none;
 }
 
@@ -493,18 +522,25 @@ body.index {
 .site-footer {
     font-size: 1rem;
     letter-spacing: 0.01em;
-    color: #999;
+    color: var(--chrome);
     text-align: center;
+    /* body is a flex column with min-height:100vh — this pushes the footer to
+       the bottom of the viewport on pages too short to fill it */
+    margin-top: auto;
 }
 
 .site-footer a {
-    color: #999;
+    color: var(--chrome);
     text-decoration: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: none;
 }
 
 .site-footer a:hover {
-    border-bottom-color: #999;
+    color: var(--chrome-hover);
+}
+
+.site-footer .sep {
+    margin: 0 0.3rem;
 }
 
 a {
@@ -543,27 +579,21 @@ a:hover {
     }
 
     .archive-bar {
-        margin: 0 0 3.5rem;
+        margin: 0;
         font-size: 0.9rem;
     }
 
-    .post-grid {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        margin: 1.5rem 0 3rem;
+    body.index .posts {
+        margin: 4rem 0 3rem;
     }
 
-    .post-card-title {
-        font-size: 2rem;
+    body.index .post {
+        margin-bottom: 4rem;
     }
 
     .archive-year-label,
     .archive-month-link {
         font-size: 0.9rem;
-    }
-
-    .archive-months {
-        margin-top: 0.3rem;
     }
 
     .site-footer {
@@ -635,6 +665,12 @@ a:hover {
 
 /* dark mode */
 @media (prefers-color-scheme: dark) {
+    :root {
+        --meta: #666;
+        --chrome: #444;
+        --chrome-hover: #999;
+    }
+
     body {
         background: #111;
         color: #ccc;
@@ -648,34 +684,10 @@ a:hover {
         color: #eee;
     }
 
-    .site-nav a {
-        color: #444;
-    }
-
-    .site-nav a:hover {
-        color: #999;
-    }
-
-    .site-nav .sep {
-        color: #333;
-    }
-
-    .archive-year-label {
-        color: #555;
-    }
-
-    .archive-year-group[open] > .archive-year-label,
-    .archive-year-label:hover {
-        color: #999;
-    }
-
-    .archive-month-link {
-        color: #444;
-    }
-
-    .archive-month-link:hover,
-    .archive-month-link.current {
-        color: #999;
+    .archive-months {
+        background: #1a1a1a;
+        border-color: #333;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     }
 
     .section-rule {
@@ -685,27 +697,6 @@ a:hover {
     .post h1,
     .post h2 {
         color: #eee;
-    }
-
-    .post-nav a {
-        color: #555;
-    }
-
-    .post-nav a:hover {
-        color: #999;
-    }
-
-
-    .post-meta {
-        color: #666;
-    }
-
-    .post-card-title a {
-        color: #eee;
-    }
-
-    .post-card-meta {
-        color: #666;
     }
 
     .post-body blockquote {
@@ -748,34 +739,12 @@ a:hover {
     }
 
     .load-more {
-        color: #555;
         border-color: #333;
     }
 
     .load-more:hover {
         color: #ccc;
         border-color: #ccc;
-    }
-
-    .site-footer {
-        color: #555;
-    }
-
-    .site-footer a {
-        color: #555;
-        border-bottom-color: #333;
-    }
-
-    .site-footer a:hover {
-        border-bottom-color: #555;
-    }
-
-    .post-history {
-        color: #555;
-    }
-
-    .post-backtotop {
-        color: #555;
     }
 
     ::selection {
