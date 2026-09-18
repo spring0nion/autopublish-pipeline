@@ -190,7 +190,12 @@ def _extract_footnotes(text):
         footnotes.append(m.group(1))
         return f"\x00fn{len(footnotes)}\x00"
 
-    return re.sub(r"\[\^([^\]]+)\]", replacer, text), footnotes
+    # Body may contain a markdown link `[label](url)`; its `]` must not be
+    # read as the footnote's closing bracket. "Non-bracket char OR a whole
+    # `[...]` group" allows one level of nesting (a link label). A naive
+    # `[^\]]+` stopped at the link's first `]` and spilled the rest into the
+    # body. Kept identical in fairy food's footnotes.py (see both CLAUDE.md).
+    return re.sub(r"\[\^((?:[^\[\]]|\[[^\]]*\])*)\]", replacer, text), footnotes
 
 
 def _inline_markdown(text):
