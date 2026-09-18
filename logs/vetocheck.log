@@ -1627,3 +1627,1023 @@ socket.gaierror: [Errno 8] nodename nor servname provided, or not known
 17:17:25 [autopublish.publisher] SFTP upload complete (8 files)
 17:17:26 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Processing my feelings on maybe, maybe not, winning an essay competition" updated
 17:17:26 [autopublish.publisher] Re-published 'Processing my feelings on maybe, maybe not, winning an essay competition' as 2026-03-02-processing-my-feelings-on-maybe-maybe-not-winning-an-essay-c with revision date 2026-05-19
+17:03:56 [autopublish.veto] Veto deadline passed — publishing 'My Morning Routine As Someone Who Is Unemployed For A Living'
+17:03:56 [autopublish.veto] Source edited during veto window — publishing latest file version
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+17:03:56 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:03:56 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:03:56 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:03:56 [paramiko.transport] Authentication (password) successful!
+17:03:57 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:03:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+17:03:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:03:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:03:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:03:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:03:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:03:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:03:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:03:58 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:03:58 [autopublish.publisher] SFTP upload complete (8 files)
+17:04:00 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine As Someone Who Is Unemployed For A Living" is live
+17:04:01 [autopublish.veto] Published: 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+17:34:01 [autopublish.publisher] Source changed for 'My Morning Routine As Someone Who Is Unemployed For A Living' — re-publishing
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+17:34:01 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:34:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:34:01 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:34:02 [paramiko.transport] Authentication (password) successful!
+17:34:02 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:34:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+17:34:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:34:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:34:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:34:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:34:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:34:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:34:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:34:03 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:34:03 [autopublish.publisher] SFTP upload complete (8 files)
+17:34:05 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine As Someone Who Is Unemployed For A Living" updated
+17:34:05 [autopublish.publisher] Re-published 'My Morning Routine As Someone Who Is Unemployed For A Living' as 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-20
+18:04:32 [autopublish.publisher] Source changed for 'My Morning Routine As Someone Who Is Unemployed For A Living' — re-publishing
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+18:04:32 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+18:04:32 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+18:04:32 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:04:32 [paramiko.transport] Authentication (password) successful!
+18:04:33 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:04:33 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+18:04:33 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:04:33 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:04:34 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+18:04:34 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:04:34 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+18:04:34 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+18:04:34 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+18:04:34 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:04:34 [autopublish.publisher] SFTP upload complete (8 files)
+18:04:35 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine As Someone Who Is Unemployed For A Living" updated
+18:04:35 [autopublish.publisher] Re-published 'My Morning Routine As Someone Who Is Unemployed For A Living' as 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-20
+21:11:57 [autopublish.publisher] Source changed for 'My Morning Routine As Someone Who Is Unemployed For A Living' — re-publishing
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+21:11:57 [autopublish.publisher] Rebuilt index.html and rss.xml
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+21:11:57 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+21:11:57 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+21:11:58 [paramiko.transport] Authentication (password) successful!
+21:11:58 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+21:11:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+21:11:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+21:11:58 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+21:11:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+21:11:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+21:11:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+21:11:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+21:11:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+21:11:59 [paramiko.transport.sftp] [chan 0] sftp session closed.
+21:11:59 [autopublish.publisher] SFTP upload complete (8 files)
+21:12:00 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine As Someone Who Is Unemployed For A Living" updated
+21:12:00 [autopublish.publisher] Re-published 'My Morning Routine As Someone Who Is Unemployed For A Living' as 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-20
+08:00:58 [autopublish.publisher] Source changed for 'My Morning Routine As Someone Who Is Unemployed For A Living' — re-publishing
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+08:00:58 [autopublish.publisher] Rebuilt index.html and rss.xml
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+08:00:58 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+08:00:58 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+08:00:59 [paramiko.transport] Authentication (password) successful!
+08:00:59 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+08:00:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+08:00:59 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+08:01:00 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+08:01:00 [paramiko.transport.sftp] [chan 0] sftp session closed.
+08:01:00 [autopublish.publisher] SFTP upload complete (8 files)
+08:01:02 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine As Someone Who Is Unemployed For A Living" updated
+08:01:02 [autopublish.publisher] Re-published 'My Morning Routine As Someone Who Is Unemployed For A Living' as 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-21
+12:48:47 [autopublish.publisher] Source changed for 'My Morning Routine As Someone Who Is Unemployed For A Living' — re-publishing
+12:48:47 [autopublish.publisher] Title changed: 'My Morning Routine As Someone Who Is Unemployed For A Living' → 'My Morning Routine'
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+12:48:47 [autopublish.publisher] Removed old post file 2026-05-20-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+12:48:47 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:48:47 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:48:47 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:48:47 [paramiko.transport] Authentication (password) successful!
+12:48:48 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:48:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+12:48:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:48:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:48:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:48:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:48:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:48:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:48:49 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:48:49 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:48:49 [autopublish.publisher] SFTP upload complete (8 files)
+12:48:50 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine" updated
+12:48:50 [autopublish.publisher] Re-published 'My Morning Routine' as 2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-21
+15:28:04 [autopublish.publisher] Source changed for 'My Morning Routine' — re-publishing
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+15:28:04 [autopublish.publisher] Rebuilt index.html and rss.xml
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+15:28:04 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+15:28:04 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:28:04 [paramiko.transport] Authentication (password) successful!
+15:28:05 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:28:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+15:28:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+15:28:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+15:28:05 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+15:28:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+15:28:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+15:28:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+15:28:06 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+15:28:06 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:28:06 [autopublish.publisher] SFTP upload complete (8 files)
+15:28:07 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine" updated
+15:28:07 [autopublish.publisher] Re-published 'My Morning Routine' as 2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-21
+15:58:08 [autopublish.publisher] Source changed for 'My Morning Routine' — re-publishing
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+15:58:08 [autopublish.publisher] Rebuilt index.html and rss.xml
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+15:58:08 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+15:58:08 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+15:58:08 [paramiko.transport] Authentication (password) successful!
+15:58:09 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+15:58:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living.html
+15:58:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+15:58:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+15:58:09 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+15:58:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+15:58:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+15:58:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+15:58:10 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+15:58:10 [paramiko.transport.sftp] [chan 0] sftp session closed.
+15:58:10 [autopublish.publisher] SFTP upload complete (8 files)
+15:58:11 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My Morning Routine" updated
+15:58:11 [autopublish.publisher] Re-published 'My Morning Routine' as 2026-05-21-my-morning-routine-as-someone-who-is-unemployed-for-a-living with revision date 2026-05-21
+18:07:20 [autopublish.publisher] Source changed for 'Realizing in real time that the non-sacral experience is fundamentally different from mine' — re-publishing
+18:07:20 [autopublish.publisher] Title changed: 'Realizing in real time that the non-sacral experience is fundamentally different from mine' → 'Realizing while writing that the non-sacral experience is fundamentally different from mine'
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-30-life-force.html
+18:07:20 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+18:07:20 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+18:07:20 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:07:20 [paramiko.transport] Authentication (password) successful!
+18:07:21 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-30-life-force.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+18:07:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+18:07:21 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:07:21 [autopublish.publisher] SFTP upload complete (8 files)
+18:07:23 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Realizing while writing that the non-sacral experience is fundamentally different from mine" updated
+18:07:23 [autopublish.publisher] Re-published 'Realizing while writing that the non-sacral experience is fundamentally different from mine' as 2026-01-30-life-force with revision date 2026-05-21
+19:16:19 [autopublish.publisher] Source changed for 'Realizing while writing that the non-sacral experience is fundamentally different from mine' — re-publishing
+19:16:19 [autopublish.publisher] Title changed: 'Realizing while writing that the non-sacral experience is fundamentally different from mine' → 'Just now realizing that the non-sacral experience is fundamentally different from mine'
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-30-life-force.html
+19:16:19 [autopublish.publisher] Rebuilt index.html and rss.xml
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+19:16:19 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+19:16:19 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+19:16:19 [paramiko.transport] Authentication (password) successful!
+19:16:20 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-30-life-force.html
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+19:16:20 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+19:16:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+19:16:21 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+19:16:21 [paramiko.transport.sftp] [chan 0] sftp session closed.
+19:16:21 [autopublish.publisher] SFTP upload complete (8 files)
+19:16:22 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Just now realizing that the non-sacral experience is fundamentally different from mine" updated
+19:16:22 [autopublish.publisher] Re-published 'Just now realizing that the non-sacral experience is fundamentally different from mine' as 2026-01-30-life-force with revision date 2026-05-21
+11:30:46 [autopublish.publisher] Source changed for 'Forgetting how to do some stuff is a convenient way to learn surrender' — re-publishing
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+11:30:46 [autopublish.publisher] Rebuilt index.html and rss.xml
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+11:30:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+11:30:46 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+11:30:46 [paramiko.transport] Authentication (password) successful!
+11:30:47 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+11:30:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+11:30:47 [paramiko.transport.sftp] [chan 0] sftp session closed.
+11:30:47 [autopublish.publisher] SFTP upload complete (8 files)
+11:30:49 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Forgetting how to do some stuff is a convenient way to learn surrender" updated
+11:30:49 [autopublish.publisher] Re-published 'Forgetting how to do some stuff is a convenient way to learn surrender' as 2026-05-13-forgetting-how-to-do-stuff-is-a-convenient-way-to-learn-surr with revision date 2026-05-22
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+17:18:42 [autopublish.veto] Veto deadline passed — publishing 'Buying Stuff'
+17:18:42 [autopublish.veto] Source edited during veto window — publishing latest file version
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-buying-stuff.html
+17:18:42 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:18:42 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:18:42 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:18:43 [paramiko.transport] Authentication (password) successful!
+17:18:43 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:18:43 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-buying-stuff.html
+17:18:43 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:18:43 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:18:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:18:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:18:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:18:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:18:44 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:18:44 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:18:44 [autopublish.publisher] SFTP upload complete (8 files)
+17:18:45 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Buying Stuff" is live
+17:18:45 [autopublish.veto] Published: 2026-04-27-buying-stuff.html
+17:48:46 [autopublish.publisher] Source changed for 'Buying Stuff' — re-publishing
+17:48:46 [autopublish.publisher] Title changed: 'Buying Stuff' → 'Buying Stuff -05-22'
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-27-buying-stuff.html
+17:48:46 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:48:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:48:46 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:48:46 [paramiko.transport] Authentication (password) successful!
+17:48:46 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:48:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-27-buying-stuff.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:48:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:48:47 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:48:47 [autopublish.publisher] SFTP upload complete (8 files)
+17:48:48 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Buying Stuff -05-22" updated
+17:48:48 [autopublish.publisher] Re-published 'Buying Stuff -05-22' as 2026-04-27-buying-stuff with revision date 2026-05-22
+18:18:49 [autopublish.publisher] Source changed for 'Buying Stuff -05-22' — re-publishing
+18:18:49 [autopublish.publisher] Title changed: 'Buying Stuff -05-22' → 'Buying Stuff'
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-05-22-buying-stuff.html
+18:18:49 [autopublish.publisher] Removed old post file 2026-04-27-buying-stuff.html
+18:18:49 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+18:18:49 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+18:18:49 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:18:49 [paramiko.transport] Authentication (password) successful!
+18:18:49 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-05-22-buying-stuff.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+18:18:50 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+18:18:50 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:18:50 [autopublish.publisher] SFTP upload complete (8 files)
+18:18:51 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Buying Stuff" updated
+18:18:51 [autopublish.publisher] Re-published 'Buying Stuff' as 2026-05-22-buying-stuff with revision date 2026-05-22
+23:12:45 [autopublish.veto] Veto deadline passed — publishing 'Hello, World!'
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-22-hello-world.html
+23:12:45 [autopublish.publisher] Rebuilt index.html and rss.xml
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+23:12:45 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+23:12:45 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+23:12:46 [paramiko.transport] Authentication (password) successful!
+23:12:46 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+23:12:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-22-hello-world.html
+23:12:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+23:12:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+23:12:46 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+23:12:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+23:12:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+23:13:13 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+23:13:13 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+23:13:13 [paramiko.transport.sftp] [chan 0] sftp session closed.
+23:13:13 [autopublish.publisher] SFTP upload complete (8 files)
+23:13:14 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Hello, World!" is live
+23:13:14 [autopublish.veto] Published: 2026-04-22-hello-world.html
+12:31:55 [autopublish.publisher] Source changed for 'Hello, World!' — re-publishing
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-04-22-hello-world.html
+12:31:55 [autopublish.publisher] Rebuilt index.html and rss.xml
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+12:31:55 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+12:31:55 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+12:31:56 [paramiko.transport] Authentication (password) successful!
+12:31:56 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+12:31:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-04-22-hello-world.html
+12:31:56 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+12:31:57 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+12:31:57 [paramiko.transport.sftp] [chan 0] sftp session closed.
+12:31:57 [autopublish.publisher] SFTP upload complete (8 files)
+12:31:58 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Hello, World!" updated
+12:31:58 [autopublish.publisher] Re-published 'Hello, World!' as 2026-04-22-hello-world with revision date 2026-05-26
+16:13:05 [autopublish.veto] Reply received — treating as veto: 'veto
+
+On Wed, 3 Jun 2026 at 12:01, autopublish
+<fromtheabysmalautopublish@gmail.'
+16:13:05 [autopublish.veto] VETO received for 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' — delayed to tomorrow
+16:13:06 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" (#1)
+16:42:27 [autopublish.veto] Veto deadline passed — publishing 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity'
+16:42:27 [autopublish.veto] Source edited during veto window — publishing latest file version
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+16:42:27 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:42:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:42:27 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:42:27 [paramiko.transport] Authentication (password) successful!
+16:42:28 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:42:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+16:42:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:42:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:42:29 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:42:29 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:42:29 [autopublish.publisher] SFTP upload complete (9 files)
+16:42:30 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" is live
+16:42:30 [autopublish.veto] Published: 2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+19:27:23 [autopublish.publisher] Source changed for 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' — re-publishing
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+19:27:23 [autopublish.publisher] Rebuilt index.html and rss.xml
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+19:27:23 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+19:27:23 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+19:27:23 [paramiko.transport] Authentication (password) successful!
+19:27:23 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+19:27:24 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+19:27:24 [paramiko.transport.sftp] [chan 0] sftp session closed.
+19:27:24 [autopublish.publisher] SFTP upload complete (9 files)
+19:27:26 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" updated
+19:27:26 [autopublish.publisher] Re-published 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' as 2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut with revision date 2026-06-06
+19:57:27 [autopublish.publisher] Source changed for 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' — re-publishing
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+19:57:27 [autopublish.publisher] Rebuilt index.html and rss.xml
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+19:57:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+19:57:27 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+19:57:27 [paramiko.transport] Authentication (password) successful!
+19:57:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+19:57:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+19:57:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+19:57:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+19:57:28 [autopublish.publisher] SFTP upload complete (9 files)
+19:57:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" updated
+19:57:29 [autopublish.publisher] Re-published 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' as 2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut with revision date 2026-06-06
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+16:31:52 [autopublish.veto] Veto deadline passed — publishing 'thoughts on having a body'
+16:31:52 [autopublish.veto] Source edited during veto window — publishing latest file version
+16:31:52 [autopublish.veto] Title changed in source: 'thoughts on having a body' → 'thoughts on a body'
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-08-thoughts-on-a-body.html
+16:31:52 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:31:52 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:31:52 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:31:53 [paramiko.transport] Authentication (password) successful!
+16:31:53 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:31:53 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-08-thoughts-on-a-body.html
+16:31:53 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:31:54 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:31:54 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:31:54 [autopublish.publisher] SFTP upload complete (9 files)
+16:32:26 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "thoughts on a body" is live
+16:32:26 [autopublish.veto] Published: 2026-06-08-thoughts-on-a-body.html
+17:02:26 [autopublish.publisher] Source changed for 'thoughts on a body' — re-publishing
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-08-thoughts-on-a-body.html
+17:02:26 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:02:26 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:02:26 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:02:27 [paramiko.transport] Authentication (password) successful!
+17:02:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:02:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-08-thoughts-on-a-body.html
+17:02:27 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:02:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:02:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:02:28 [autopublish.publisher] SFTP upload complete (9 files)
+17:03:00 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "thoughts on a body" updated
+17:03:01 [autopublish.publisher] Re-published 'thoughts on a body' as 2026-06-08-thoughts-on-a-body with revision date 2026-06-08
+17:33:01 [autopublish.publisher] Source changed for 'thoughts on a body' — re-publishing
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-08-thoughts-on-a-body.html
+17:33:01 [autopublish.publisher] Rebuilt index.html and rss.xml
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+17:33:01 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+17:33:01 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+17:33:02 [paramiko.transport] Authentication (password) successful!
+17:33:02 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+17:33:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-08-thoughts-on-a-body.html
+17:33:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+17:33:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+17:33:02 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+17:33:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+17:33:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+17:33:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+17:33:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+17:33:03 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+17:33:03 [paramiko.transport.sftp] [chan 0] sftp session closed.
+17:33:03 [autopublish.publisher] SFTP upload complete (9 files)
+17:33:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "thoughts on a body" updated
+17:33:45 [autopublish.notifier] macOS notification failed: Command '['osascript', '-e', 'display notification "\\"thoughts on a body\\" re-published with revisions." with title "autopublish"']' timed out after 4.999613416999999 seconds
+17:33:45 [autopublish.publisher] Re-published 'thoughts on a body' as 2026-06-08-thoughts-on-a-body with revision date 2026-06-08
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 590, in _iterate_directories
+    for p in self._iterate_directories(path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents/y - dumps & backups'
+16:35:31 [autopublish.veto] Veto deadline passed — publishing 'G to the R to the A to the T to the I to the T to the U to the D to the E'
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-06-10-g-to-the-r-to-the-a-to-the-t-to-the-i-to-the-t-to-the-u-to-t.html
+16:35:31 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:35:31 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:35:31 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+16:35:31 [paramiko.transport] Authentication (password) successful!
+16:35:32 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-06-10-g-to-the-r-to-the-a-to-the-t-to-the-i-to-the-t-to-the-u-to-t.html
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:35:32 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:35:33 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:35:33 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:35:33 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:35:33 [autopublish.publisher] SFTP upload complete (9 files)
+16:36:04 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "G to the R to the A to the T to the I to the T to the U to the D to the E" is live
+16:36:04 [autopublish.veto] Published: 2026-06-10-g-to-the-r-to-the-a-to-the-t-to-the-i-to-the-t-to-the-u-to-t.html
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 590, in _iterate_directories
+    for p in self._iterate_directories(path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents/y - dumps & backups'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 590, in _iterate_directories
+    for p in self._iterate_directories(path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents/y - dumps & backups'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 172, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 107, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 182, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 117, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 182, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 117, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 162, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"])
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 32, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+18:02:15 [autopublish.veto] Veto deadline passed — publishing 'My lovely limited life'
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-07-06-my-lovely-limited-life.html
+18:02:15 [autopublish.publisher] Rebuilt index.html and rss.xml
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-07.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+18:02:15 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+18:02:15 [paramiko.transport] Connected (version 2.0, client OpenSSH_8.4p1)
+18:02:15 [paramiko.transport] Authentication (password) successful!
+18:02:16 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-07-06-my-lovely-limited-life.html
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-07.html
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+18:02:16 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+18:02:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+18:02:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+18:02:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+18:02:17 [paramiko.transport.sftp] [chan 0] sftp session closed.
+18:02:17 [autopublish.publisher] SFTP upload complete (10 files)
+18:02:20 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "My lovely limited life" is live
+18:02:20 [autopublish.veto] Published: 2026-07-06-my-lovely-limited-life.html
+16:20:19 [autopublish.veto] Reply received — treating as veto: 'veto
+
+On Wed, 26 Aug 2026 at 12:02, autopublish
+<fromtheabysmalautopublish@gmail'
+16:20:19 [autopublish.veto] VETO received for 'limitation/meaning dump' — delayed to tomorrow
+16:20:21 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "limitation/meaning dump" (#1)
+14:39:27 [autopublish.veto] Reply received — treating as veto: 'veto
+
+On Fri, 28 Aug 2026 at 12:50, autopublish
+<fromtheabysmalautopublish@gmail'
+14:39:28 [autopublish.veto] VETO received for 'Seven Things' — delayed to tomorrow
+14:39:29 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "Seven Things" (#1)
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 182, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 117, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 173, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 43, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+20:26:17 [autopublish.veto] Reply received — treating as veto: 'veto
+
+On Mon, 31 Aug 2026 at 12:09, autopublish
+<fromtheabysmalautopublish@gmail'
+20:26:18 [autopublish.veto] VETO received for 'limitation/meaning dump' — delayed to tomorrow
+20:26:20 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "limitation/meaning dump" (#2)
+17:24:01 [autopublish.veto] Reply received — treating as veto: 'VETO'
+17:24:01 [autopublish.veto] VETO received for 'Seven Things' — delayed to tomorrow
+17:24:02 [autopublish.notifier] Email sent to thehereticalinvestigator@gmail.com: Esther vetoed "Seven Things" (#2)
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/__main__.py", line 3, in <module>
+    main()
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 182, in main
+    commands[args.command](args)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/cli.py", line 117, in cmd_veto_check
+    publisher.republish_if_changed(cfg, current_state)
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 173, in republish_if_changed
+    src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+  File "/Users/esther/Development/autopublish pipeline/autopublish/publisher.py", line 43, in _find_source
+    for candidate in drafts_path.rglob(source_name):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1180, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 600, in _select_from
+    for starting_point in self._iterate_directories(parent_path, is_dir, scandir):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 579, in _iterate_directories
+    with scandir(parent_path) as scandir_it:
+InterruptedError: [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents'
+16:06:27 [autopublish.veto] Veto deadline passed — publishing 'am i autistic; does it matter'
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-09-08-am-i-autistic-does-it-matter.html
+16:06:27 [autopublish.publisher] Rebuilt index.html and rss.xml
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-09.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-07.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+16:06:27 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+16:06:27 [paramiko.transport] Connected (version 2.0, client OpenSSH_10.0p2)
+16:06:27 [paramiko.transport] Authentication (password) successful!
+16:06:27 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-09-08-am-i-autistic-does-it-matter.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-09.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-07.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+16:06:28 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+16:06:28 [paramiko.transport.sftp] [chan 0] sftp session closed.
+16:06:28 [autopublish.publisher] SFTP upload complete (11 files)
+16:06:30 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "am i autistic; does it matter" is live
+16:06:30 [autopublish.veto] Published: 2026-09-08-am-i-autistic-does-it-matter.html
+09:16:46 [autopublish.publisher] Source changed for 'lovely limitation' — re-publishing
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-07-06-my-lovely-limited-life.html
+09:16:46 [autopublish.publisher] Rebuilt index.html and rss.xml
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-09.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-07.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+09:16:46 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+09:16:46 [paramiko.transport] Connected (version 2.0, client OpenSSH_10.0p2)
+09:16:47 [paramiko.transport] Authentication (password) successful!
+09:16:47 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+09:16:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-07-06-my-lovely-limited-life.html
+09:16:47 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-09.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-07.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+09:16:48 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+09:16:48 [paramiko.transport.sftp] [chan 0] sftp session closed.
+09:16:48 [autopublish.publisher] SFTP upload complete (11 files)
+09:16:50 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "lovely limitation" updated
+09:16:50 [autopublish.publisher] Re-published 'lovely limitation' as 2026-07-06-my-lovely-limited-life with revision date 2026-09-11
+09:46:50 [autopublish.publisher] Source changed for 'am i autistic; does it matter' — re-publishing
+09:46:50 [autopublish.publisher] Title changed: 'am i autistic; does it matter' → 'Am I autistic; does it matter'
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-09-08-am-i-autistic-does-it-matter.html
+09:46:50 [autopublish.publisher] Rebuilt index.html and rss.xml
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-09.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-07.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+09:46:50 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+09:46:50 [paramiko.transport] Connected (version 2.0, client OpenSSH_10.0p2)
+09:46:51 [paramiko.transport] Authentication (password) successful!
+09:46:51 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+09:46:51 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-09-08-am-i-autistic-does-it-matter.html
+09:46:51 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-09.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-07.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+09:46:52 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+09:46:52 [paramiko.transport.sftp] [chan 0] sftp session closed.
+09:46:52 [autopublish.publisher] SFTP upload complete (11 files)
+09:47:06 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "Am I autistic; does it matter" updated
+09:47:06 [autopublish.publisher] Re-published 'Am I autistic; does it matter' as 2026-09-08-am-i-autistic-does-it-matter with revision date 2026-09-11
+14:46:56 [autopublish.fsutil] Interrupted scanning /Users/esther/Library/Containers/pro.writer.mac/Data/Documents (attempt 1/5): [Errno 4] Interrupted system call: '/Users/esther/Library/Containers/pro.writer.mac/Data/Documents/Z - #nopublish drafts'
+08:58:16 [autopublish.publisher] Source changed for 'An introduction to an introduction to Human Design' — re-publishing
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/posts/2026-01-28-an-introduction-to-an-introduction-to-human-design.html
+08:58:16 [autopublish.publisher] Rebuilt index.html and rss.xml
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-09.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-07.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-06.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-05.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-04.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-03.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-02.html
+08:58:16 [autopublish.publisher] Saved /Users/esther/Documents/from the abysmal (site)/archive/2026-01.html
+08:58:16 [paramiko.transport] Connected (version 2.0, client OpenSSH_10.0p2)
+08:58:16 [paramiko.transport] Authentication (password) successful!
+08:58:17 [paramiko.transport.sftp] [chan 0] Opened sftp connection (server version 3)
+08:58:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/posts/2026-01-28-an-introduction-to-an-introduction-to-human-design.html
+08:58:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/index.html
+08:58:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/rss.xml
+08:58:17 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-09.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-07.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-06.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-05.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-04.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-03.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-02.html
+08:58:18 [autopublish.publisher] Uploaded /fromtheabysmal.net/archive/2026-01.html
+08:58:18 [paramiko.transport.sftp] [chan 0] sftp session closed.
+08:58:18 [autopublish.publisher] SFTP upload complete (11 files)
+08:58:19 [autopublish.notifier] Email sent to mutativedesign@gmail.com: "An introduction to an introduction to Human Design" updated
+08:58:20 [autopublish.publisher] Re-published 'An introduction to an introduction to Human Design' as 2026-01-28-an-introduction-to-an-introduction-to-human-design with revision date 2026-09-16

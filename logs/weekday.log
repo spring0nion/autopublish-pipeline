@@ -259,3 +259,471 @@ Yes' (punctuation — sentence had no terminal punctuation; every other sentence
 12:03:51 [autopublish] Editorial note: Very clean mechanically — two fixes total. The piece is genuinely good: the format earns its conceit because the interviewer's questions are actually intelligent rather than parodically dumb, and Esther's answers hold up. The eye mask section is the best writing in it.
 12:03:53 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "My Morning Routine As Someone Who Is Unemployed For A Living" in 4 hours
 12:03:53 [autopublish] Queued 'My Morning Routine As Someone Who Is Unemployed For A Living' — publishing at 16:03 unless vetoed
+12:00:03 [autopublish] Found 8 eligible drafts
+12:00:03 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 47.2)
+12:00:03 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 46.3)
+12:00:03 [autopublish]   - hello world.txt (426 words, score 45.4)
+12:00:03 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 45.2)
+12:00:03 [autopublish]   - editing my own work.txt (106 words, score 44.3)
+12:01:01 [autopublish] Selected: buying stuff.txt (448 words)
+12:01:39 [autopublish] Title: Buying Stuff
+12:01:39 [autopublish] Slug: 2026-04-27-buying-stuff
+12:01:39 [autopublish] Editorial changes:
+12:01:39 [autopublish]   'holding it *it in my hand*' → 'holding it *in my hand*' (doubled word — 'it' appears twice)
+12:01:39 [autopublish]   'that i cannot make sound decisions' → 'that I cannot make sound decisions' (lowercase 'i' — typo)
+12:01:39 [autopublish] Editorial note: Sharp and good. The repetition — 'I hate it I hate it I hate it,' the triple 'I despise' — earns its weight rather than straining for it, and the sensory detail in the last paragraph lands hard.
+12:01:40 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Buying Stuff" in 4 hours
+12:01:40 [autopublish] Queued 'Buying Stuff' — publishing at 16:01 unless vetoed
+12:04:48 [autopublish] Found 7 eligible drafts
+12:04:48 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 46.4)
+12:04:48 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 45.5)
+12:04:48 [autopublish]   - hello world.txt (426 words, score 44.6)
+12:04:48 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 44.4)
+12:04:48 [autopublish]   - editing my own work.txt (106 words, score 43.5)
+12:05:21 [autopublish] Selected: hello world.txt (426 words)
+12:06:32 [autopublish] Title: Hello, World!
+12:06:32 [autopublish] Slug: 2026-04-22-hello-world
+12:06:32 [autopublish] Editorial note: Mechanically clean — nothing to fix. The piece is good: specific enough to be true, strange enough to be hers, and the alcoholism analogy earns its keep.
+12:06:33 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Hello, World!" in 4 hours
+12:06:33 [autopublish] Queued 'Hello, World!' — publishing at 16:06 unless vetoed
+12:05:22 [autopublish] Found 6 eligible drafts
+12:05:22 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 45.8)
+12:05:22 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 45.0)
+12:05:22 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 43.8)
+12:05:22 [autopublish]   - editing my own work.txt (106 words, score 42.9)
+12:05:22 [autopublish]   - what if i need free time lol.txt (342 words, score 28.1)
+12:06:01 [autopublish.ranker] Claude picked 'none — all candidates are under 500 words. No publish this cycle. Best candidate to finish first: 'Two Things I Thought Were Complicated But Really Aren't.txt'.' but it's not in candidates
+12:06:01 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:06:01 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:03:33 [autopublish] Found 5 eligible drafts
+12:03:33 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 45.3)
+12:03:33 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 44.4)
+12:03:33 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 43.3)
+12:03:33 [autopublish]   - what if i need free time lol.txt (342 words, score 27.6)
+12:03:33 [autopublish]   - performance writing.txt (127 words, score 25.4)
+12:03:52 [autopublish.ranker] Claude picked 'None' but it's not in candidates
+12:03:52 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:03:52 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:10:11 [autopublish] Found 5 eligible drafts
+12:10:11 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 44.4)
+12:10:11 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 43.6)
+12:10:11 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 42.5)
+12:10:11 [autopublish]   - what if i need free time lol.txt (342 words, score 26.8)
+12:10:11 [autopublish]   - performance writing.txt (127 words, score 24.6)
+12:37:49 [autopublish.ranker] Claude picked 'None' but it's not in candidates
+12:37:49 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:37:49 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 6 eligible drafts
+12:00:05 [autopublish]   - Still Processing The Trauma Of Requiring Myself To Contribute On.txt (462 words, score 54.4)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 43.9)
+12:00:05 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 43.0)
+12:00:05 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 41.9)
+12:00:05 [autopublish]   - what if i need free time lol.txt (342 words, score 26.2)
+12:00:39 [autopublish] Selected: Still Processing The Trauma Of Requiring Myself To Contribute On.txt (462 words)
+12:01:19 [autopublish] Title: Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity
+12:01:19 [autopublish] Slug: 2026-06-03-still-processing-the-trauma-of-requiring-myself-to-contribut
+12:01:19 [autopublish] Editorial changes:
+12:01:19 [autopublish]   'leeching microplastics' → 'leaching microplastics' (wrong word — leach = extract/seep; leech = bloodsucking worm)
+12:01:19 [autopublish]   'I need to learnt to focus' → 'I need to learn to focus' (typo — 'need to' requires the infinitive, not past tense)
+12:01:19 [autopublish] Editorial note: Clean and strong. The tea bag sentence is doing exactly what it should do — lands like a dropped object and earns its paragraph.
+12:01:21 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" in 4 hours
+12:01:21 [autopublish] Queued 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' — publishing at 16:01 unless vetoed
+12:00:04 [autopublish] Found 6 eligible drafts
+12:00:04 [autopublish]   - Still Processing The Trauma Of Requiring Myself To Contribute On.txt (2254 words, score 60.0)
+12:00:04 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (348 words, score 43.3)
+12:00:04 [autopublish]   - Online shopping makes for a fascinating study on the six lines.txt (198 words, score 42.5)
+12:00:04 [autopublish]   - Innocence = Un-involvement.txt (132 words, score 41.3)
+12:00:04 [autopublish]   - what if i need free time lol.txt (342 words, score 25.6)
+12:00:30 [autopublish] Selected: Still Processing The Trauma Of Requiring Myself To Contribute On.txt (2254 words)
+12:02:46 [autopublish] Title: Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity
+12:02:46 [autopublish] Slug: 2026-06-05-still-processing-the-trauma-of-requiring-myself-to-contribut
+12:02:46 [autopublish] Editorial changes:
+12:02:46 [autopublish]   'leeching microplastics' → 'leaching microplastics' (wrong word — leach (seep/dissolve) vs. leech (the worm/drain))
+12:02:46 [autopublish]   'I need learnt to focus' → 'I need to learn to focus' (typo — missing 'to', wrong verb form)
+12:02:46 [autopublish]   'I was little walking dictionary' → 'I was a little walking dictionary' (missing article)
+12:02:46 [autopublish]   'I got live through the terror' → 'I got to live through the terror' (missing word)
+12:02:46 [autopublish]   'these are the books I have gravitate towards' → 'these are the books I have gravitated towards' (typo — wrong verb form)
+12:02:46 [autopublish]   'The contents either know about the form or makes one' → 'The contents either know about the form or make one' (subject-verb agreement — 'contents' is plural, and 'makes' disagrees with the parallel 'know' in the same clause)
+12:02:46 [autopublish]   'right and wrongs ways to exist' → 'right and wrong ways to exist' (typo)
+12:02:46 [autopublish] Editorial note: This is a good piece — the thinking is genuinely strange in a way that holds, and the interruptions (microplastics, the ad, 'Many amounts') earn their place rather than performing quirkiness. The cut-off ending is the best sentence in the piece.
+12:02:47 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity" in 4 hours
+12:02:47 [autopublish] Queued 'Still Processing The Trauma Of Requiring Myself To Contribute On Social Media, Then Leaving, Finding A Place To Be Myself On The Internet, Then That Place Turning Into Full-Fledged Social Media As Well, Then Requiring Myself To Get Over It But Failing, At Great Cost To My Creative Identity' — publishing at 16:02 unless vetoed
+12:00:05 [autopublish] Found 4 eligible drafts
+12:00:05 [autopublish]   - thoughts on inhabiting flesh.txt (2258 words, score 85.0)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 52.3)
+12:00:05 [autopublish]   - you don’t have to Be A Wolf.txt (200 words, score 48.2)
+12:00:05 [autopublish]   - performance writing.txt (127 words, score 27.6)
+12:00:17 [autopublish] Selected: thoughts on inhabiting flesh.txt (2258 words)
+12:04:14 [autopublish] Title: thoughts on having a body
+12:04:14 [autopublish] Slug: 2026-06-08-thoughts-on-having-a-body
+12:04:14 [autopublish] Editorial changes:
+12:04:14 [autopublish]   'in regular intervals' → 'at regular intervals' (wrong preposition — standard idiom is 'at regular intervals')
+12:04:14 [autopublish]   'loop in  around' → 'loop in around' (double space removed — likely a deleted word left a gap; flagged in questions)
+12:04:14 [autopublish]   'smoking weed,   only' → 'smoking weed, only' (extra spaces)
+12:04:14 [autopublish]   'and the delete the txt file' → 'and then delete the txt file' (typo — 'the' for 'then')
+12:04:14 [autopublish]   'what i am allowed to be me?' → 'what if i am allowed to be me?' (typo — 'if' dropped; breaks the parallel 'what if' series)
+12:04:14 [autopublish]   'will no be bent without warning' → 'will not be bent without warning' (typo — 'no' for 'not')
+12:04:14 [autopublish]   'matter of factly' → 'matter-of-factly' (missing hyphens in compound adverb)
+12:04:14 [autopublish]   'what he couldnt have known' → 'what he couldn't have known' (missing apostrophe)
+12:04:14 [autopublish]   'because i didnt tell him' → 'because i didn't tell him' (missing apostrophe)
+12:04:14 [autopublish]   'several times before than more is not better' → 'several times before that more is not better' (typo — 'than' for 'that')
+12:04:14 [autopublish]   'the more softness is requires' → 'the more softness is required' (typo — 'requires' for 'required')
+12:04:14 [autopublish]   'what i can lift but also fast?' → 'what if i can lift but also fast?' (typo — 'if' dropped; breaks the parallel 'what if' series)
+12:04:14 [autopublish]   'what i can just deload a bit when i have fasted?' → 'what if i can just deload a bit when i have fasted?' (typo — 'if' dropped)
+12:04:14 [autopublish]   'what i want it all the same?' → 'what if i want it all the same?' (typo — 'if' dropped)
+12:04:14 [autopublish] Editorial note: The recursive structure — writing about writing, being perceived about being perceived — isn't a flaw, it's the actual argument, and it earns the ending. The second section (after the divider) is more grounded and stronger for it.
+12:04:16 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "thoughts on having a body" in 4 hours
+12:04:16 [autopublish] Queued 'thoughts on having a body' — publishing at 16:04 unless vetoed
+12:00:00 [autopublish] Found 5 eligible drafts
+12:00:00 [autopublish]   - the audacity of gratitude.txt (1303 words, score 71.8)
+12:00:00 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 53.3)
+12:00:00 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 51.7)
+12:00:00 [autopublish]   - L’Amour Toujours Infinity INFINITY.txt (204 words, score 49.1)
+12:00:00 [autopublish]   - performance writing.txt (127 words, score 27.0)
+12:02:57 [autopublish.ranker] Claude CLI failed: 
+12:02:57 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:02:57 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:02 [autopublish] Found 3 eligible drafts
+12:00:02 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 52.7)
+12:00:02 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 51.1)
+12:00:02 [autopublish]   - performance writing.txt (127 words, score 26.5)
+12:00:14 [autopublish.ranker] Claude picked 'you don't have to Be A Wolf.txt' but it's not in candidates
+12:00:14 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:14 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:14:42 [autopublish] Found 3 eligible drafts
+12:14:42 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 51.9)
+12:14:42 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 50.3)
+12:14:42 [autopublish]   - performance writing.txt (127 words, score 25.6)
+12:14:53 [autopublish.ranker] Claude picked 'you don't have to Be A Wolf.txt' but it's not in candidates
+12:14:53 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:14:53 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 3 eligible drafts
+12:00:05 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 51.3)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 49.8)
+12:00:05 [autopublish]   - performance writing.txt (127 words, score 25.1)
+12:00:16 [autopublish.ranker] Claude picked 'you don't have to Be A Wolf.txt' but it's not in candidates
+12:00:16 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:16 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 4 eligible drafts
+12:00:05 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 50.8)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 49.2)
+12:00:05 [autopublish]   - to-do fr jun 12.txt (877 words, score 42.8)
+12:00:05 [autopublish]   - performance writing.txt (127 words, score 24.5)
+12:00:33 [autopublish.ranker] Claude picked 'None' but it's not in candidates
+12:00:33 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:33 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:04 [autopublish] Found 6 eligible drafts
+12:00:04 [autopublish]   - Some things I am afraid of that make my brain resist writing.txt (424 words, score 53.4)
+12:00:04 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 49.9)
+12:00:04 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 48.4)
+12:00:04 [autopublish]   - rebuilding my self, rep after rep.txt (1068 words, score 46.7)
+12:00:04 [autopublish]   - to-do fr jun 12.txt (877 words, score 43.3)
+12:00:13 [autopublish.ranker] Claude CLI failed: 
+12:00:13 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:13 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:08:13 [autopublish] Found 7 eligible drafts
+12:08:13 [autopublish]   - rebuilding my self, rep after rep.txt (1392 words, score 53.0)
+12:08:13 [autopublish]   - Some things I am afraid of that make my brain resist writing.txt (424 words, score 52.8)
+12:08:13 [autopublish]   - i was one of the meat-eaters.txt (317 words, score 51.1)
+12:08:13 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 49.4)
+12:08:13 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 47.8)
+13:09:14 [autopublish.ranker] Claude CLI failed: 
+13:09:14 [autopublish.ranker] Claude unavailable for ranking — aborting run
+13:09:14 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:01:11 [autopublish] Found 7 eligible drafts
+12:01:11 [autopublish]   - rebuilding my self, rep after rep.txt (2299 words, score 84.7)
+12:01:11 [autopublish]   - Some things I am afraid of that make my brain resist writing.txt (424 words, score 52.3)
+12:01:11 [autopublish]   - i was one of the meat-eaters.txt (317 words, score 50.6)
+12:01:11 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 48.8)
+12:01:11 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 47.3)
+12:01:22 [autopublish.ranker] Claude CLI failed: 
+12:01:22 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:01:22 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:13 [autopublish] Found 7 eligible drafts
+12:00:13 [autopublish]   - rebuilding my self, rep after rep.txt (2299 words, score 83.9)
+12:00:13 [autopublish]   - Some things I am afraid of that make my brain resist writing.txt (424 words, score 51.4)
+12:00:13 [autopublish]   - i was one of the meat-eaters.txt (317 words, score 49.8)
+12:00:13 [autopublish]   - you don’t have to Be A Wolf.txt (412 words, score 48.0)
+12:00:13 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 46.4)
+12:00:20 [autopublish.ranker] Claude CLI failed: 
+12:00:20 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:20 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 2 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2559 words, score 85.0)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 45.9)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 2 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 64.7)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 45.3)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:04 [autopublish] Found 3 eligible drafts
+12:00:04 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 63.9)
+12:00:04 [autopublish]   - Hello.txt (1516 words, score 56.2)
+12:00:04 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 44.5)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 4 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 63.3)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 57.7)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 43.9)
+12:00:05 [autopublish]   - Hello.txt (912 words, score 43.4)
+12:00:12 [autopublish.ranker] Claude CLI failed: 
+12:00:12 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:12 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 4 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 62.8)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 57.1)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 43.4)
+12:00:05 [autopublish]   - Hello.txt (912 words, score 42.8)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:01 [autopublish] Found 4 eligible drafts
+12:00:01 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 61.9)
+12:00:01 [autopublish]   - limitation meaning dump.txt (649 words, score 56.3)
+12:00:01 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 42.5)
+12:00:01 [autopublish]   - Hello.txt (912 words, score 42.0)
+12:00:08 [autopublish.ranker] Claude CLI failed: 
+12:00:08 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:08 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 4 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 61.4)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 55.8)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 42.0)
+12:00:05 [autopublish]   - Hello.txt (912 words, score 41.4)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:03 [autopublish] Found 4 eligible drafts
+12:00:03 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 60.8)
+12:00:03 [autopublish]   - limitation meaning dump.txt (649 words, score 55.2)
+12:00:03 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 41.4)
+12:00:03 [autopublish]   - Hello.txt (912 words, score 40.9)
+12:00:12 [autopublish.ranker] Claude CLI failed: 
+12:00:12 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:12 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:03 [autopublish] Found 6 eligible drafts
+12:00:03 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 60.0)
+12:00:03 [autopublish]   - seven things.txt (514 words, score 55.0)
+12:00:03 [autopublish]   - limitation meaning dump.txt (649 words, score 54.4)
+12:00:03 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (163 words, score 47.8)
+12:00:03 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 40.6)
+12:15:22 [autopublish.ranker] Claude CLI failed: 
+12:15:22 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:15:22 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 6 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 59.4)
+12:00:05 [autopublish]   - seven things.txt (514 words, score 54.5)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 53.8)
+12:00:05 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (163 words, score 47.3)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 40.0)
+12:00:11 [autopublish.ranker] Claude CLI failed: 
+12:00:11 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:00:11 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:02:35 [autopublish] Found 6 eligible drafts
+12:02:35 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 58.9)
+12:02:35 [autopublish]   - seven things.txt (514 words, score 53.9)
+12:02:35 [autopublish]   - limitation meaning dump.txt (649 words, score 53.3)
+12:02:35 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (163 words, score 46.7)
+12:02:35 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 39.5)
+12:02:41 [autopublish.ranker] Claude CLI failed: 
+12:02:41 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:02:41 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:03:58 [autopublish] Found 7 eligible drafts
+12:03:58 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 58.0)
+12:03:58 [autopublish]   - seven things.txt (514 words, score 53.1)
+12:03:58 [autopublish]   - limitation meaning dump.txt (649 words, score 52.4)
+12:03:58 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 48.4)
+12:03:58 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 38.6)
+12:04:08 [autopublish.ranker] Claude CLI failed: 
+12:04:08 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:04:08 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:01:28 [autopublish] Found 7 eligible drafts
+12:01:28 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 57.5)
+12:01:28 [autopublish]   - seven things.txt (514 words, score 52.5)
+12:01:28 [autopublish]   - limitation meaning dump.txt (649 words, score 51.9)
+12:01:28 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 47.8)
+12:01:28 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 38.1)
+12:01:37 [autopublish.ranker] Claude CLI failed: 
+12:01:37 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:01:37 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:57:11 [autopublish] Found 7 eligible drafts
+12:57:11 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 56.9)
+12:57:11 [autopublish]   - seven things.txt (514 words, score 52.0)
+12:57:11 [autopublish]   - limitation meaning dump.txt (649 words, score 51.3)
+12:57:11 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 47.3)
+12:57:11 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 37.5)
+12:57:20 [autopublish.ranker] Claude CLI failed: 
+12:57:20 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:57:20 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:02:53 [autopublish] Found 7 eligible drafts
+12:02:53 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 56.1)
+12:02:53 [autopublish]   - seven things.txt (514 words, score 51.2)
+12:02:53 [autopublish]   - limitation meaning dump.txt (649 words, score 50.5)
+12:02:53 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 46.5)
+12:02:53 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 36.7)
+12:03:00 [autopublish.ranker] Claude CLI failed: 
+12:03:00 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:03:00 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:06:48 [autopublish] Found 7 eligible drafts
+12:06:48 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 55.5)
+12:06:48 [autopublish]   - seven things.txt (514 words, score 50.6)
+12:06:48 [autopublish]   - limitation meaning dump.txt (649 words, score 49.9)
+12:06:48 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 45.9)
+12:06:48 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 36.1)
+12:06:55 [autopublish.ranker] Claude CLI failed: 
+12:06:55 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:06:55 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:05:44 [autopublish] Found 7 eligible drafts
+12:05:44 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 55.0)
+12:05:44 [autopublish]   - seven things.txt (514 words, score 50.0)
+12:05:44 [autopublish]   - limitation meaning dump.txt (649 words, score 49.4)
+12:05:44 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 45.3)
+12:05:44 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 35.6)
+12:05:58 [autopublish.ranker] Claude CLI failed: 
+12:05:58 [autopublish.ranker] Claude unavailable for ranking — aborting run
+12:05:58 [autopublish] Ranking failed — Claude unavailable. Run manually when ready.
+12:00:05 [autopublish] Found 8 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 54.2)
+12:00:05 [autopublish]   - seven things.txt (514 words, score 49.2)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 48.5)
+12:00:05 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 44.5)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 34.8)
+12:00:11 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:00:11 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+12:00:18 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+13:00:12 [autopublish] Found 8 eligible drafts
+13:00:12 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 53.6)
+13:00:12 [autopublish]   - seven things.txt (514 words, score 48.6)
+13:00:12 [autopublish]   - limitation meaning dump.txt (649 words, score 48.0)
+13:00:12 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 43.9)
+13:00:12 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 34.2)
+13:00:19 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+13:00:19 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+13:00:22 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:06:50 [autopublish] Found 8 eligible drafts
+12:06:50 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 53.0)
+12:06:50 [autopublish]   - seven things.txt (514 words, score 48.1)
+12:06:50 [autopublish]   - limitation meaning dump.txt (649 words, score 47.4)
+12:06:50 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 43.4)
+12:06:50 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 33.6)
+12:23:23 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:23:23 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+13:12:18 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:00:05 [autopublish] Found 8 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 52.2)
+12:00:05 [autopublish]   - seven things.txt (514 words, score 47.3)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 46.6)
+12:00:05 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 42.6)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 32.8)
+12:00:11 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:00:11 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+12:00:13 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:14:57 [autopublish] Found 8 eligible drafts
+12:14:57 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 51.7)
+12:14:57 [autopublish]   - seven things.txt (514 words, score 46.7)
+12:14:57 [autopublish]   - limitation meaning dump.txt (649 words, score 46.0)
+12:14:57 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 42.0)
+12:14:57 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 32.3)
+12:15:05 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:15:05 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+12:15:06 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:00:05 [autopublish] Found 8 eligible drafts
+12:00:05 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 51.1)
+12:00:05 [autopublish]   - seven things.txt (514 words, score 46.2)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 45.5)
+12:00:05 [autopublish]   - It’s a perfect example, to me, that AI can’t and won’t replace.txt (164 words, score 41.5)
+12:00:05 [autopublish]   - Two Things I Thought Were Complicated But Really Aren’t.txt (349 words, score 31.7)
+12:00:10 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:00:10 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+12:00:12 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:00:02 [autopublish] Found 11 eligible drafts
+12:00:02 [autopublish]   - last week i realized, or, the process of realization began, that.txt (1759 words, score 80.7)
+12:00:02 [autopublish]   - honesty.txt (634 words, score 57.8)
+12:00:02 [autopublish]   - mental transplant.txt (400 words, score 53.2)
+12:00:02 [autopublish]   - rebuilding my self, rep after rep.txt (2477 words, score 50.3)
+12:00:02 [autopublish]   - seven things.txt (514 words, score 45.3)
+12:00:07 [autopublish] Ranking failed — Claude API error 401: Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth access token has expired. Re-authenticate to continue."},"request_id":null}
+12:00:07 [autopublish] Hint: The CLI's login has expired. Run `claude setup-token` in Terminal to issue a fresh long-lived token, then re-run the job manually.
+12:00:39 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:00:05 [autopublish] Found 3 eligible drafts
+12:00:05 [autopublish]   - august 25 2026 brain dump.txt (1088 words, score 66.9)
+12:00:05 [autopublish]   - seven things.txt (514 words, score 44.8)
+12:00:05 [autopublish]   - limitation meaning dump.txt (649 words, score 44.1)
+12:00:45 [autopublish] Selected: limitation meaning dump.txt (649 words)
+12:01:43 [autopublish] Title: limitation/meaning dump
+12:01:43 [autopublish] Slug: 2026-07-06-limitationmeaning-dump
+12:01:43 [autopublish] Editorial changes:
+12:01:43 [autopublish]   'complicating things)' → 'complicating things).' (punctuation — paragraph ends without a period)
+12:01:43 [autopublish]   'it'd kind of not my choice' → 'it's kind of not my choice' (typo — "it'd" (it would) doesn't parse here; clearly meant "it's")
+12:01:43 [autopublish] Editorial note: Good piece — the through-line from personal limitation to accidental discovery about the app is the kind of quiet structural payoff that makes this newsletter work. The fasting-day chaos is vivid without being overdone.
+12:02:18 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "limitation/meaning dump" in 4 hours
+12:02:18 [autopublish] Queued 'limitation/meaning dump' — publishing at 16:01 unless vetoed
+12:06:15 [autopublish] Found 4 eligible drafts
+12:06:15 [autopublish]   - august 25 2026 brain dump.txt (1088 words, score 66.4)
+12:06:15 [autopublish]   - brain dump august 27, 2026.txt (224 words, score 49.3)
+12:06:15 [autopublish]   - seven things.txt (514 words, score 44.2)
+12:06:15 [autopublish]   - limitation meaning dump.txt (649 words, score 38.5)
+12:45:45 [autopublish] Selected: seven things.txt (514 words)
+12:50:19 [autopublish.editor] Editorial pass failed (Claude's reply was not valid JSON: {
+  "edited_text": "in lieu of six links, which i don't have, because i only have one, because i have been doing only one thing\n\nHello! It is my period once again, which is something that seems to happen every four weeks, aka every other time I write this newsletter. Conveniently, this is a time d) — queueing unedited text
+12:50:21 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: editorial pass failed
+12:50:21 [autopublish] Title: Seven Things
+12:50:21 [autopublish] Slug: 2026-07-18-seven-things
+12:50:21 [autopublish] Editorial note: No editorial pass — unedited.
+12:50:24 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Seven Things" in 4 hours
+12:50:24 [autopublish] Queued 'Seven Things' — publishing at 16:50 unless vetoed
+12:06:41 [autopublish] Found 3 eligible drafts
+12:06:41 [autopublish]   - aug 29 2026.txt (655 words, score 57.9)
+12:06:41 [autopublish]   - seven things.txt (514 words, score 38.4)
+12:06:41 [autopublish]   - limitation meaning dump.txt (649 words, score 37.7)
+12:07:48 [autopublish] Selected: limitation meaning dump.txt (649 words)
+12:09:25 [autopublish] Title: limitation/meaning dump
+12:09:25 [autopublish] Slug: 2026-07-06-limitationmeaning-dump
+12:09:25 [autopublish] Editorial changes:
+12:09:25 [autopublish]   'The day before, turned out it would also be the day' → 'The day before, it turned out it would also be the day' (missing word — 'it' dropped before 'turned out')
+12:09:25 [autopublish]   'another factor complicating things)' → 'another factor complicating things).' (punctuation — complete sentence missing terminal period after closing parenthesis)
+12:09:25 [autopublish]   'it'd kind of not my choice' → 'it's kind of not my choice' (typo — 'd instead of 's; 'it would kind of not my choice' makes no sense here)
+12:09:25 [autopublish] Editorial note: This is a good piece — the structure earns itself because the tangents (the kid's field trip, the fasting day, the app store sidequest) all loop back to demonstrate the thesis rather than just illustrating it. The Bellwork revelation in the final paragraph lands cleanly.
+19:13:36 [autopublish.notifier] Failed to send email to mutativedesign@gmail.com: Connection unexpectedly closed: [Errno 60] Operation timed out
+19:13:36 [autopublish] Queued 'limitation/meaning dump' — publishing at 16:09 unless vetoed
+12:06:42 [autopublish] Found 1 eligible drafts
+12:06:42 [autopublish]   - seven things.txt (514 words, score 37.8)
+12:07:27 [autopublish] Ranking failed — Claude picked 'None', which is not in the candidate list
+12:07:27 [autopublish] Hint: Usually transient — the next scheduled run will retry.
+12:07:29 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:13:23 [autopublish] Found 1 eligible drafts
+12:13:23 [autopublish]   - seven things.txt (514 words, score 37.3)
+12:13:49 [autopublish] Ranking failed — Claude picked 'None', which is not in the candidate list
+12:13:49 [autopublish] Hint: Usually transient — the next scheduled run will retry.
+12:13:51 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: ranking pass failed
+12:11:00 [autopublish] Found 2 eligible drafts
+12:11:00 [autopublish]   - sep 4 2026.txt (399 words, score 53.1)
+12:11:00 [autopublish]   - seven things.txt (514 words, score 36.4)
+12:11:25 [autopublish] Selected: seven things.txt (514 words)
+13:13:01 [autopublish.editor] Editorial pass failed (Claude's reply was not valid JSON: {
+  "edited_text": "in lieu of six links, which i don't have, because i only have one, because i have been doing only one thing\n\nHello! It is my period once again, which is something that seems to happen every four weeks, aka every other time I write this newsletter. Conveniently, this is a time d) — queueing unedited text
+13:13:02 [autopublish.notifier] Email sent to mutativedesign@gmail.com: autopublish: editorial pass failed
+13:13:02 [autopublish] Title: Seven Things
+13:13:02 [autopublish] Slug: 2026-07-18-seven-things
+13:13:02 [autopublish] Editorial note: No editorial pass — unedited.
+13:13:03 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "Seven Things" in 4 hours
+13:13:03 [autopublish] Queued 'Seven Things' — publishing at 17:13 unless vetoed
+12:01:25 [autopublish] Found 3 eligible drafts
+12:01:25 [autopublish]   - am i autistic and does it matter.txt (1752 words, score 80.6)
+12:01:25 [autopublish]   - sep 4 2026.txt (399 words, score 52.5)
+12:01:25 [autopublish]   - seven things.txt (514 words, score 30.9)
+12:01:56 [autopublish] Selected: am i autistic and does it matter.txt (1752 words)
+12:04:07 [autopublish] Title: am i autistic; does it matter
+12:04:07 [autopublish] Slug: 2026-09-08-am-i-autistic-does-it-matter
+12:04:07 [autopublish] Editorial changes:
+12:04:07 [autopublish]   'Kirchen work was unfathomably exhausting' → 'Kitchen work was unfathomably exhausting' (typo)
+12:04:07 [autopublish] Editorial note: This is very good. The list format earns its form — it lets the piece cover fifty years without needing transitions, and the absence of transitions is exactly the point. The kitchen paragraphs are the strongest; the detail about the chef boyfriend is quietly devastating.
+12:04:09 [autopublish.notifier] Email sent to mutativedesign@gmail.com: Publishing "am i autistic; does it matter" in 4 hours
+12:04:09 [autopublish] Queued 'am i autistic; does it matter' — publishing at 16:04 unless vetoed
+12:00:04 [autopublish] No eligible drafts found. Write more, or lower the bar.
