@@ -157,16 +157,16 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
     """Render the full index.html for the site.
 
     posts is the published list from state.json, newest-first.
-    Inline-renders the 10 most recent posts; all posts appear in the archive nav.
+    Renders the 15 most recent posts as a card grid; all posts appear in the archive nav.
     """
-    site_path = Path(site_path)
-    posts_dir = site_path / "posts"
-
     archive_html = _render_archive(posts)
     archive_html_bottom = _render_archive(posts, nav_id="archive-bar-bottom", open_default=True)
 
-    inline_articles = _render_inline_posts(posts[:10], posts_dir, site_url)
-    posts_html = inline_articles or '<p class="loading">nothing here yet.</p>'
+    cards = _render_post_cards(posts[:15], site_url)
+    posts_html = (
+        f'<div class="post-grid">\n{cards}\n</div>'
+        if cards else '<p class="loading">nothing here yet.</p>'
+    )
 
     return f"""<!doctype html>
 <html lang="en">
@@ -181,7 +181,7 @@ def render_index(posts: list, site_url: str, site_path: str) -> str:
 <link rel="stylesheet" href="/style.css">
 <link rel="alternate" type="application/rss+xml" title="{_SITE_TITLE}" href="{site_url}/rss.xml">
 </head>
-<body>
+<body class="index">
 {_SITE_HEADER}
 {_SITE_NAV}
 {archive_html}
@@ -316,6 +316,23 @@ def _scope_footnote_ids(html: str, slug: str) -> str:
     html = re.sub(r'id="(fn[r]?\d+)"', lambda m: f'id="{prefix}-{m.group(1)}"', html)
     html = re.sub(r'href="#(fn[r]?\d+)"', lambda m: f'href="#{prefix}-{m.group(1)}"', html)
     return html
+
+
+def _render_post_cards(posts: list, site_url: str) -> str:
+    """Render posts as a grid of minimal cards: title and date.
+
+    Used only by the index. No post files are read — cards show metadata only.
+    The whole card title is the link to the post.
+    """
+    cards = []
+    for post in posts:
+        slug = post["slug"]
+        post_url = f"{site_url}/posts/{slug}.html"
+        cards.append(f"""<article class="post-card">
+<h2 class="post-card-title"><a href="{post_url}">{_escape(post["title"])}</a></h2>
+<div class="post-card-meta">{_format_date(slug[:10])}</div>
+</article>""")
+    return "\n".join(cards)
 
 
 def _render_inline_posts(posts: list, posts_dir: Path, site_url: str) -> str:

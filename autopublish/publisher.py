@@ -5,12 +5,12 @@ from typing import Optional
 
 import paramiko
 
-from autopublish import config
+from autopublish import config, scanner
 
 log = logging.getLogger(__name__)
 
 
-def _find_source(drafts_path: Path, source_name: str) -> Optional[Path]:
+def _find_source(drafts_path: Path, source_name: str, exclude_dirs=None) -> Optional[Path]:
     """Find a source .txt file anywhere under drafts_path (matches the scanner's rglob).
 
     iA Writer lets Esther move files into subfolders (e.g. `x - published/`) after
@@ -19,6 +19,10 @@ def _find_source(drafts_path: Path, source_name: str) -> Optional[Path]:
 
     Skips any file that contains #nopublish — if there are two copies with the same
     name and one is a #nopublish backup, we must not accidentally publish that one.
+
+    Also skips anything under an excluded folder, for the same reason the scanner
+    does: another site's drafts share this container and must never be picked up
+    here by a bare-filename collision.
     """
     def _is_nopublish(p: Path) -> bool:
         try:
@@ -26,11 +30,18 @@ def _find_source(drafts_path: Path, source_name: str) -> Optional[Path]:
         except Exception:
             return False
 
+    def _ok(p: Path) -> bool:
+        return (
+            p.is_file()
+            and not scanner.is_excluded(p, drafts_path, exclude_dirs or [])
+            and not _is_nopublish(p)
+        )
+
     direct = drafts_path / source_name
-    if direct.exists() and direct.is_file() and not _is_nopublish(direct):
+    if direct.exists() and _ok(direct):
         return direct
     for candidate in drafts_path.rglob(source_name):
-        if candidate.is_file() and not _is_nopublish(candidate):
+        if _ok(candidate):
             return candidate
     return None
 
@@ -159,7 +170,7 @@ def republish_if_changed(cfg, current_state):
         if source_mtime is None:
             continue
 
-        src_path = _find_source(drafts_path, post["source"])
+        src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
         if src_path is None:
             continue
 
@@ -305,7 +316,7 @@ def full_rebuild(cfg=None):
         slug = post["slug"]
         title = post["title"]
         date = post["date"]
-        src_path = _find_source(drafts_path, post["source"])
+        src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
         revision_dates = post.get("edit_history", [])
 
         if src_path is None:
