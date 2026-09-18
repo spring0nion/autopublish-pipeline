@@ -138,6 +138,49 @@ Revision recorded: {revision_date}
     _macos_notification("autopublish", f'"{title}" re-published with revisions.')
 
 
+def notify_pipeline_error(cfg, stage, reason, hint=None, fatal=True):
+    """Tell Esther the pipeline broke, and why.
+
+    Without this the only signal was a macOS notification, which nobody sees if the
+    Mac is asleep or unattended — an expired Claude token killed every run for two
+    months before anyone noticed. `stage` is e.g. "ranking" or "editorial pass".
+    """
+    outcome = ("No post went out today. Nothing is stuck in the queue — the next "
+               "scheduled run will try again.")
+    if not fatal:
+        outcome = "The run continued, but without that step."
+
+    body = f"""The {stage} failed.
+
+{reason}
+"""
+    if hint:
+        body += f"\nWhat to do:\n{hint}\n"
+
+    body += f"""
+{outcome}
+
+To run it by hand once it's fixed:
+
+    cd "/Users/esther/Development/autopublish pipeline"
+    source venv/bin/activate
+    python -m autopublish weekday
+
+Full log: logs/weekday.log
+
+—autopublish
+"""
+
+    subject = f"autopublish: {stage} failed"
+    esther_email = cfg["email"].get("notify_esther")
+    if esther_email:
+        _send_email(cfg, esther_email, subject, body)
+    else:
+        log.error("No notify_esther address configured — cannot email pipeline error")
+
+    _macos_notification("autopublish", f"{stage.capitalize()} failed: {reason[:120]}")
+
+
 def notify_veto_witness(cfg, title, veto_count):
     """Notify Kiryll that Esther vetoed a piece."""
     body = f"""Esther vetoed "{title}."

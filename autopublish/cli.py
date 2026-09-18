@@ -14,6 +14,7 @@ import sys
 from datetime import datetime, timedelta
 
 from autopublish import config, state, scanner, ranker, editor, publisher, notifier, veto, builder
+from autopublish.claude_cli import ClaudeUnavailable
 
 log = logging.getLogger("autopublish")
 
@@ -42,19 +43,28 @@ def cmd_weekday(args):
         log.info("  - %s (%d words, score %.1f)", c["filename"], c["word_count"], scanner._score(c))
 
     # 2. Rank
-    pick = ranker.rank(candidates, cfg, dry_run=args.dry_run)
+    try:
+        pick = ranker.rank(candidates, cfg, dry_run=args.dry_run)
+    except ClaudeUnavailable as e:
+        log.warning("Ranking failed — %s", e.reason)
+        if e.hint:
+            log.warning("Hint: %s", e.hint)
+        notifier.notify_pipeline_error(cfg, "ranking pass", e.reason, e.hint)
+        return
     if not pick:
-        log.warning("Ranking failed — Claude unavailable. Run manually when ready.")
-        notifier._macos_notification("autopublish", "Claude unavailable — today's publish skipped. Run manually.")
+        log.info("Nothing worth publishing today.")
         return
     log.info("Selected: %s (%d words)", pick["filename"], pick["word_count"])
 
-    # 3. Edit
+    # 3. Edit — never fatal; editor.edit falls back to the unedited draft.
     edited = editor.edit(pick, cfg, dry_run=args.dry_run)
-    if edited is None:
-        log.warning("Editorial pass failed — Claude unavailable. Run manually when ready.")
-        notifier._macos_notification("autopublish", "Claude unavailable — today's publish skipped. Run manually when ready.")
-        return
+    if edited.get("claude_error"):
+        notifier.notify_pipeline_error(
+            cfg, "editorial pass", edited["claude_error"],
+            hint=f'"{edited["title"]}" was queued as written, with no copy-edit. '
+                 "Reply to the veto email if you'd rather it waited.",
+            fatal=False,
+        )
     log.info("Title: %s", edited["title"])
     log.info("Slug: %s", edited["date_slug"])
     if edited["changes"]:

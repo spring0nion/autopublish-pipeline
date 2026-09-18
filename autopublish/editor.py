@@ -1,11 +1,10 @@
-import json
 import re
-import subprocess
 import logging
 from pathlib import Path
 from datetime import datetime
 
 from autopublish import config, prompts
+from autopublish.claude_cli import ClaudeUnavailable, call_claude
 
 log = logging.getLogger(__name__)
 
@@ -19,27 +18,6 @@ def _get_reference_post(cfg):
         text = re.sub(r"\s+", " ", text).strip()
         return text[:1500]
     return "(no reference post available)"
-
-
-def _call_claude(prompt_text):
-    try:
-        result = subprocess.run(
-            ["claude", "-p", prompt_text, "--output-format", "json"],
-            capture_output=True, text=True, timeout=300,
-        )
-        if result.returncode != 0:
-            log.warning("Claude CLI failed: %s", result.stderr[:500])
-            return None
-        outer = json.loads(result.stdout)
-        text = outer.get("result", result.stdout)
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-            text = text.rsplit("```", 1)[0]
-        return json.loads(text)
-    except (subprocess.TimeoutExpired, json.JSONDecodeError, FileNotFoundError) as e:
-        log.warning("Claude call failed: %s", e)
-        return None
 
 
 def _slugify(text):
@@ -109,30 +87,34 @@ def edit(candidate, cfg=None, dry_run=False):
         draft_text=body_text,
     )
 
-    result = _call_claude(prompt)
-    if result and "edited_text" in result:
+    try:
+        result = call_claude(prompt)
+        if not isinstance(result, dict) or "edited_text" not in result:
+            raise ClaudeUnavailable("Claude's editorial reply had no 'edited_text' field")
+    except ClaudeUnavailable as e:
+        # Deliberate fallback: a failed copy-edit must not block the publish, so the
+        # draft is queued as written. `claude_error` lets the caller flag it to Esther
+        # instead of letting an unedited post go out silently.
+        log.warning("Editorial pass failed (%s) — queueing unedited text", e.reason)
         slug = _slugify(title)
-        date_slug = f"{post_date}-{slug}"
         return {
             "title": title,
             "slug": slug,
-            "date_slug": date_slug,
-            "edited_text": result["edited_text"],
-            "changes": result.get("changes", []),
-            "editorial_note": result.get("editorial_note", "Ship it."),
-            "questions": result.get("questions", []),
+            "date_slug": f"{post_date}-{slug}",
+            "edited_text": body_text,
+            "changes": [],
+            "editorial_note": "No editorial pass — unedited.",
+            "questions": [],
+            "claude_error": e.reason,
         }
 
-    # Claude unavailable — queue unedited
-    log.warning("Editorial pass failed, using unedited text")
     slug = _slugify(title)
-    date_slug = f"{post_date}-{slug}"
     return {
         "title": title,
         "slug": slug,
-        "date_slug": date_slug,
-        "edited_text": body_text,
-        "changes": [],
-        "editorial_note": "No editorial pass — unedited.",
-        "questions": [],
+        "date_slug": f"{post_date}-{slug}",
+        "edited_text": result["edited_text"],
+        "changes": result.get("changes", []),
+        "editorial_note": result.get("editorial_note", "Ship it."),
+        "questions": result.get("questions", []),
     }

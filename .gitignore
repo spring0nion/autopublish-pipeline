@@ -4,3 +4,4 @@ state.json
 __pycache__/
 *.pyc
 .DS_Store
+config.yaml.bak.*

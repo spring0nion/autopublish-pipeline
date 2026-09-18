@@ -2,7 +2,7 @@ import os
 import re
 from pathlib import Path
 
-from autopublish import config, state
+from autopublish import config, fsutil, state
 
 
 def scan_drafts(cfg=None, current_state=None):
@@ -17,7 +17,7 @@ def scan_drafts(cfg=None, current_state=None):
     exclude_dirs = cfg.get("exclude_dirs", [])
     candidates = []
 
-    for txt_file in drafts_path.rglob("*.txt"):
+    for txt_file in fsutil.safe_rglob(drafts_path, "*.txt"):
         filename = txt_file.name
 
         # Skip anything living under an excluded folder (e.g. another site's drafts)

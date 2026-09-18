@@ -5,7 +5,7 @@ from typing import Optional
 
 import paramiko
 
-from autopublish import config, scanner
+from autopublish import config, fsutil, scanner
 
 log = logging.getLogger(__name__)
 
@@ -40,7 +40,7 @@ def _find_source(drafts_path: Path, source_name: str, exclude_dirs=None) -> Opti
     direct = drafts_path / source_name
     if direct.exists() and _ok(direct):
         return direct
-    for candidate in drafts_path.rglob(source_name):
+    for candidate in fsutil.safe_rglob(drafts_path, source_name):
         if _ok(candidate):
             return candidate
     return None
@@ -170,7 +170,15 @@ def republish_if_changed(cfg, current_state):
         if source_mtime is None:
             continue
 
-        src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+        try:
+            src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+        except InterruptedError:
+            log.warning(
+                "Could not scan drafts folder for '%s' (persistent EINTR) — "
+                "skipping this post for this run, will retry next veto-check",
+                post["title"],
+            )
+            continue
         if src_path is None:
             continue
 
@@ -316,7 +324,11 @@ def full_rebuild(cfg=None):
         slug = post["slug"]
         title = post["title"]
         date = post["date"]
-        src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+        try:
+            src_path = _find_source(drafts_path, post["source"], cfg.get("exclude_dirs", []))
+        except InterruptedError:
+            log.warning("Could not scan drafts folder for '%s' (persistent EINTR) — skipping", title)
+            continue
         revision_dates = post.get("edit_history", [])
 
         if src_path is None:

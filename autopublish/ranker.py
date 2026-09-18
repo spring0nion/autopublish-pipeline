@@ -1,11 +1,10 @@
-import json
 import re
-import subprocess
 import logging
 from datetime import datetime
 from pathlib import Path
 
 from autopublish import config, prompts
+from autopublish.claude_cli import ClaudeUnavailable, call_claude
 
 log = logging.getLogger(__name__)
 
@@ -22,32 +21,12 @@ def _get_reference_post(cfg):
     return "(no reference post available)"
 
 
-def _call_claude(prompt_text):
-    """Call Claude via the CLI. Returns parsed JSON or None on failure."""
-    try:
-        result = subprocess.run(
-            ["claude", "-p", prompt_text, "--output-format", "json"],
-            capture_output=True, text=True, timeout=300,
-        )
-        if result.returncode != 0:
-            log.warning("Claude CLI failed: %s", result.stderr[:500])
-            return None
-        # claude --output-format json wraps result in {"result": "..."}
-        outer = json.loads(result.stdout)
-        text = outer.get("result", result.stdout)
-        # Extract JSON from the response (may be wrapped in markdown code blocks)
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-            text = text.rsplit("```", 1)[0]
-        return json.loads(text)
-    except (subprocess.TimeoutExpired, json.JSONDecodeError, FileNotFoundError) as e:
-        log.warning("Claude call failed: %s", e)
-        return None
-
-
 def rank(candidates, cfg=None, dry_run=False):
-    """Rank candidates for publish-readiness. Returns the top pick dict, or None."""
+    """Rank candidates for publish-readiness. Returns the top pick dict, or None.
+
+    Raises ClaudeUnavailable if the ranking pass could not complete — the caller
+    aborts the run and emails Esther rather than guessing at a pick.
+    """
     if not candidates:
         return None
 
@@ -76,22 +55,29 @@ def rank(candidates, cfg=None, dry_run=False):
         candidates="\n\n---\n\n".join(summaries),
     )
 
-    result = _call_claude(prompt)
-    if result and "pick" in result:
-        pick_filename = result["pick"]
-        for c in candidates:
-            if c["filename"] == pick_filename:
-                c["ranking_result"] = result
-                editorial = next(
-                    (r for r in result.get("ranking", []) if r["filename"] == pick_filename),
-                    None
-                )
-                if editorial:
-                    c["verdict"] = editorial.get("verdict", "ship")
-                    c["editorial_note"] = editorial.get("note", "")
-                return c
-        log.warning("Claude picked '%s' but it's not in candidates", pick_filename)
+    result = call_claude(prompt)
 
-    # Claude unavailable — don't guess
-    log.warning("Claude unavailable for ranking — aborting run")
-    return None
+    if not isinstance(result, dict) or "pick" not in result:
+        raise ClaudeUnavailable(
+            "Claude's ranking reply had no 'pick' field",
+            "Usually transient — the next scheduled run will retry.",
+        )
+
+    pick_filename = result["pick"]
+    for c in candidates:
+        if c["filename"] == pick_filename:
+            c["ranking_result"] = result
+            editorial = next(
+                (r for r in result.get("ranking", []) if r["filename"] == pick_filename),
+                None
+            )
+            if editorial:
+                c["verdict"] = editorial.get("verdict", "ship")
+                c["editorial_note"] = editorial.get("note", "")
+            return c
+
+    # Claude named a file that isn't on the shortlist — don't guess a substitute.
+    raise ClaudeUnavailable(
+        f"Claude picked '{pick_filename}', which is not in the candidate list",
+        "Usually transient — the next scheduled run will retry.",
+    )

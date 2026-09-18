@@ -1,6 +1,13 @@
 drafts_path: ~/Library/Containers/pro.writer.mac/Data/Documents/
 site_path: ~/Documents/from the abysmal (site)/
 
+# Folders under drafts_path that this pipeline must never scan.
+# Other sites share the iA Writer container; without this, their drafts get
+# ranked and published to the wrong blog. Matched per path component,
+# case-insensitively, at any depth.
+exclude_dirs:
+  - "Fairy Food"
+
 sftp:
   host: your-sftp-host.example.com
   port: 22
@@ -27,3 +34,8 @@ editorial:
   min_words: 500
   min_chars: 500
   max_veto_before_warning: 5
+
+# Long-lived Claude CLI token from `claude setup-token`.
+# setup-token only PRINTS the token - it does not install it. Paste it here
+# or the CLI keeps using its expired keychain login and every run dies at 401.
+claude_oauth_token: ""
