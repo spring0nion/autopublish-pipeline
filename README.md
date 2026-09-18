@@ -26,7 +26,7 @@ This is a personal publishing tool, not a CMS. It's built around one writer's wo
 
 ### The publish pipeline
 
-Runs on a schedule (default: Monday, Wednesday, Friday at noon).
+Runs on a schedule (default: Wednesday at noon).
 
 1. **Scan** — reads all `.txt` files from your drafts folder, filters out published/excluded/too-short ones, scores each by word count, recency, whether it has a proper ending, and veto history
 2. **Rank** — passes the top 10 candidates to Claude, which picks the best one for today

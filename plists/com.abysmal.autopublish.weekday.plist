@@ -17,35 +17,15 @@
     <string>/Users/esther/Development/autopublish pipeline</string>
 
     <key>StartCalendarInterval</key>
-    <array>
-        <!-- Monday 12:00 PM -->
-        <dict>
-            <key>Weekday</key>
-            <integer>1</integer>
-            <key>Hour</key>
-            <integer>12</integer>
-            <key>Minute</key>
-            <integer>0</integer>
-        </dict>
+    <dict>
         <!-- Wednesday 12:00 PM -->
-        <dict>
-            <key>Weekday</key>
-            <integer>3</integer>
-            <key>Hour</key>
-            <integer>12</integer>
-            <key>Minute</key>
-            <integer>0</integer>
-        </dict>
-        <!-- Friday 12:00 PM -->
-        <dict>
-            <key>Weekday</key>
-            <integer>5</integer>
-            <key>Hour</key>
-            <integer>12</integer>
-            <key>Minute</key>
-            <integer>0</integer>
-        </dict>
-    </array>
+        <key>Weekday</key>
+        <integer>3</integer>
+        <key>Hour</key>
+        <integer>12</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
 
     <key>StandardOutPath</key>
     <string>/Users/esther/Development/autopublish pipeline/logs/weekday.log</string>

@@ -26,7 +26,7 @@ done
 
 echo ""
 echo "All plists installed. The pipeline is now running."
-echo "  Weekday: Mon/Wed/Fri at 8:00 AM"
+echo "  Weekday: Wednesday at 12:00 PM"
 echo "  Veto check: every 30 minutes"
 echo ""
 echo "To stop: launchctl unload ~/Library/LaunchAgents/com.abysmal.autopublish.*.plist"
